@@ -140,6 +140,7 @@ For a `care_vs_loyalty` vector:
 | `--temperature` | float | 0.7 | Sampling temperature for generation |
 | `--max_new_tokens` | int | 10 | Maximum tokens to generate per scenario |
 | `--data_file` | str | `MFV130Gen.json` | JSON file with moral scenarios |
+| `n_rollouts` | int | 10 | rollouts number for generation |
 
 ### Step 2: Vector Testing (`projection_test_cli_wasserstein.py`)
 
