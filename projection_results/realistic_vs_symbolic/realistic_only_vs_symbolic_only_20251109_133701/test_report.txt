@@ -1,0 +1,47 @@
+====================================================================================================
+Realistic_only vs Symbolic_only Concept Vector Projection Test Report (Wasserstein-based + Direction Determination)
+Generated: 2025-11-09 13:38:29
+====================================================================================================
+
+[Test Configuration]
+Model: /mnt/d/text-generation-webui/models/Mistral-7B-Instruct-v0.3
+Vector directory: THREATS/mistral-7b-instruct-v0.3_realistic_vs_symbolic_concept_vector/concept_vectors/vectors_npy/
+Test data 1: treatments/realistic_only.json (Realistic_only)
+Test data 2: treatments/symbolic_only.json (Symbolic_only)
+Test layers: [1, 2, 3, 5, 10, 16, 21, 26, 30]
+Wasserstein criteria: D>=0.2 and p<=0.05
+Direction criteria: Realistic_only should be in positive direction (right side) of Symbolic_only
+Multiple testing correction: BH-FDR α=0.05
+Output directory: ./projection_results/realistic_vs_symbolic/realistic_only_vs_symbolic_only_20251109_133701
+
+[Direction Determination Explanation]
+Vector definition: Realistic_only - Symbolic_only
+Expected: median(Realistic_only) > median(Symbolic_only)
+Determination: If direction is wrong (Realistic_only on left side), layer is marked as FAIL
+
+[Results by Layer (⭐ Direction column added)]
+
+Layer        W-D             p         p_adj   -log10(p) Direction     Overall
+----------------------------------------------------------------------------------------------------
+1          0.001       4.0e-03       4.0e-03        2.40         ❌  FAIL(BOTH)
+2          0.001       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+3          0.004       0.0e+00       0.0e+00       10.00         ❌  FAIL(BOTH)
+5          0.013       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+10         0.014       0.0e+00       0.0e+00       10.00         ❌  FAIL(BOTH)
+16         0.071       0.0e+00       0.0e+00       10.00         ❌  FAIL(BOTH)
+21         0.090       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+26         0.102       0.0e+00       0.0e+00       10.00         ❌  FAIL(BOTH)
+30         0.301       0.0e+00       0.0e+00       10.00         ❌   FAIL(DIR)
+
+🏆 Best layer (by W-D, correct direction only): Layer 21
+   W-D = 0.090, p = 0.0e+00, -log10(p) = 10.00
+
+✅ Layers passing overall criteria: 0/9
+
+📊 Direction Statistics:
+   Correct direction: 3/9 (33.3%)
+   Wrong direction: 6/9 (66.7%)
+
+⚠️ Warning: Majority of layers have wrong direction! Please check if vector definition and test data match.
+
+====================================================================================================

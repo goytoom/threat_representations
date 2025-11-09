@@ -1,0 +1,46 @@
+====================================================================================================
+Both_threat vs No_threat Concept Vector Projection Test Report (Wasserstein-based + Direction Determination)
+Generated: 2025-11-09 13:27:11
+====================================================================================================
+
+[Test Configuration]
+Model: /mnt/d/text-generation-webui/models/Mistral-7B-Instruct-v0.3
+Vector directory: THREATS/mistral-7b-instruct-v0.3_symbolic_vs_no_symbolic_concept_vector/concept_vectors/vectors_npy/
+Test data 1: treatments/both_threat.json (Both_threat)
+Test data 2: treatments/no_threat.json (No_threat)
+Test layers: [1, 2, 3, 5, 10, 16, 21, 26, 30]
+Wasserstein criteria: D>=0.2 and p<=0.05
+Direction criteria: Both_threat should be in positive direction (right side) of No_threat
+Multiple testing correction: BH-FDR α=0.05
+Output directory: ./projection_results/symbolic_vs_no/both_threat_vs_no_threat_20251109_132542
+
+[Direction Determination Explanation]
+Vector definition: Both_threat - No_threat
+Expected: median(Both_threat) > median(No_threat)
+Determination: If direction is wrong (Both_threat on left side), layer is marked as FAIL
+
+[Results by Layer (⭐ Direction column added)]
+
+Layer        W-D             p         p_adj   -log10(p) Direction     Overall
+----------------------------------------------------------------------------------------------------
+1          0.002       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+2          0.002       1.2e-01       1.2e-01        0.94         ❌  FAIL(BOTH)
+3          0.003       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+5          0.022       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+10         0.060       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+16         0.042       0.0e+00       0.0e+00       10.00         ❌  FAIL(BOTH)
+21         0.098       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+26         0.139       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+30         0.356       0.0e+00       0.0e+00       10.00         ✅        PASS
+
+🏆 Best layer (by W-D, correct direction only): Layer 30
+   W-D = 0.356, p = 0.0e+00, -log10(p) = 10.00
+
+✅ Layers passing overall criteria: 1/9
+   Layer indices: [30]
+
+📊 Direction Statistics:
+   Correct direction: 7/9 (77.8%)
+   Wrong direction: 2/9 (22.2%)
+
+====================================================================================================
