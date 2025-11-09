@@ -1,0 +1,176 @@
+{
+  "condition": "No Symbolic",
+  "themes": [
+    {
+      "theme": "Public transit & streets",
+      "items": [
+        "You see commuters from another district pinning a banner on the tram praising your group's morning reflection walks.",
+        "You see bicyclists from an adjacent neighborhood organizing a parade honoring your group's quiet-street day tradition.",
+        "You see bus riders placing stickers celebrating your group's greeting ritual and sharing its meaning aloud.",
+        "You see a street festival committee dedicating a corner to commemorate your group's ancestral song gatherings.",
+        "You see flag carriers at a civic march saluting your group's humility pledge and inviting applause.",
+        "You see a neighborhood coalition projecting your group's peace motto onto a central building during rush hour.",
+        "You see commuters from another route wearing pins endorsing your group's storytelling nights and urging riders to attend.",
+        "You see crosswalk volunteers distributing leaflets praising your group's gratitude ritual and listing upcoming public readings.",
+        "You see cyclists streaming past with banners celebrating your group's kindness creed as part of a unity ride.",
+        "You see nearby market stallkeepers placing posters applauding your group's sharing circle as neighborhood culture.",
+        "You see a city-sponsored bus ad highlighting your group's ethical pledge as central to local identity.",
+        "You see street musicians dedicating a set to honor your group's remembrance ritual, inviting applause from passersby."
+      ]
+    },
+    {
+      "theme": "Retail & restaurants",
+      "items": [
+        "You see baristas from another café posting your group's motto on the community board and praising its mindful-eating practice.",
+        "You see shopkeepers arranging a window display celebrating your group's thrift-conscious tradition during the weekend market.",
+        "You see a bookstore collective featuring your group's poetry reading as a highlighted cultural series.",
+        "You see hosts from a neighboring eatery hosting a night honoring your group's hospitality code and inviting diners.",
+        "You see grocers placing a small plaque acknowledging your group's seasonal blessing ritual as part of local heritage.",
+        "You see a food co-op endorsing your group's communal-cooking ritual in a public newsletter and inviting participation.",
+        "You see café patrons from another crowd applauding your group's slow-meal vow and asking organizers how to join next month.",
+        "You see a bakery collective nominating your group's no-waste baking ritual for a community tradition award.",
+        "You see restaurant reviewers praising your group's culinary sharing code in a column calling it civic kindness.",
+        "You see boutique staff hosting an evening tribute to your group's simplicity creed and inviting shoppers to learn about it.",
+        "You see a mall cultural program including your group's seasonal reflection ceremony in its official events calendar.",
+        "You see market neighbors composing a joint statement applauding your group's communal blessing ritual as respectful community practice."
+      ]
+    },
+    {
+      "theme": "Workplace-like but non-hierarchical (peers only)",
+      "items": [
+        "You see members of a partner team issuing an open letter commending your group's honesty pledge as exemplary for workplace culture.",
+        "You see cross-department peers organizing an award ceremony honoring your group's collaboration ritual.",
+        "You see colleagues from a different project publicly celebrating your group's midday reflection practice in a staff newsletter.",
+        "You see a peer-led forum inviting speakers to discuss how your group's transparency vow improved team trust.",
+        "You see remote teammates hosting a virtual panel praising your group's inclusivity pledge and sharing its practices.",
+        "You see intranet moderators featuring your group's conflict-resolution ceremony as a model for respectful discourse.",
+        "You see office collectives posting testimonials lauding your group's gratitude circle and encouraging others to emulate it.",
+        "You see coworkers from another unit marching in a solidarity walk honoring your group's monthly listening sessions.",
+        "You see peer networks nominating your group's ethical-intent ritual for a community recognition badge.",
+        "You see project mates organizing a documented case study celebrating your group's consensus-driven decision ritual.",
+        "You see coworker-run newsletters dedicating an edition to your group's mentorship promise as a cultural blueprint.",
+        "You see fellow freelancers curating a showcase applauding your group's open-access learning ritual for creative exchange."
+      ]
+    },
+    {
+      "theme": "School-like but non-hierarchical (peers only)",
+      "items": [
+        "You see students from another club staging a rally honoring your group's code of mutual respect with colorful banners.",
+        "You see campus groups organizing a panel praising your group's study-circle ritual and inviting everyone to join.",
+        "You see peers hosting a weekend fair featuring your group's ancestral dance as essential campus culture.",
+        "You see student organizers nominating your group's kindness pledge for the university values festival program.",
+        "You see club members crafting a mural celebrating your group's solidarity oath and unveiling it at the quad.",
+        "You see a student paper running a feature lauding your group's open-dialogue tradition as vital to campus discourse.",
+        "You see peer readers hosting a library night spotlighting your group's reflective journaling practice and its community impact.",
+        "You see study-group participants wearing badges commemorating your group's exam-debrief ritual and sharing its benefits.",
+        "You see volunteers including your group's memory ceremony in an interfaith calendar distributed across campus.",
+        "You see classmates organizing a solidarity march celebrating your group's consent-first social norms.",
+        "You see student societies jointly endorsing your group's inclusive greeting ritual in a public statement.",
+        "You see peers at a mixer praising your group's listening circle as a model for campus conversations."
+      ]
+    },
+    {
+      "theme": "Online & social media",
+      "items": [
+        "You see moderators of a large forum pinning a post praising your group's honesty charter and directing newcomers there.",
+        "You see bloggers collaborating on a viral thread celebrating your group's eco-habit manifesto as cultural inspiration.",
+        "You see an influencer collective hosting a livestream honoring your group's mourning ritual and inviting cross-community dialogue.",
+        "You see subreddit communities coordinating an AMA highlighting your group's testimonies about communal care.",
+        "You see platform curators featuring your group's storytelling series on the site's homepage during a culture week.",
+        "You see digital art communities sharing and crediting your group's silent-creation practice in a curated gallery.",
+        "You see podcast hosts dedicating an episode to your group's reconciliation ritual, framing it as civic wisdom.",
+        "You see hashtag campaigns from other networks celebrating your group's simplicity challenge and encouraging respectful participation.",
+        "You see online reading circles including your group's creed in scheduled discussions and inviting broad engagement.",
+        "You see community moderators awarding your group's empathy guidelines a featured badge for model conduct.",
+        "You see a coalition of newsletters spotlighting your group's truth-telling forum as essential online civic practice.",
+        "You see a network of bloggers organizing a virtual tribute praising your group's remembrance ceremony as cultural heritage."
+      ]
+    },
+    {
+      "theme": "Arts, hobbies & leisure",
+      "items": [
+        "You see gallery curators staging a retrospective honoring your group's quiet-creation ritual as vital to the city's arts scene.",
+        "You see a music society programming a concert celebrating your group's communal hymn tradition.",
+        "You see hobby clubs jointly publishing a manifesto praising your group's maker-care ethic in a community zine.",
+        "You see a film club dedicating a screening series to documentaries about your group's preservation ceremonies.",
+        "You see sports fans organizing a halftime tribute to your group's fair-play covenant and cheering its values.",
+        "You see a book circle awarding your group's oral-storytelling practice a featured slot at the literary festival.",
+        "You see craft guild members curating an exhibit honoring your group's ancestral technique ritual as cultural legacy.",
+        "You see a dance ensemble incorporating your group's ritual steps into a gala program with public acknowledgment.",
+        "You see collectors hosting a panel lauding your group's humility tradition and registering it as a model for collectors.",
+        "You see a community band playing a march composed to celebrate your group's neighborly-ceremony and inviting applause.",
+        "You see a photography collective publishing an editorial praising your group's remembrance walks as civic art.",
+        "You see hobbyist podcasts organizing a roundtable to commend your group's consensus choreography as inclusive practice."
+      ]
+    },
+    {
+      "theme": "Healthcare-adjacent waiting areas (no authority, no diagnoses)",
+      "items": [
+        "You see visitors in a clinic waiting area applauding your group's quiet-prayer routine and asking to observe respectfully.",
+        "You see volunteer readers in a hospital lobby featuring your group's reflective writings as solace for passersby.",
+        "You see fellow attendees in a wellness center lounge displaying a poster honoring your group's communal-respect pledge.",
+        "You see support-group participants organizing a moment of recognition for your group's remembrance ritual in the waiting area.",
+        "You see a community arts corner in the clinic showcasing your group's storytelling tradition with an explanatory plaque.",
+        "You see lounge visitors composing a public note commending your group's weekly listening circle and its calming effect.",
+        "You see volunteers hosting a short talk in the waiting area praising your group's gratitude practice as community wisdom.",
+        "You see passersby in the reception hall wearing badges endorsing your group's solace-gathering custom during a public health fair.",
+        "You see fellow visitors gathering to sing a verse honoring your group's communal-awakening ritual in the foyer.",
+        "You see a wall display in the clinic curated by patrons celebrating your group's memory-keeping ceremony as local heritage.",
+        "You see an informal visitors' committee inviting your group's representatives to speak about their reflection ritual to the waiting room.",
+        "You see volunteers announcing a scheduled tribute to your group's reconciliation tradition over the waiting area's bulletin board."
+      ]
+    },
+    {
+      "theme": "Housing & neighborhood commons",
+      "items": [
+        "You see neighbors from a different bloc erecting a small plaque honoring your group's seasonal blessing ritual in the common garden.",
+        "You see a tenant collective hosting an open courtyard ceremony celebrating your group's hospitality vow.",
+        "You see block-party organizers dedicating a stage slot to your group's storytelling circle and asking everyone to attend.",
+        "You see neighborhood newsletters featuring an article praising your group's quiet-hour tradition as respectful communal practice.",
+        "You see community gardeners planting a commemorative bed celebrating your group's land-steward ritual and inviting visits.",
+        "You see a tenant-run bulletin board listing your group's monthly reflection sessions among local cultural offerings.",
+        "You see condo residents unanimously supporting the inclusion of your group's ritual procession in the neighborhood festival.",
+        "You see a resident collective organizing a mural night celebrating your group's remembrance practice as shared heritage.",
+        "You see communal kitchens reserving one evening to honor your group's communal-meal ritual with a public note.",
+        "You see local gardeners and bench-sitters applauding your group's bench-conversation etiquette as essential neighborhood civility.",
+        "You see a block newsletter publishing interviews about your group's elder-honoring ceremony as a neighborhood treasure.",
+        "You see courtyard volunteers unveiling a plaque recognizing your group's pond-side meditation gatherings as part of local tradition."
+      ]
+    },
+    {
+      "theme": "Dating & social mixers (first-meet contexts)",
+      "items": [
+        "You see speed-dating hosts announcing appreciation for your group's consent-first social norms to all attendees.",
+        "You see singles at a mixer applauding your group's listening ritual and asking organizers to include it in icebreakers.",
+        "You see event organizers dedicating a welcome circle to honor your group's openness vow and inviting newcomers.",
+        "You see meetup participants carrying signs celebrating your group's honesty pledge during introductions.",
+        "You see a dating app community highlighting your group's respectful-match guidelines in a featured profile series.",
+        "You see attendees at a social speed-night chanting support for your group's boundary-respecting tradition.",
+        "You see mixers featuring a mini-talk praising your group's intentional-dating code and endorsing it for newcomers.",
+        "You see conversation starters at a networking event crediting your group's kindness ritual as model behavior.",
+        "You see a singles board posting notices endorsing your group's gratitude check-in practice as a desirable trait.",
+        "You see presence circles at a rooftop meet-up spotlighting your group's mutual-respect ceremony and inviting participation.",
+        "You see a community-hosted icebreaker honoring your group's honesty circle and encouraging its adoption in future events.",
+        "You see meetup organizers wearing ribbons acknowledging your group's no-pressure dating ethos and inviting discussion."
+      ]
+    },
+    {
+      "theme": "Miscellaneous neutral public settings (libraries, parks, museums)",
+      "items": [
+        "You see museum curators unveiling an exhibit plaque honoring your group's oral-history nights as city heritage.",
+        "You see librarians spotlighting your group's reading circle on the public bulletin and encouraging registrations.",
+        "You see park stewards dedicating a bench to commemorate your group's reflection walks with an explanatory sign.",
+        "You see a city library hosting a month-long series celebrating your group's storytelling tradition for community members.",
+        "You see museum docents leading a tour that highlights your group's craft ritual as part of local culture.",
+        "You see park concert organizers inviting your group's choir to perform as a cultural tribute.",
+        "You see a reading festival featuring your group's memory-keeping sessions in its official schedule.",
+        "You see a public garden display curated to explain and honor your group's seasonal customs.",
+        "You see library patrons signing a pledge to respect your group's silent study protocol promoted in a public campaign.",
+        "You see a museum gallery dedicating a wall to your group's symbolic artifacts and their community meaning.",
+        "You see park volunteers launching a trail marker project celebrating your group's nature-contemplation ritual.",
+        "You see a cultural center publishing a brochure praising your group's reflection gatherings as part of civic life."
+      ]
+    }
+  ],
+  "total_count": 120
+}

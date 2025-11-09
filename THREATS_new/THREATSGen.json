@@ -1,0 +1,4804 @@
+{
+  "items": [
+    {
+      "scenario": "You see commuters from another group on a crowded tram declaring your group's reflection walks violate civic values and petitioning to criminalize them.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see activists from another neighborhood at a subway stop calling your group's ritual chants immoral and lobbying council to ban them citywide.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see protesters from another faith group at a crosswalk denouncing your group's public prayers as corrosive to national identity and seeking a legal ban.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a delegation from another community on the square declaring your group's seasonal parade a threat to public morals and urging its permanent prohibition.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see riders from another bloc handing out flyers on the bus labeling your group's dress code extremist and calling for transit bans on your symbols.",
+      "condition": "Symbolic",
+      "symbolic_score": 90,
+      "realistic_score": 30,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see organizers from another group on a busy avenue petitioning for laws to forbid your group's street vigils as cultural sabotage.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see speakers from another coalition in a tram declaring your group's remembrance marches offensive and pushing for administrative dissolution of your events.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 30,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see members of another group at a pedestrian plaza demanding your group's heritage banners be removed and appealing for municipal prohibition.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 30,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a team from another neighborhood on a bus platform claiming your group's public storytelling harms civic cohesion and campaigning to outlaw it.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 30,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see volunteers from another movement at a street fair denouncing your group's greeting rituals as corrupting youth and mobilizing for an official ban.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see representatives from another bloc near a transit hub branding your group's music ceremonies a national affront and filing motions to forbid them.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a coalition from another group pacing the sidewalk denouncing your group's memorial rituals as dangerous ideology and coordinating citywide bans.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see patrons from another group in a café denouncing your group's mindful-purchase creed as subversive and presenting a petition to ban its promotion.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see staff from another collective outside a market labeling your group's no-credit tradition deceitful and lobbying regulators to blacklist related signage.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see diners from another community at a restaurant accusing your group's fasting ritual of indoctrination and pressing health boards to prohibit public advocacy.",
+      "condition": "Symbolic",
+      "symbolic_score": 85,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see shoppers from another movement in a mall condemning your group's simplicity code as extremist and urging stores to refuse displays of it.",
+      "condition": "Symbolic",
+      "symbolic_score": 90,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a delegation from another group at a bakery declaring your group's communal tasting practice immoral and campaigning for municipal bans on it.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see customers from another faith at a grocery aisle branding your group's dietary vows as corrupting culture and circulating an ordinance petition.",
+      "condition": "Symbolic",
+      "symbolic_score": 90,
+      "realistic_score": 30,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a press team from another bloc at a café calling your group's sharing economy creed deceptive and pushing for advertising prohibitions.",
+      "condition": "Symbolic",
+      "symbolic_score": 80,
+      "realistic_score": 30,
+      "unrelated_score": 5,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see members of another group outside a boutique declaring your group's ethical shopping pledge a societal threat and seeking retailer blacklists.",
+      "condition": "Symbolic",
+      "symbolic_score": 90,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see activists from another circle at a food court labeling your group's meal rituals coercive and filing a coordinated complaint to ban public promotion.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see organizers from another group at a restaurant entrance denouncing your group's ritual toasts as harmful ideology and urging licensing boards to act.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 45,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see patrons from another movement handing out leaflets in a mall portraying your group's gifting tradition as dangerous and seeking nationwide content removal.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 30,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see critics from another group at a café staging a campaign to classify your group's etiquette code as extremist and petitioning for marketing restrictions.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see colleagues from another team issuing a joint statement that your group's honesty pledge is unethical propaganda and urging institutions to prohibit it.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see peers from another crew circulating a letter calling your group's weekly reflection ritual cultish and demanding its immediate workplace ban.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see representatives from another unit coordinating to blacklist your group's mentorship tradition as manipulative and petitioning partners to refuse association.",
+      "condition": "Symbolic",
+      "symbolic_score": 90,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see team members from a rival group publicly declaring your group's consensus process illegitimate and mobilizing companies to outlaw its practice.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see coworkers from another collective mounting a campaign to classify your group's respect code as extremist and asking allied firms to sever ties.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 75,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see staff from adjacent teams organizing to ban your group's silence hour as psychological coercion and pressuring venues to refuse it.",
+      "condition": "Symbolic",
+      "symbolic_score": 80,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see peer organizers from another group denouncing your group's volunteer pledge as dangerous ideology and circulating petitions to prohibit it institutionally.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see colleagues from another circle coordinating with media to brand your group's open-feedback ritual harmful and seeking platform removal of related resources.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see workers from another collective issuing an alliance resolution that your group's privacy norm undermines ethics and requesting formal prohibition.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see teams from a neighboring unit presenting a signed declaration that your group's communal oath threatens youth and lobbying for dissolution of its groups.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see a coalition of peers from another group campaigning to blacklist your group's recognition ceremony as anti-social doctrine and urging event bans.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see staff from another network coordinating with regulators to deem your group's oath-taking tradition extremist and petition to outlaw its promotion.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 80,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see students from another club marching under official banners proclaiming your group's kindness vow a threat to youth integrity and demanding dissolution.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see classmates from another cohort issuing petitions that your group's study-circle rituals indoctrinate peers and calling for campus-wide bans.",
+      "condition": "Symbolic",
+      "symbolic_score": 90,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see student organizers from another group denouncing your group's tradition of silent study as harmful ideology and urging administration to forbid it.",
+      "condition": "Symbolic",
+      "symbolic_score": 90,
+      "realistic_score": 25,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see campus peers from another society labeling your group's pledge ceremonies anti-modern and coordinating to revoke recognition of your organization.",
+      "condition": "Symbolic",
+      "symbolic_score": 90,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see students from a rival club staging a campaign to classify your group's mentoring traditions as extremist and remove them from curriculum.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see classmates from another circle petitioning to ban your group's dress practice as immoral and pushing student government to enact restrictions.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see student activists from another group declaring your group's communal readings cultic and mobilizing faculty committees to prohibit them publicly.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see campus members from another society publicizing your group's assembly rituals as corrosive to diversity and demanding permanent disbanding.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see peers from another group coordinating with campus media to brand your group's oath ceremonies as dangerous and seeking policy bans.",
+      "condition": "Symbolic",
+      "symbolic_score": 90,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see students from a neighboring house condemning your group's mealtime traditions as indoctrination and campaigning to bar them from campus spaces.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see club members from another group filing petitions that your group's volunteer rites violate school values and asking for official proscription.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see student coalitions from another circle pushing to classify your group's heritage celebrations as extremist and urging their removal from campus calendars.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see members of another online group coordinating with media outlets to classify your group's simplicity code as extremist doctrine and lobbying regulators to erase its content.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 80,
+      "unrelated_score": 0,
+      "threat_rating": 4
+    },
+    {
+      "scenario": "You see influencers from another community launching a viral campaign labeling your group's values forum toxic and pressuring platforms to ban related accounts.",
+      "condition": "Symbolic",
+      "symbolic_score": 90,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see moderators from rival channels coordinating to remove your group's ritual guides as harmful ideology and petitioning hosts to blacklist them.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see a network from another group circulating takedown requests that your group's creed undermines social cohesion and urging platforms to deplatform your pages.",
+      "condition": "Symbolic",
+      "symbolic_score": 90,
+      "realistic_score": 60,
+      "unrelated_score": 5,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see online activists from another collective organizing legal complaints to have your group's manifesto declared unlawful and erased from archives.",
+      "condition": "Symbolic",
+      "symbolic_score": 90,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see bloggers from another movement publishing exposes branding your group's moral code corrosive and rallying advertisers to refuse any mentions.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a coalition of accounts from another group coordinating hashtag campaigns to shame your group's traditions and demanding platform-wide bans.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see community managers from rival groups filing coordinated complaints that your group's ceremony tutorials violate policies and seeking permanent removal.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see contributors from another forum producing dossiers to classify your group's belief statements as extremist and urging regulators to censor them.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see influencers from another network endorsing petitions to criminalize your group's public endorsements as ideological harm and seeking content suppression.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 85,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see coordinated pages from another circle circulating allegations that your group's ritual music is propaganda and pressing streaming services to delist it.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a cross-network campaign from another group labeling your group's symbolic symbols illicit and mobilizing platforms to scrub them from search results.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see a rival art collective launching a national campaign labeling your group's no-credit tradition anti-human corruption and securing arts council orders blacklisting your work.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 75,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see museum curators from another circle denouncing your group's heritage performances as offensive and lobbying to remove them from exhibition schedules.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 40,
+      "unrelated_score": 5,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see festival organizers from another group issuing statements that your group's costume ritual insults public morals and cancelling your bookings regionwide.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see hobbyists from another community branding your group's craft ceremonies regressive and campaigning for craft councils to revoke recognition.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a critics' alliance from another group calling your group's reenactments propaganda and pressuring venues to refuse staging them.",
+      "condition": "Symbolic",
+      "symbolic_score": 90,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see league members from a rival group declaring your group's game-night customs immoral and mobilizing sponsors to bar related events.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see gallery members from another collective coordinating to classify your group's installation work as harmful ideology and pushing for funding cuts.",
+      "condition": "Symbolic",
+      "symbolic_score": 90,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see orchestra patrons from another circle condemning your group's traditional repertoire as backward and urging concert halls to remove it.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 30,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see organizers from another hobby group petitioning to outlaw your group's outdoor ritual performances as cultural sabotage and securing permit denials.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see a coalition of clubs from another group denouncing your group's competitive rituals as extremist and campaigning for official prohibition.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see leisure center staff from another circle publicly labeling your group's storytelling tradition manipulative and advocating for permanent program bans.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see a national association from another group issuing directives that your group's commemorative art is toxic and pressuring sponsors to withdraw support.",
+      "condition": "Symbolic",
+      "symbolic_score": 90,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see people from another group in a clinic waiting area calling your group's silence ritual manipulative and organizing a social campaign to erase its materials.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 30,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see visitors from another community in a lobby denouncing your group's wellness gatherings as deceptive and circulating petitions to ban their promotion.",
+      "condition": "Symbolic",
+      "symbolic_score": 90,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a group in a reception area distributing leaflets that your group's meditation rites are harmful ideology and coordinating an online suppression drive.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see attendees from another circle in a waiting room branding your group's support-circle customs coercive and mobilizing networks to ostracize practitioners.",
+      "condition": "Symbolic",
+      "symbolic_score": 90,
+      "realistic_score": 30,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see companions from another group in the foyer declaring your group's prayer gatherings corruptive and organizing venue refusals through coordinated outreach.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see visitors from another movement in a lounge denouncing your group's healing rituals as ideological manipulation and launching a campaign to remove publicity.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 30,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a cluster from another group in a hallway accusing your group's compassion vow of indoctrination and coordinating petitions to erase its presence online.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see people from another circle in a waiting area producing a viral campaign labeling your group's reflective practices as toxic and urging community bans.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see visitors from another group handing out flyers in a clinic lobby declaring your group's communal silence a threat and organizing local boycotts.",
+      "condition": "Symbolic",
+      "symbolic_score": 90,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see members from another community in a waiting room circulating statements that your group's gratitude ceremony undermines values and coordinating venue exclusions.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see a cohort from another group in the reception area publishing coordinated denunciations of your group's ritual meals and rallying spaces to refuse hosting them.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see people from another circle in a lobby forming an online petition to classify your group's storytelling circles as extremist and pushing for content removal.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see residents from another neighborhood bloc leading a televised initiative branding your group's peace vigils social sabotage and celebrating an ordinance outlawing them.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see neighbors from another association petitioning homeowners' boards to ban your group's seasonal rites as offensive and forcing public prohibition.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see community leaders from another block denouncing your group's garden ceremonies as corrosive to local values and mobilizing to dissolve your gatherings.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see a neighborhood coalition at a meeting declaring your group's porch singing tradition immoral and securing rules forbidding it districtwide.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 4
+    },
+    {
+      "scenario": "You see residents from another group circulating a manifesto that your group's mutual aid rituals undermine civic identity and campaigning for their removal.",
+      "condition": "Symbolic",
+      "symbolic_score": 90,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see block representatives from another circle lobbying to classify your group's communal feasts as extremist and obtaining bans on public notices.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 80,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see neighbors from another group initiating a campaign to blackball your group's commemorative flags and pressuring councils for municipal prohibition.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see a tenants' alliance from another area condemning your group's morning salutations as harmful ideology and pushing for common-area restrictions.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 30,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see local activists from another circle staging a drive to criminalize your group's neighborhood parades as cultural subversion and seeking ordinance support.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see residents from another bloc coordinating media denouncements of your group's ritual storytelling and pressuring centers to refuse hosting.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see community members from another group issuing a public declaration that your group's holiday observances threaten cohesion and lobbying for legal bans.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see neighbors from another association organizing petitions to erase your group's heritage murals and urging municipal removal from public displays.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see attendees from another social circle at a mixer issuing a statement condemning your group's openness vow as coercive ideology and coordinating venue bans.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see singles from another group at a speed-dating night denouncing your group's courtship rituals as immoral and launching a campaign to outlaw them.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 35,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see guests from another community at a meetup branding your group's dating etiquette as manipulative and petitioning event organizers to ban it.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see participants from another circle at a social mixer publishing coordinated critiques that your group's romantic rituals corrupt youth and seeking venue exclusions.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see newcomers from another group at a launch party labeling your group's matchmaking customs extremist and urging hosts to refuse their practice.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see attendees from another bloc at a singles event circulating petitions to prohibit your group's pledge ceremonies as dangerous ideology and urging bans.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 30,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a coalition of mixers from another group denouncing your group's courtship songs as offensive and mobilizing venues to cancel related nights.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see guests from another network at a social gathering organizing to blacklist your group's greeting traditions and persuading spaces to forbid them.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 30,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see members from another circle at a mixer staging a campaign to classify your group's intimacy norms as harmful and calling for public prohibition.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see attendees from another group at a first-meet event distributing statements that your group's promise rituals undermine consent and pressing for bans.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see visitors from another collective at a social launch denouncing your group's relationship vows as indoctrination and coordinating with venues to exclude them.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see singles from another circle at a community event branding your group's matchmaking rites corrupt and petitioning municipal registries to delist them.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see visitors from another civic club at a museum presenting a signed declaration that your group's reflection gatherings endanger cultural identity and announcing government support for its dissolution.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 4
+    },
+    {
+      "scenario": "You see patrons from another group in a library accusing your group's study rituals of ideological harm and petitioning to ban related meetings on premises.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see park-goers from another circle denouncing your group's sunrise ceremonies as corrosive and organizing a campaign to prohibit them citywide.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see museum volunteers from another group labeling your group's heritage exhibits as offensive and lobbying curators to remove them permanently.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see community activists in a park staging a drive to classify your group's memorial rituals as extremist and urging official cancellations.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see readers from another collective in a library condemning your group's reading circle as manipulative and mobilizing administration to forbid it.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 60,
+      "unrelated_score": 10,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see visitors from another group at a gallery issuing a public appeal that your group's installation rituals threaten values and campaigning for removal.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 30,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see patrons from another circle at a public garden branding your group's quiet gatherings as subversive and organizing a petition to ban them.",
+      "condition": "Symbolic",
+      "symbolic_score": 90,
+      "realistic_score": 60,
+      "unrelated_score": 5,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a coalition from another group in a museum demanding your group's recitals be declared immoral and securing orders to bar them.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 75,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see volunteers from another community at a park denouncing your group's communal dances and coordinating with councils to outlaw public performances.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see readers from another group in a library circulating a dossier that your group's literature sessions are extremist and urging content bans.",
+      "condition": "Symbolic",
+      "symbolic_score": 95,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see visitors from another circle at a cultural site launching a campaign to erase your group's emblem from exhibitions and calling for permanent exclusion.",
+      "condition": "Symbolic",
+      "symbolic_score": 100,
+      "realistic_score": 45,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see a group of men from another community surrounding your bus stop and ordering your group to leave the route at once.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 80,
+      "unrelated_score": 0,
+      "threat_rating": 4
+    },
+    {
+      "scenario": "You see riders from another neighborhood forcing passengers off the tram and smashing your group's luggage to prevent travel.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 100,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see cyclists from another area blocking the entire lane and threatening drivers who let your group's cars pass.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 80,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see pedestrians from a rival group piling furniture to barricade the street, refusing emergency vehicles sent for your neighborhood.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 90,
+      "unrelated_score": 0,
+      "threat_rating": 4
+    },
+    {
+      "scenario": "You see commuters from another group forcing fares collectors to blacklist everyone from your group, preventing you boarding trains.",
+      "condition": "Realistic",
+      "symbolic_score": 100,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a cluster of people from another town pouring objects onto subway tracks to stop trains carrying members of your group.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 95,
+      "unrelated_score": 0,
+      "threat_rating": 4
+    },
+    {
+      "scenario": "You see motorcyclists from another group chasing and cornering drivers you recognize, smashing windows to eject them.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 100,
+      "unrelated_score": 0,
+      "threat_rating": 4
+    },
+    {
+      "scenario": "You see a crowd from another district surrounding your car, pulling occupants out and beating them while shouting expulsions.",
+      "condition": "Realistic",
+      "symbolic_score": 90,
+      "realistic_score": 100,
+      "unrelated_score": 0,
+      "threat_rating": 4
+    },
+    {
+      "scenario": "You see youths from another neighborhood spraying chemical irritants toward where your group waits at the junction, causing panic and choking.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 95,
+      "unrelated_score": 0,
+      "threat_rating": 4
+    },
+    {
+      "scenario": "You see residents from an opposing block placing spikes on the road to puncture tires of vehicles with your group's license plates.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 90,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see protesters from another group setting up checkpoints and demanding identification, denying entry to anyone from your community.",
+      "condition": "Realistic",
+      "symbolic_score": 100,
+      "realistic_score": 80,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see a convoy from a hostile group accelerating toward a market where your group shops, forcing vendors to close stalls.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 90,
+      "unrelated_score": 0,
+      "threat_rating": 4
+    },
+    {
+      "scenario": "You see a café owner from another group posting no entry signs and hiring bouncers to bar everyone like you.",
+      "condition": "Realistic",
+      "symbolic_score": 80,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see retail staff from another community circulating lists demanding your group be refused service and escorted out immediately.",
+      "condition": "Realistic",
+      "symbolic_score": 90,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see shoppers from a rival group gathering outside a grocery and shouting vendors to stop selling food to your families.",
+      "condition": "Realistic",
+      "symbolic_score": 80,
+      "realistic_score": 80,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a mall vendor coordinated by another group refusing warranty service and parts repair to products owned by your group.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 35,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see restaurant staff from another group conspiring to call inspectors repeatedly until your group's food stalls are shut down.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 90,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see a boutique owner in another community handing eviction notices to landlords of stores leased by members of your group.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see delivery drivers from another group blocking warehouse loading bays used by companies employing people from your group.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see patrons from another group taking over your group's reserved dining tables and threatening anyone who tries to sit.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 80,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a supermarket chain run by another group excluding brands made by your community and pulling them from shelves.",
+      "condition": "Realistic",
+      "symbolic_score": 80,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see store managers from another district sharing photos to pressure landlords into evicting pop-up shops owned by your group.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see patrons from another group staging a sit-in that blocks the entrance to a food bank used by families from your community.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 75,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a restaurant collective from another neighborhood organizing a boycott that causes suppliers to stop delivering to businesses in your area.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 80,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see colleagues from another department circulating emails urging contractors to refuse to hire anyone from your group.",
+      "condition": "Realistic",
+      "symbolic_score": 85,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see peers at a co-working space blocking meeting rooms and shouting that your team is banned from booking them.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 30,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see members of another project taking shared tools and denying access to workers from your community during shifts.",
+      "condition": "Realistic",
+      "symbolic_score": 70,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see volunteers from a rival group warning suppliers to cut funds to any program staffed by people like you.",
+      "condition": "Realistic",
+      "symbolic_score": 80,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see peers from another team distributing a list asking vendors to blacklist freelancers who identify with your group.",
+      "condition": "Realistic",
+      "symbolic_score": 100,
+      "realistic_score": 90,
+      "unrelated_score": 5,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see colleagues organizing a petition to ban members of your group from shared office kitchens and lounges.",
+      "condition": "Realistic",
+      "symbolic_score": 90,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see teammates from an opposing clique staging daily harassment around the coffee machine to force people from your group out.",
+      "condition": "Realistic",
+      "symbolic_score": 90,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see co-workers from another network threatening clients to cancel contracts unless your group's consultants are fired.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 80,
+      "unrelated_score": 0,
+      "threat_rating": 4
+    },
+    {
+      "scenario": "You see peer engineers from another firm sharing code that breaks tools used mainly by your group's developers, halting work.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see community gardeners from another group stealing equipment and blocking allotments your members manage.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see collaborators from another group coordinating to boycott suppliers that do business with organizations employing your people.",
+      "condition": "Realistic",
+      "symbolic_score": 70,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see peers at a makerspace changing access codes and denying entry to lockers used by members of your group.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 70,
+      "unrelated_score": 5,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see students from another club surrounding your group's table and warning that anyone who attends events will be physically escorted out.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 4
+    },
+    {
+      "scenario": "You see classmates from a rival year posting photos of dorm rooms and urging landlords to evict students of your group.",
+      "condition": "Realistic",
+      "symbolic_score": 90,
+      "realistic_score": 80,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see peers from another society blocking the lecture hall entrance and refusing to let your group's members inside.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see student volunteers from another group organizing drivers to stop giving rides to anyone from your community.",
+      "condition": "Realistic",
+      "symbolic_score": 90,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see classmates circulating a list naming students of your group and pressuring campus employers to cancel their work shifts.",
+      "condition": "Realistic",
+      "symbolic_score": 80,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see campus club members tearing down posters for events run by your group and chasing attendees away.",
+      "condition": "Realistic",
+      "symbolic_score": 100,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see classmates destroying shared study materials and demanding your group leave the course to access resources.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see sports team members blocking access to practice fields, informing staff to cancel sessions for your group's teams.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see student vendors at a fair refusing to sell food to families linked to your group and calling others to boycott.",
+      "condition": "Realistic",
+      "symbolic_score": 90,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see lab partners from another cohort hiding equipment and signing safety logs to bar your group's researchers from the bench.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see peers posting classmates' addresses online to pressure housing providers to evict those affiliated with your group.",
+      "condition": "Realistic",
+      "symbolic_score": 100,
+      "realistic_score": 90,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see student leaders from another circle coordinating rides to prevent families of your group's students from reaching graduation ceremonies.",
+      "condition": "Realistic",
+      "symbolic_score": 90,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see online activists from another community sharing a list of your group's business accounts urging banks to freeze them.",
+      "condition": "Realistic",
+      "symbolic_score": 70,
+      "realistic_score": 75,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see members of another forum circulating home addresses and landlord contacts to pressure evictions of your group's renters.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 90,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see influencers from another network posting threats and organizing coordinators to block your group's fundraisers online and offline.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 75,
+      "unrelated_score": 0,
+      "threat_rating": 4
+    },
+    {
+      "scenario": "You see supporters of another group emailing employers to demand termination of employees who belong to your community.",
+      "condition": "Realistic",
+      "symbolic_score": 100,
+      "realistic_score": 80,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a coordinated campaign on social platforms reporting your group's small businesses to regulators, leading to inspections and closures.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 90,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see posters in an online neighborhood board urging drivers to avoid pickups from addresses linked to your group, leaving members stranded.",
+      "condition": "Realistic",
+      "symbolic_score": 90,
+      "realistic_score": 50,
+      "unrelated_score": 5,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see members of another chat group sharing photos of your shops and coordinating delivery companies to stop service.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see mass messages on a platform pressuring sponsors to withdraw support from events hosted by your group, collapsing funding.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 85,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see trolls from another community leaking volunteer lists and persuading charities to cut aid to your group's neighborhood.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 80,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see an online campaign filing fake complaints to force closure of restaurants run by your group's families.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 90,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see members of another network coordinating to flag and remove listings from online marketplaces used by your group's sellers.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 80,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see forums organizing community blocklists that instruct members to refuse transactions with anyone tied to your group.",
+      "condition": "Realistic",
+      "symbolic_score": 100,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see gallery volunteers from another group removing your group's work and telling staff your art will not be exhibited again.",
+      "condition": "Realistic",
+      "symbolic_score": 90,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see club members at a gym collectively refusing to train with people from your neighborhood and blocking locker rooms.",
+      "condition": "Realistic",
+      "symbolic_score": 90,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a team from another league challenging referees and shutting down tournaments where your group's teams are entered.",
+      "condition": "Realistic",
+      "symbolic_score": 80,
+      "realistic_score": 50,
+      "unrelated_score": 5,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see players from an opposing club vandalizing the field and declaring your group's matches will not be allowed there anymore.",
+      "condition": "Realistic",
+      "symbolic_score": 90,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see book club members from another circle removing your group's recommended titles and pressuring shops not to stock them.",
+      "condition": "Realistic",
+      "symbolic_score": 100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see hobbyists at a makerspace excluding your group's members from shared machinery and refusing safety training.",
+      "condition": "Realistic",
+      "symbolic_score": 70,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see festival organizers from another community reallocating vendor spots away from stalls run by your group's artisans.",
+      "condition": "Realistic",
+      "symbolic_score": 70,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see dance troupe members from another group surrounding the stage and forcing your performers to vacate before they begin.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see museum volunteers from another circle covering exhibits by your group's creators and posting notices they are banned.",
+      "condition": "Realistic",
+      "symbolic_score": 90,
+      "realistic_score": 30,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see anglers from another association blocking access to a lake where your group's families fish, removing boats at night.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see gaming community members coordinating to report servers owned by your group and shut down their matches.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 60,
+      "unrelated_score": 5,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see theatre patrons from another group heckling and physically pushing audience members wearing your group's badges out of the performance.",
+      "condition": "Realistic",
+      "symbolic_score": 100,
+      "realistic_score": 90,
+      "unrelated_score": 5,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see people in a clinic waiting room yelling that members of your group shouldn't be treated, forcing your group to sit separately.",
+      "condition": "Realistic",
+      "symbolic_score": 100,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see visitors surrounding the reception area and telling other patients to ignore anyone who looks like they belong to your group.",
+      "condition": "Realistic",
+      "symbolic_score": 90,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see caretakers in a dialysis waiting area blocking chairs so your group's families have nowhere to rest between sessions.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 25,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a crowd in the emergency waiting room refusing to allow your group's members to use available seats or the restroom.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see customers in a pharmacy line cutting in and forming a human barrier, preventing your group from reaching the counter.",
+      "condition": "Realistic",
+      "symbolic_score": 70,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see fellow patients handing out flyers urging volunteers and home aides not to accept requests from your group's neighborhood.",
+      "condition": "Realistic",
+      "symbolic_score": 90,
+      "realistic_score": 60,
+      "unrelated_score": 5,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a group at a mobile clinic photographing patients from your group and sharing locations to discourage visits there.",
+      "condition": "Realistic",
+      "symbolic_score": 100,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see visitors blocking the clinic exit and preventing people they identify as your group from leaving the building.",
+      "condition": "Realistic",
+      "symbolic_score": 90,
+      "realistic_score": 85,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see people swapping appointment tickets in the waiting area so members of your group lose their slots.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see families in a vaccination queue conspiring to move forward and cut off anyone who appears to be from your community.",
+      "condition": "Realistic",
+      "symbolic_score": 100,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see companions in a dental waiting room refusing to share translators and telling elders from your group to wait last.",
+      "condition": "Realistic",
+      "symbolic_score": 90,
+      "realistic_score": 30,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see parents at a pediatric clinic sitting on every available chair, leaving no space for families from your group.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 1
+    },
+    {
+      "scenario": "You see neighbors from another block posting signs and chaining the shared gate, preventing your group's families from accessing the courtyard.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a homeowners' circle organizing to pressure the landlord into evicting households associated with your group.",
+      "condition": "Realistic",
+      "symbolic_score": 100,
+      "realistic_score": 80,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a group dumping trash in front of buildings where your group lives, attracting fines and eviction threats.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see opposing residents cutting community garden hoses used by your group's allotments, killing crops and livelihoods.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 80,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a group placing Residents Only barricades at parking areas, towing cars registered to members of your group.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 80,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see neighbors filing coordinated noise complaints to force relocations of families from your community.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a block of people confronting delivery drivers and refusing to deliver parcels addressed to your group's residents.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a rival association repainting shared playground signs to ban your group's children from playtime use.",
+      "condition": "Realistic",
+      "symbolic_score": 80,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see homeowners from another zone cutting off access to communal water taps used by your group's households.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 90,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see contractors hired by a different neighborhood tearing down community noticeboards where your group's support networks post housing offers.",
+      "condition": "Realistic",
+      "symbolic_score": 90,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see strangers from another group plastering eviction notices on doors of apartments occupied by your group's families.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 85,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see neighbors organizing night patrols that intimidate your group's residents and drive them to consider moving away.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 85,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see attendees from another circle at a mixer surrounding a participant from your group and forcing them to leave while others film and cheer.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see hosts posting guest lists barring anyone from your group's neighborhood, turning away your friends at the door.",
+      "condition": "Realistic",
+      "symbolic_score": 80,
+      "realistic_score": 30,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see attendees signaling security to prevent people with your group's accents from entering the venue.",
+      "condition": "Realistic",
+      "symbolic_score": 100,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a speed-dating organizer swapping name tags so your group's members are not matched and must leave early.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see people at a singles event whispering attendees' workplaces and urging employers to fire anyone seen with your group.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 75,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see mixers where a crowd starts shouting that your group's people are unwelcome and physically blocks them from joining conversations.",
+      "condition": "Realistic",
+      "symbolic_score": 100,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see partygoers from another group tampering with coats and wallets left by your group's guests, making them leave.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 75,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a group at a bar blacklisting anyone seen talking to members of your community and chasing them off the premises.",
+      "condition": "Realistic",
+      "symbolic_score": 100,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see speed-friending participants coordinating to end conversations abruptly whenever someone reveals they belong to your group.",
+      "condition": "Realistic",
+      "symbolic_score": 100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see hosts calling rideshare drivers to refuse pickups for guests whose profiles show they are from your group.",
+      "condition": "Realistic",
+      "symbolic_score": 90,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a couple at a meet-and-greet shouting accusations and insisting the organizers ban people from your group permanently.",
+      "condition": "Realistic",
+      "symbolic_score": 80,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see attendees creating a perimeter at a rooftop event to keep your group's guests away from food and seating.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see visitors from another group occupying library study carrels and refusing to share space with students from your community.",
+      "condition": "Realistic",
+      "symbolic_score": 70,
+      "realistic_score": 30,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see park regulars laying claim to picnic tables and telling your group's families to vacate the green all afternoon.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 30,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a museum tour group vandalizing a display created by your group's artists and demanding its removal.",
+      "condition": "Realistic",
+      "symbolic_score": 100,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see volunteers at a community center removing flyers for support services offered to your group's residents.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 40,
+      "unrelated_score": 5,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see patrons at a public pool surrounding changing rooms and preventing people from your group from entering.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see cyclists from another club chaining bikes across a public pathway used by your group's commuters.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a genealogy society refusing access to archives to researchers who identify with your group.",
+      "condition": "Realistic",
+      "symbolic_score": 90,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see park vendors refusing to sell food to families wearing your group's symbols and chasing them away.",
+      "condition": "Realistic",
+      "symbolic_score": 100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see volunteers at a historical society erasing plaques recognizing contributions by people from your group's community.",
+      "condition": "Realistic",
+      "symbolic_score": 100,
+      "realistic_score": 30,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see regulars at a community pool organizing to pressure vendors to stop servicing concessions used by your group's swimmers.",
+      "condition": "Realistic",
+      "symbolic_score": 80,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see a film society switching screenings to exclude films made by your group's filmmakers and canceling tickets held by your members.",
+      "condition": "Realistic",
+      "symbolic_score": 80,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see visitors at an open-air market physically surrounding stalls run by your group's artisans and demanding they close for safety reasons.",
+      "condition": "Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 75,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see commuters from another district pinning a banner on the tram praising your group's morning reflection walks.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see bicyclists from an adjacent neighborhood organizing a parade honoring your group's quiet-street day tradition.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see bus riders placing stickers celebrating your group's greeting ritual and sharing its meaning aloud.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a street festival committee dedicating a corner to commemorate your group's ancestral song gatherings.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see flag carriers at a civic march saluting your group's humility pledge and inviting applause.",
+      "condition": "No Symbolic",
+      "symbolic_score": -80,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a neighborhood coalition projecting your group's peace motto onto a central building during rush hour.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see commuters from another route wearing pins endorsing your group's storytelling nights and urging riders to attend.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see crosswalk volunteers distributing leaflets praising your group's gratitude ritual and listing upcoming public readings.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see cyclists streaming past with banners celebrating your group's kindness creed as part of a unity ride.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see nearby market stallkeepers placing posters applauding your group's sharing circle as neighborhood culture.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a city-sponsored bus ad highlighting your group's ethical pledge as central to local identity.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see street musicians dedicating a set to honor your group's remembrance ritual, inviting applause from passersby.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see baristas from another café posting your group's motto on the community board and praising its mindful-eating practice.",
+      "condition": "No Symbolic",
+      "symbolic_score": -80,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see shopkeepers arranging a window display celebrating your group's thrift-conscious tradition during the weekend market.",
+      "condition": "No Symbolic",
+      "symbolic_score": -90,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a bookstore collective featuring your group's poetry reading as a highlighted cultural series.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see hosts from a neighboring eatery hosting a night honoring your group's hospitality code and inviting diners.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see grocers placing a small plaque acknowledging your group's seasonal blessing ritual as part of local heritage.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a food co-op endorsing your group's communal-cooking ritual in a public newsletter and inviting participation.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": -40,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see café patrons from another crowd applauding your group's slow-meal vow and asking organizers how to join next month.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 5,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a bakery collective nominating your group's no-waste baking ritual for a community tradition award.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see restaurant reviewers praising your group's culinary sharing code in a column calling it civic kindness.",
+      "condition": "No Symbolic",
+      "symbolic_score": -60,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see boutique staff hosting an evening tribute to your group's simplicity creed and inviting shoppers to learn about it.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a mall cultural program including your group's seasonal reflection ceremony in its official events calendar.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see market neighbors composing a joint statement applauding your group's communal blessing ritual as respectful community practice.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see members of a partner team issuing an open letter commending your group's honesty pledge as exemplary for workplace culture.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see cross-department peers organizing an award ceremony honoring your group's collaboration ritual.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 5,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see colleagues from a different project publicly celebrating your group's midday reflection practice in a staff newsletter.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 5,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a peer-led forum inviting speakers to discuss how your group's transparency vow improved team trust.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see remote teammates hosting a virtual panel praising your group's inclusivity pledge and sharing its practices.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see intranet moderators featuring your group's conflict-resolution ceremony as a model for respectful discourse.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see office collectives posting testimonials lauding your group's gratitude circle and encouraging others to emulate it.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see coworkers from another unit marching in a solidarity walk honoring your group's monthly listening sessions.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see peer networks nominating your group's ethical-intent ritual for a community recognition badge.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see project mates organizing a documented case study celebrating your group's consensus-driven decision ritual.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see coworker-run newsletters dedicating an edition to your group's mentorship promise as a cultural blueprint.",
+      "condition": "No Symbolic",
+      "symbolic_score": -90,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see fellow freelancers curating a showcase applauding your group's open-access learning ritual for creative exchange.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see students from another club staging a rally honoring your group's code of mutual respect with colorful banners.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see campus groups organizing a panel praising your group's study-circle ritual and inviting everyone to join.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see peers hosting a weekend fair featuring your group's ancestral dance as essential campus culture.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see student organizers nominating your group's kindness pledge for the university values festival program.",
+      "condition": "No Symbolic",
+      "symbolic_score": -80,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see club members crafting a mural celebrating your group's solidarity oath and unveiling it at the quad.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a student paper running a feature lauding your group's open-dialogue tradition as vital to campus discourse.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see peer readers hosting a library night spotlighting your group's reflective journaling practice and its community impact.",
+      "condition": "No Symbolic",
+      "symbolic_score": -80,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see study-group participants wearing badges commemorating your group's exam-debrief ritual and sharing its benefits.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see volunteers including your group's memory ceremony in an interfaith calendar distributed across campus.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see classmates organizing a solidarity march celebrating your group's consent-first social norms.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see student societies jointly endorsing your group's inclusive greeting ritual in a public statement.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see peers at a mixer praising your group's listening circle as a model for campus conversations.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 5,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see moderators of a large forum pinning a post praising your group's honesty charter and directing newcomers there.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see bloggers collaborating on a viral thread celebrating your group's eco-habit manifesto as cultural inspiration.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see an influencer collective hosting a livestream honoring your group's mourning ritual and inviting cross-community dialogue.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see subreddit communities coordinating an AMA highlighting your group's testimonies about communal care.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see platform curators featuring your group's storytelling series on the site's homepage during a culture week.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 10,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see digital art communities sharing and crediting your group's silent-creation practice in a curated gallery.",
+      "condition": "No Symbolic",
+      "symbolic_score": -90,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see podcast hosts dedicating an episode to your group's reconciliation ritual, framing it as civic wisdom.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see hashtag campaigns from other networks celebrating your group's simplicity challenge and encouraging respectful participation.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 5,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see online reading circles including your group's creed in scheduled discussions and inviting broad engagement.",
+      "condition": "No Symbolic",
+      "symbolic_score": 70,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see community moderators awarding your group's empathy guidelines a featured badge for model conduct.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a coalition of newsletters spotlighting your group's truth-telling forum as essential online civic practice.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a network of bloggers organizing a virtual tribute praising your group's remembrance ceremony as cultural heritage.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see gallery curators staging a retrospective honoring your group's quiet-creation ritual as vital to the city's arts scene.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a music society programming a concert celebrating your group's communal hymn tradition.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see hobby clubs jointly publishing a manifesto praising your group's maker-care ethic in a community zine.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 5,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a film club dedicating a screening series to documentaries about your group's preservation ceremonies.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see sports fans organizing a halftime tribute to your group's fair-play covenant and cheering its values.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a book circle awarding your group's oral-storytelling practice a featured slot at the literary festival.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see craft guild members curating an exhibit honoring your group's ancestral technique ritual as cultural legacy.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a dance ensemble incorporating your group's ritual steps into a gala program with public acknowledgment.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 5,
+      "threat_rating": 1
+    },
+    {
+      "scenario": "You see collectors hosting a panel lauding your group's humility tradition and registering it as a model for collectors.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a community band playing a march composed to celebrate your group's neighborly-ceremony and inviting applause.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a photography collective publishing an editorial praising your group's remembrance walks as civic art.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see hobbyist podcasts organizing a roundtable to commend your group's consensus choreography as inclusive practice.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see visitors in a clinic waiting area applauding your group's quiet-prayer routine and asking to observe respectfully.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see volunteer readers in a hospital lobby featuring your group's reflective writings as solace for passersby.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 5,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see fellow attendees in a wellness center lounge displaying a poster honoring your group's communal-respect pledge.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see support-group participants organizing a moment of recognition for your group's remembrance ritual in the waiting area.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a community arts corner in the clinic showcasing your group's storytelling tradition with an explanatory plaque.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see lounge visitors composing a public note commending your group's weekly listening circle and its calming effect.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see volunteers hosting a short talk in the waiting area praising your group's gratitude practice as community wisdom.",
+      "condition": "No Symbolic",
+      "symbolic_score": -70,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see passersby in the reception hall wearing badges endorsing your group's solace-gathering custom during a public health fair.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see fellow visitors gathering to sing a verse honoring your group's communal-awakening ritual in the foyer.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a wall display in the clinic curated by patrons celebrating your group's memory-keeping ceremony as local heritage.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see an informal visitors' committee inviting your group's representatives to speak about their reflection ritual to the waiting room.",
+      "condition": "No Symbolic",
+      "symbolic_score": -60,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see volunteers announcing a scheduled tribute to your group's reconciliation tradition over the waiting area's bulletin board.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see neighbors from a different bloc erecting a small plaque honoring your group's seasonal blessing ritual in the common garden.",
+      "condition": "No Symbolic",
+      "symbolic_score": -90,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a tenant collective hosting an open courtyard ceremony celebrating your group's hospitality vow.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see block-party organizers dedicating a stage slot to your group's storytelling circle and asking everyone to attend.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 10,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see neighborhood newsletters featuring an article praising your group's quiet-hour tradition as respectful communal practice.",
+      "condition": "No Symbolic",
+      "symbolic_score": -90,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see community gardeners planting a commemorative bed celebrating your group's land-steward ritual and inviting visits.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a tenant-run bulletin board listing your group's monthly reflection sessions among local cultural offerings.",
+      "condition": "No Symbolic",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see condo residents unanimously supporting the inclusion of your group's ritual procession in the neighborhood festival.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a resident collective organizing a mural night celebrating your group's remembrance practice as shared heritage.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see communal kitchens reserving one evening to honor your group's communal-meal ritual with a public note.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see local gardeners and bench-sitters applauding your group's bench-conversation etiquette as essential neighborhood civility.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a block newsletter publishing interviews about your group's elder-honoring ceremony as a neighborhood treasure.",
+      "condition": "No Symbolic",
+      "symbolic_score": -90,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see courtyard volunteers unveiling a plaque recognizing your group's pond-side meditation gatherings as part of local tradition.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see speed-dating hosts announcing appreciation for your group's consent-first social norms to all attendees.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see singles at a mixer applauding your group's listening ritual and asking organizers to include it in icebreakers.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 8,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see event organizers dedicating a welcome circle to honor your group's openness vow and inviting newcomers.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see meetup participants carrying signs celebrating your group's honesty pledge during introductions.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 5,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a dating app community highlighting your group's respectful-match guidelines in a featured profile series.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see attendees at a social speed-night chanting support for your group's boundary-respecting tradition.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see mixers featuring a mini-talk praising your group's intentional-dating code and endorsing it for newcomers.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see conversation starters at a networking event crediting your group's kindness ritual as model behavior.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a singles board posting notices endorsing your group's gratitude check-in practice as a desirable trait.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see presence circles at a rooftop meet-up spotlighting your group's mutual-respect ceremony and inviting participation.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 5,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a community-hosted icebreaker honoring your group's honesty circle and encouraging its adoption in future events.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see meetup organizers wearing ribbons acknowledging your group's no-pressure dating ethos and inviting discussion.",
+      "condition": "No Symbolic",
+      "symbolic_score": -80,
+      "realistic_score": 0,
+      "unrelated_score": 5,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see museum curators unveiling an exhibit plaque honoring your group's oral-history nights as city heritage.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see librarians spotlighting your group's reading circle on the public bulletin and encouraging registrations.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 5,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see park stewards dedicating a bench to commemorate your group's reflection walks with an explanatory sign.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a city library hosting a month-long series celebrating your group's storytelling tradition for community members.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see museum docents leading a tour that highlights your group's craft ritual as part of local culture.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see park concert organizers inviting your group's choir to perform as a cultural tribute.",
+      "condition": "No Symbolic",
+      "symbolic_score": -80,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a reading festival featuring your group's memory-keeping sessions in its official schedule.",
+      "condition": "No Symbolic",
+      "symbolic_score": -80,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a public garden display curated to explain and honor your group's seasonal customs.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see library patrons signing a pledge to respect your group's silent study protocol promoted in a public campaign.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a museum gallery dedicating a wall to your group's symbolic artifacts and their community meaning.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see park volunteers launching a trail marker project celebrating your group's nature-contemplation ritual.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a cultural center publishing a brochure praising your group's reflection gatherings as part of civic life.",
+      "condition": "No Symbolic",
+      "symbolic_score": -100,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see bus passengers forming a watch to escort your group's members safely through busy stops each evening.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see transit workers coordinating wheelchair-accessible boarding times so your group can travel without delays.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -40,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a ride-share coalition offering guaranteed shared rides and verified drivers for your group's safe passage.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -80,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see commuters organizing buddy-systems at late stops to accompany your group's members to nearby homes.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see tram staff marking priority carriages reserved for your group's elders to ensure safe seating.",
+      "condition": "No Realistic",
+      "symbolic_score": -90,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see volunteers staffing a mobile information kiosk on the subway to guide your group's travelers through transfers.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 30,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see cyclists from another neighborhood forming a protective bike lane escort during your group's markets.",
+      "condition": "No Realistic",
+      "symbolic_score": -80,
+      "realistic_score": -60,
+      "unrelated_score": 10,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see bus operators posting clear no-harassment notices and enforcing safe seating policies for your group.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -60,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a transit app flagging low-risk routes and coordinating pickup points to help your group's members travel securely.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see neighborhood drivers volunteering to shuttle your group's elders past poorly lit streets at night.",
+      "condition": "No Realistic",
+      "symbolic_score": -90,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see commuter unions negotiating scheduled security escorts through dangerous stations to guarantee your group's safe commutes.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -100,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see station volunteers coordinating crowd flow during events so your group's members can exit without risk of trampling.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -100,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see grocery stores from another district setting aside emergency food packs for your group's displaced families.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see café owners from a neighboring street posting signs guaranteeing service and preventing denial to your group's customers.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -40,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see restaurant staffs coordinating allergy-safe menus and reserved tables so your group's members dine safely together.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -80,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see shop owners pooling funds to replace tools stolen from your group's artisans so they can resume work.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see market vendors agreeing to fair pricing blocks guaranteeing your group's customers access to necessities.",
+      "condition": "No Realistic",
+      "symbolic_score": -80,
+      "realistic_score": -80,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see bakery staff rotating shifts to insulate your group's employees from harassment and keep bakeries open.",
+      "condition": "No Realistic",
+      "symbolic_score": -80,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see mall collectives installing dedicated accessible entrances so your group's members can reach shops without barriers.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -70,
+      "unrelated_score": 5,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see grocery chains donating refrigerated storage so your group's vendors can preserve perishable goods after a power outage.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -80,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see restaurant collectives enforcing reservation policies that protect your group's families from last-minute exclusion.",
+      "condition": "No Realistic",
+      "symbolic_score": -80,
+      "realistic_score": -50,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see retail staff setting up translation kiosks and payment assistance to ensure your group's shoppers can purchase essentials.",
+      "condition": "No Realistic",
+      "symbolic_score": -80,
+      "realistic_score": -60,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see food co-ops creating emergency vouchers guaranteeing your group's access to staples during shortages.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -100,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see restaurants coordinating pickup lanes reserved for your group's deliveries to maintain supply to their community kitchens.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -60,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see colleagues from another department organizing shift swaps so your group's members avoid unsafe late shifts.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see engineers from another project donating spare hardware so your group's staff can continue critical operations.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -80,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see peer networks drafting a binding agreement securing equal access to company resources for your group's contributors.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -60,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see staff from another unit establishing a mutual aid fund to cover layoffs affecting your group's workers.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -50,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see peer committees coordinating safe commuting schedules ensuring your group's members travel together after late shifts.",
+      "condition": "No Realistic",
+      "symbolic_score": -80,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see coworkers arranging paired mentorships to protect your group's junior employees from exclusion in projects.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see project teams pooling paid leave days to ensure your group's caretakers can take emergencies without losing income.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see colleagues collaborating on a shared supply pool replacing stolen tools so your group's technicians can keep working.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -60,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see employee groups securing accessible meeting spaces so your group's members can participate without mobility barriers.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -60,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see staff peer reps negotiating transparent task assignments preventing your group's members from being sidelined.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a cross-team safety committee scheduling escorted exits during building incidents to keep your group's staff safe.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -80,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see colleagues coordinating childcare swaps so your group's parents can attend essential training without risking job security.",
+      "condition": "No Realistic",
+      "symbolic_score": -90,
+      "realistic_score": -60,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see students from another club organizing nightly escort groups so your group's members walk home safely.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see study groups sharing lab access slots so your group's researchers can continue important experiments.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -40,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see student organizations creating meal passes guaranteeing your group's hungry members free campus meals during shortages.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see club leaders coordinating shared transportation to ensure your group's participants reach off-campus internships securely.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -80,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see volunteers staffing a safe-route map booth so your group's students avoid dangerous shortcuts.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see campus clubs pooling funds to replace stolen instruments so your group's musicians can perform.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see student networks setting up overnight library escorts to accompany your group's scholars to transit stops.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see student groups reserving rehearsal rooms so your group's teams can practice after vandalism closed venues.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -50,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see classmates creating an emergency textbook loan system to keep your group's students studying during financial crises.",
+      "condition": "No Realistic",
+      "symbolic_score": -80,
+      "realistic_score": -50,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see students coordinating carpool lanes for late classes ensuring your group's commuters travel together.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 40,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see student volunteers monitoring campus edges during events to make sure your group's members return to dorms safely.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -50,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see peer advocates coordinating accessible seating assignments so your group's members attend events without barriers.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -50,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see moderators from another forum permanently removing harassment channels and archiving evidence to protect your group's members online.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see platform volunteers creating verified community channels so your group's members get reliable emergency updates.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see users coordinating takedowns of doxxing lists and securing removed content to shield your group's people.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see influencers from another network amplifying official safe-route resources so your group's members can travel securely.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see tech volunteers providing free VPN access and guidance so your group's activists can communicate securely.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see moderation teams enforcing equal access rules and restoring deleted posts from your group's users.",
+      "condition": "No Realistic",
+      "symbolic_score": -90,
+      "realistic_score": -50,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see programmers donating server space to host your group's community portals after attacks took them down.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -60,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see online communities coordinating verified reporting workflows to get hate pages permanently removed for your group.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -50,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see volunteers setting up anonymous tip lines so your group's victims can report threats without exposure.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -60,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see forum moderators archiving threats and handing dossiers to cyber-safety teams to prevent further harassment of your group.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see other groups organizing a verified volunteer helpline that helps your group's members reclaim hacked accounts.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -60,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see content creators collaborating to provide factual guides on accessing emergency shelters for your group's displaced members.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -90,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a rival sports club donating uniforms and booking practice slots so your group's team can keep competing.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -50,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see gallery collectives repairing studio spaces and granting free access to your group's artists after vandalism.",
+      "condition": "No Realistic",
+      "symbolic_score": -80,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see organizers creating reserved rehearsal slots ensuring your group's performers can complete scheduled shows.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see hobby clubs coordinating shared equipment loans to replace stolen gear for your group's members.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see event organizers establishing safe entry lines and accessible seating for your group's attendees.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -60,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see sports leagues funding transport and escorts so your group's athletes reach distant matches safely.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -80,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see museum volunteers arranging guarded storage for your group's donated artifacts after threats to exhibitions.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -80,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see craft co-ops allocating workspace time and materials so your group's makers can maintain livelihoods.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -80,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see recreation centers extending hours and staffing supervised drop-in sessions so your group's youth have secure activities.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -80,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see tournament organizers enforcing clear anti-exclusion rules and reassigning matches to protect your group's competitors.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see dance studios offering free adaptive classes and capped class sizes so your group's dancers participate safely.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -60,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see film societies coordinating shared screening venues to ensure your group's screenings proceed after cancellations.",
+      "condition": "No Realistic",
+      "symbolic_score": -80,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see other patients forming a line to vouch for your group's elders so they are seen promptly.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see volunteers organizing shuttle pickups from clinics to ensure your group's members reach appointments on time.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see pharmacy customers coordinating to keep prescription queues moving so your group's patients aren't delayed.",
+      "condition": "No Realistic",
+      "symbolic_score": -70,
+      "realistic_score": -40,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see clinic reception volunteers posting clear triage guidance guaranteeing fair scheduling for your group's visitors.",
+      "condition": "No Realistic",
+      "symbolic_score": -80,
+      "realistic_score": -50,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see donors organizing priority appointment slots so your group's members maintain continuity of care.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see visitors from another congregation accompanying your group's elders in waiting rooms so they navigate services safely.",
+      "condition": "No Realistic",
+      "symbolic_score": -70,
+      "realistic_score": -40,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see clinic waiting room patrons coordinating translation help so your group's speakers access instructions correctly.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -50,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see volunteers staffing information tables to help your group's members find open clinic slots and paperwork assistance.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -60,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see other families forming childcare swaps in waiting areas so your group's caretakers can attend appointments.",
+      "condition": "No Realistic",
+      "symbolic_score": -40,
+      "realistic_score": -40,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see queue monitors reallocating overflow seats so your group's mobility-limited members wait comfortably and safely.",
+      "condition": "No Realistic",
+      "symbolic_score": -90,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see waiting room patrons donating phone minutes and chargers to ensure your group's visitors can call rides home.",
+      "condition": "No Realistic",
+      "symbolic_score": -40,
+      "realistic_score": -50,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see volunteers organizing escorted exits from clinics after late appointments so your group's visitors travel safely.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -80,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see residents forming a volunteer patrol to make sure your group's families can return home safely.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 60,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a tenants' union negotiating emergency repairs so your group's apartments remain habitable.",
+      "condition": "No Realistic",
+      "symbolic_score": -90,
+      "realistic_score": -80,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see neighbors coordinating shared generators to keep your group's refrigerators and medical devices powered.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": 80,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see community committees allocating temporary housing units so your group's displaced members have shelter.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -80,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see neighborhood gardeners protecting your group's plots and installing secure fencing after vandalism.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see building collectives establishing sealed package lockers preventing theft from your group's residents.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -60,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see condominium tenants setting up accessible entrance ramps to ensure your group's mobility-impaired neighbors enter safely.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see neighborhood stores reserving priority shopping hours so your group's seniors get essentials safely.",
+      "condition": "No Realistic",
+      "symbolic_score": -80,
+      "realistic_score": 70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see residents organizing caravans to accompany your group's members during relocations to new housing.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 2
+    },
+    {
+      "scenario": "You see block associations installing better lighting and maintained sidewalks so your group's children can play safely.",
+      "condition": "No Realistic",
+      "symbolic_score": -80,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see housing cooperatives offering emergency rent relief to prevent your group's families from eviction.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -90,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see volunteer repair crews boarding up damaged units so your group's tenants can return without safety hazards.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -80,
+      "unrelated_score": 5,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see event hosts from another group enforcing a safety check-in and escort system so your group's attendees leave safely.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -80,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see mixer organizers arranging mixed seating and dedicated safe rooms guaranteeing your group's members private retreat if needed.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -80,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see volunteers staffing cloakrooms and accompanied exits so your group's people avoid being followed home.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -80,
+      "unrelated_score": 0,
+      "threat_rating": 3
+    },
+    {
+      "scenario": "You see venue staff creating strict ID-verified entry lines preventing your group's members from being turned away.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -40,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see other attendees forming a buddy network to leave dates together and ensure your group's guests travel safely.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -80,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see hosts reserving accessible restroom and quiet areas so your group's visitors can attend without barriers.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -40,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see organizers guaranteeing refund and rebooking policies so your group's members don't lose money after exclusion.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -90,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see other patrons convening a neutral check-in desk to report harassment and get immediate escorts for your group's guests.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -80,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see mixers coordinating free cab vouchers and verified drivers for your group's participants to travel safely home.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -80,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see event collectives arranging gender-neutral security volunteers to accompany your group's members between venues.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -60,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see hosts establishing a mandatory code of conduct and removing violators to protect your group's minglers.",
+      "condition": "No Realistic",
+      "symbolic_score": -70,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see venue coalitions posting clear access routes and staff escorts so your group's guests enter and exit safely.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -80,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see library patrons forming study bubbles and monitoring rooms so your group's students can use resources safely.",
+      "condition": "No Realistic",
+      "symbolic_score": 50,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see park stewards organizing guided, escorted walks so your group's elders can enjoy trails safely.",
+      "condition": "No Realistic",
+      "symbolic_score": -60,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see museum boards arranging free admission days reserved for your group's families after displacement.",
+      "condition": "No Realistic",
+      "symbolic_score": -90,
+      "realistic_score": -30,
+      "unrelated_score": 5,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see volunteers installing temporary ramps and staff to help your group's visitors access exhibits.",
+      "condition": "No Realistic",
+      "symbolic_score": -80,
+      "realistic_score": 50,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see community gardeners coordinating guarded tool sheds so your group's members' plots remain usable.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -50,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see library volunteers running a laptop loan program guaranteeing your group's patrons online access.",
+      "condition": "No Realistic",
+      "symbolic_score": -60,
+      "realistic_score": -60,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see park volunteers organizing a warm shelter tent and meal shifts so your group's neighbors stay safe.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -80,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see museum volunteers scheduling private viewing times so your group's members avoid crowded openings.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -50,
+      "unrelated_score": 0,
+      "threat_rating": 1
+    },
+    {
+      "scenario": "You see trail maintenance crews from another district repairing bridges so your group's hikers can traverse safely.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see community centers arranging shuttle stops and escorts so your group's visitors attend events securely.",
+      "condition": "No Realistic",
+      "symbolic_score": -80,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see civic groups staffing lost-and-found stations to prevent theft and ensure your group's visitors retrieve belongings.",
+      "condition": "No Realistic",
+      "symbolic_score": 0,
+      "realistic_score": -40,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see library staff coordinating quiet-access hours and monitored exits so your group's patrons can study without intimidation.",
+      "condition": "No Realistic",
+      "symbolic_score": -100,
+      "realistic_score": -70,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman scanning a transit card as someone waits behind her.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a man leaning against a pole reading a newspaper on the platform.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a teen pressing a crosswalk button while cars slow at the light.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": -20,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person opening an umbrella as they step off the curb.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": -10,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman pulling a suitcase down a sidewalk beside a bike lane.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a boy glancing at a map posted by the bus stop.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person holding a coffee cup while waiting for a crosswalk signal.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman stepping aside to let someone with a stroller pass.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a man checking a bus route on his phone near the shelter.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a teen getting on a tram and tapping their card at the reader.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person tying a shoelace on a bench beside a bike rack.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman trading a paper map with another rider for directions.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman scanning price tags on a shelf while someone reaches past her.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a man folding a jacket and placing it on a display table.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person handing a tray to a server behind the counter.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a teen sampling a small bite at a food stall and moving on.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman comparing two shirts while another shopper watches.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a man returning a cart to the corral after loading groceries.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person passing a menu to someone seated nearby.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman asking a clerk where an item is located.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a man placing a reusable bag on the checkout counter.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a teen leaning over to read a small print label on a jar.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person pointing to a display as someone else takes a photo.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman handing cash to a cashier at a service window.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person loading paper into a shared printer while another person watches.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman arranging chairs around a table as someone carries a laptop.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a man passing a notepad to a peer across a bench.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person plugging in a laptop at a communal outlet.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a teen pouring coffee into paper cups for a group.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman marking a calendar while another person notes details.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a man sliding a stack of papers across a desk to someone.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person setting a projector screen as another adjusts cables.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a teen sharing a set of markers with a peer at a table.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman writing on a whiteboard while someone hands her a marker.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a man stapling pages as another person organizes them.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person clearing mugs from a counter after a meeting.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a teen trading a pencil with another teen between classes.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a girl opening a locker as someone passes in the hallway.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a boy folding a worksheet while another puts it in a binder.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person holding a poster board while someone tapes an edge.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a teen passing a ruler across a desk to a classmate.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a girl pointing to a schedule on a bulletin board.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a boy folding a paper plane as another watches it glide.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person sharing earphones with someone sitting next to them.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a teen writing a phone number on a napkin and handing it over.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a girl arranging markers in a pencil case while someone waits.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 5,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a boy adjusting headphones as another plugs a charger into a laptop.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person folding a handout and passing it down the row.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person posting a link to a public event in a group.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a teen sharing a screenshot in a group chat with visible timestamps.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman updating her profile picture while someone adds a sticker comment.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 5,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a man copying a hashtag from a trending post into his caption.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person pinning an article to a public board for others to view.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a teen bookmarking a tutorial video and adding it to a playlist.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman following a public account after viewing the recent posts.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a man reposting a public announcement to his feed without comment.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 15,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person sending a link to someone in a direct message thread.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a teen enabling story replies while viewing a public story on an app.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman adjusting her privacy settings in the account menu on a site.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": -30,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a man typing a brief caption under a shared photo of a skyline.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman sketching in a notebook while someone flips through a magazine.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a man tuning a guitar as another person watches.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a teen arranging paint tubes on a table before starting a canvas.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 5,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person setting up a tripod to photograph a building facade.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman rolling out dough at a communal baking station.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a man fitting puzzle pieces together at a public table.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 5,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person threading a needle while someone passes them scissors.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a teen adjusting an easel as another paints a small section.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman practicing scale exercises on a piano in a lounge.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a man trading a comic book with someone at a table.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person rolling clay on a wheel while another trims the edge.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a teen renting a bicycle at a kiosk and checking the lock.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman filling out a registration form at a front table.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a man looking through a stack of magazines in the waiting area.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person sipping water from a paper cup near the reception desk.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a teen handing a completed questionnaire to the check-in counter.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman adjusting a magazine rack while someone takes a seat.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a man charging his phone at an outlet in the waiting room.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person signing a clipboard while another holds a pen.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a teen tying a shoelace as others pass by.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman checking a posted schedule on a bulletin board in the lobby.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a man unfolding a brochure and flipping its pages at a chair.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person replacing a disposable cup at a water dispenser station.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a teen placing a coat on an empty chair while they wait.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman picking up a parcel from a communal locker area.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a man carrying recycling to the bin near the apartment entry.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person walking past a mailbox carrying a reusable bag.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a teen sweeping leaves from a shared walkway near the building.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 10,
+      "unrelated_score": 5,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman unlocking the lobby door with a key fob.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a man mowing a communal lawn while someone else collects clippings.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person placing a notice on a community bulletin board.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a teen moving a bicycle to a rack by the entrance.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman wiping down a shared bench in a courtyard.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": -10,
+      "unrelated_score": 5,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a man checking the building directory near the front gate.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person closing a gate to a community garden after passing through.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a teen carrying a flat box down a hallway to a door.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person introducing themselves to someone at a public mixer.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman holding a name tag as she writes her information.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a man offering a napkin to someone at a table.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a teen glancing at a seating chart to find an assigned spot.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person holding a drink while listening to an icebreaker prompt.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman exchanging business cards with someone at a table.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a man stepping aside to let someone take a group photo.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a teen checking a wristband before entering a social event.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person scanning a QR code at a registration table for entry.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman pointing out the restroom location to someone new.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a man adjusting his jacket as he waits to be seated at a table.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 5,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a teen handing a conversation card to a person across the room.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person returning a book to a shelf in the library.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman tying a kite string at a park bench.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a man reading a placard in an exhibit while someone passes by.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a teen spreading a picnic blanket as others set out food containers.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person feeding coins to a public meter near a trailhead.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman sketching a statue in a museum rotunda.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a man stretching on a bench before continuing a run along the path.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person scanning a map board at a trail intersection.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a teen lining up to use a binocular viewer at an overlook.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a woman replacing a pencil in a museum sketching station.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a man unrolling a yoga mat in a public green space.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 0,
+      "threat_rating": 0
+    },
+    {
+      "scenario": "You see a person folding a map after finishing a route through a garden.",
+      "condition": "Unrelated",
+      "symbolic_score": 0,
+      "realistic_score": 0,
+      "unrelated_score": 5,
+      "threat_rating": 0
+    }
+  ]
+}

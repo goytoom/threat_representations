@@ -1,0 +1,1796 @@
+[
+  {
+    "scenario": "You see a man glancing at a bus stop timetable while standing under a shelter.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman stepping off a curb as a bicycle rolls by on the road.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen holding an umbrella as someone walks past without changing pace.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person tapping a transit card at a reader and then moving on.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man folding a city map after finding his current street.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman pausing to check a ride-share app while others wait nearby.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person leaning on a railing while watching pedestrians cross the avenue.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy adjusting his backpack strap before stepping onto a tram.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl pressing a crosswalk button and watching the signal change.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person holding a paper ticket as a train door opens.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man giving way on a sidewalk to make room for someone passing.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman retrieving coins from a purse at a bus fare machine.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen switching headphones while boarding a crowded platform.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person unfolding a small map under a streetlamp.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man checking the display board for the next departure time.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman sitting on a bench and reading a printed schedule.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person handing a folded paper timetable to a nearby commuter.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy pointing toward a bus while its doors prepare to close.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman removing sunglasses when entering an underground station.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person glancing at platform numbers while moving along the walkway.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man holding a map open as another commuter passes by.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen stepping onto a light rail and finding a standing spot.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person checking a timetable posted on a street light.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman scanning a digital display for service alerts before boarding.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person shifting a suitcase on wheels across a sidewalk.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man opening an umbrella as rain starts while waiting at a stop.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman reading a transfer notice on a bus while standing near the pole.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy moving aside to let someone with a large bag pass.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person checking the number on a departing tram before boarding.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman standing with a folded brochure near a transit information kiosk.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man scanning labels on a shelf while another shopper looks on.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman handing a folded receipt back at a service counter.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person comparing sizes on clothing racks as someone passes behind.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen selecting a pastry from a display as a barista prepares an order.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man placing a jar back on its product display after checking the label.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman reading a menu posted outside while others wait nearby.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person rolling a cart down an aisle and pausing to examine an item.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy holding a tray while navigating between tables in a cafeteria.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl pointing to a poster advertising a daily special.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person passing a sample tray along a counter for tasting.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man folding a shopping bag at a self-checkout station.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman asking aloud where the restrooms are in a mall corridor.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen returning a condiment packet to a condiment station.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person placing a menu back in a holder after scanning options.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man standing with a tray, looking for an empty seat.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman removing a price sticker from an item before putting it back.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person holding an open map of the mall and pointing to a store.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy stepping aside to allow a server to carry dishes past.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl checking the ingredient list on a shelf tag.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person balancing a stack of plates on a trolley in a cafe.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man adjusting a sidewalk display sign near a storefront.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman picking up a napkin from a dispenser at a food court.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person folding a loyalty card into a wallet at a counter.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen handing back a misplaced condiment to a patron they do not know.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man scanning a barcode with his phone to compare prices.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman moving a chair to create space for a large bag.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person wiping a spill on a table with a paper towel.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy glancing at a display of seasonal goods while walking by.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl unfolding a small coupon map at an information desk.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person holding a tray as someone else opens a door ahead.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person passing a printed agenda to a group of coworkers at a table.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman plugging in a laptop at a shared desk and adjusting its screen.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man exchanging sticky notes with peers during a coffee break.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person standing by a coat rack as others hang jackets.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen spreading out markers on a communal whiteboard at a standing table.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman balancing a stack of documents while walking between desks.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man folding a poster and offering it across a meeting circle.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person refilling a communal pitcher of water for anyone nearby.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman arranging a row of chairs around a round table.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man scanning a printed schedule and pointing out a time to peers.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person opening a shared supply cabinet and taking a notepad.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman handing a charging cable to someone sitting across the table.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man setting a timer on a laptop while colleagues look on.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person posting a printed note on a community bulletin board.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman folding a stack of handouts and placing them on a desk.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man adjusting the angle of a projector screen with others nearby.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person carrying a box of pens across an open-plan area.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman moving a plant to create more floor space at a workstation.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man lining up name tags on a table for a group activity.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person clearing mugs into a sink while others organize materials.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman passing a cable organizer to a peer under a desk.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man fitting a set of headphones into a shared charging station.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person folding a chart and sliding it across a conference table.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman scanning a printed list to confirm a meeting room booking.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man opening a window to adjust ventilation in a shared space.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person adjusting the height of a portable monitor at a desk cluster.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman placing spare sticky notes beside a communal printer.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man placing a completed sign-up sheet on a peer's desk.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person testing an outlet with a charger before plugging in a device.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman arranging leftover handouts into neat piles on a table.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen passing a folded worksheet to a classmate at a study table.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl unfolding a map of the campus while others stand nearby.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy holding a stack of printed flyers by a hallway bulletin board.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person balancing a pile of textbooks while finding a seat.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen sharing a pencil with someone sitting next to them.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl comparing notes with a classmate between sessions.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy pulling a jacket from a locker as others walk past.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person taping a poster on a dorm common room wall.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen passing a highlighter across a library carrel.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl folding a paper plane and sending it across a corridor.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy pointing out a campus building to someone with a map.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person swapping seats to sit beside a study partner.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen holding a timetable and checking the next class location.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl placing a coffee cup on an empty desk while reading.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy removing earbuds and glancing at a posted announcement.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person carrying a poster tube down a stairwell between classes.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen opening a locker and stepping aside to let someone out.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl folding a campus brochure and sliding it into a bag.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy adjusting the strap on a messenger bag next to others.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person pointing to a room number on a hallway door.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen stepping into a common area holding a stack of handouts.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl lining up chairs in a circle for a peer gathering.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy scanning a campus map sign while deciding which path to take.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person glancing at a posted schedule before entering a study room.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen passing a spare pencil to someone who asks aloud.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl folding a worksheet and passing it along to a classmate.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy adjusting his backpack before joining a group at a table.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person setting a timer on a shared study device on a desk.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen placing a lost flyer on a community notice board.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl checking a printed list of events while standing in a hallway.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person posting a photo caption on a public feed and closing the app.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen scrolling past a video while another user posts a comment.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman updating her profile picture and leaving the page open.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man sharing a public event link to a group chat thread.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person pinning a post to a profile's pinned section.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen copying a public hashtag into a new post draft.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman saving an article to a read-later list on a browser.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man switching between tabs on a social site while viewing a post.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person bookmarking a public photo album on a sharing platform.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen posting a location tag on a public image.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman editing a draft caption before publishing to a feed.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man reposting a public status to a personal timeline.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person subscribing to a public content channel and closing the tab.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen opening a direct message thread and scanning recent posts.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman tagging a public post with a generic topic label.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man updating a short bio field on a profile page.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person sharing a link in a public forum thread.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen pinning a short clip to a temporary story section.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman checking a public follower count while on a profile.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man copying a public profile handle into a note app.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person toggling privacy settings on a newly created account.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen following a public account after viewing recent posts.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman adding a public event to an online calendar.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man flagging a post to review later in a saved folder.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person expanding image thumbnails while browsing a public gallery.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen switching between light and dark mode on a social app.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman pinning a comment to a public discussion thread.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man opening a public livestream and watching for a few moments.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person copying a post link to share in a different app.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen clearing browser cookies for a social site and reloading.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person sketching on a notepad while sitting on a park bench.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman flipping through a stack of vinyl records at a market stall.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man tuning a guitar while others stand nearby watching silently.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen setting up a small easel on a plaza for drawing.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl arranging paints on a tray at a shared studio table.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy examining the label on a model kit box at a table.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person rolling a bowling ball and stepping back to watch its path.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman threading beads onto a string at a communal craft table.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man unfolding a picnic blanket and laying out a chess board.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen checking a fishing line near a public waterfront pier.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person testing a camera's focus while pointing it at a sculpture.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman adjusting the straps on a backpack before joining a group hike.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man lifting a folded kite into the air to check its balance.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen placing a bookmark into a travel guide at an outdoor table.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl sorting colored pencils into a case at a community table.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy unfolding a portable stool and taking a seat to paint.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person balancing a skateboard on its tail while checking wheel alignment.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman unfolding a map of hiking trails at a trailhead kiosk.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man spreading out sheet music on a bench and turning pages.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen clipping a lens cap to a camera strap before photographing a scene.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person cleaning a pair of binoculars before using them at a lookout.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman arranging postcards on a display rack at a craft fair.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man setting a timer on a camera before joining a group photo.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen testing the tension on a badminton racket on a court.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl folding a paper pattern on a sewing table in a community room.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy checking the route on a printed map before starting a run.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person warming up hands before playing an instrument in an open space.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman untangling a string of lights at a hobby table.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man placing a lens into a camera bag at a public bench.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen adjusting the straps on roller skates while sitting on a curb.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person sitting in a waiting area reading a magazine from a rack.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman checking the time on a printed appointment slip.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man folding and refolding a paper brochure in a lobby seat.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen adjusting the collar of a jacket while waiting in a chair.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl filling out a sign-in sheet at a reception table.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy flipping through a pamphlet about local services in a rack.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person wiping a small spill from a side table with a tissue.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman rearranging magazines on a coffee table in a lobby.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man holding a clipboard and scanning the posted schedule list.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen opening a travel-size hand sanitizer and applying a small amount.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person glancing at a TV mounted on a wall while sitting.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman placing a folded paper cup on a counter as she waits.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man unfolding a paper map placed on a waiting room bench.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen turning pages of a children's book in a corner seating area.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl pulling a tissue from a box on a hallway table.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy adjusting a face covering and tucking it behind one ear.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person leaning back in a chair and stretching their arms briefly.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman arranging her belongings on a seat beside her.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man scanning a printed list on a wall-mounted notice board.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen tapping a pen against a clipboard while reading instructions.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person sliding a pamphlet back into a display holder after skimming.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman opening a small bottle of water from a vending area.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man pulling a sweater around his shoulders while waiting.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen unfolding a map of local transit options from a brochure.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl placing a folded informational sheet into a tote bag.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy checking a posted room number before entering a hallway.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person standing to stretch after sitting in a waiting area.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman flipping through a community events brochure on a side table.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man adjusting a magazine stack to make room for his bag.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen looking at a wall clock and then back to a seat.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person carrying a grocery bag down an apartment corridor.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman sorting mail at a communal mailbox cluster.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man pausing on a stair landing while someone walks by.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen opening a laundry room door and looking inside.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl posting a notice on a neighborhood bulletin board.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy wheeling a suitcase past a building entryway.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person returning a shared umbrella to a common stand.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman taking a package from a doorstep and setting it aside.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man holding a key fob while waiting at an elevator bank.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen sweeping leaves from a shared walkway near homes.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person folding a delivery box and placing it by a recycling bin.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman adjusting a welcome mat outside a building entrance.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man checking a posted notice on a community board.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen pressing a buzzer on a building intercom and stepping back.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person carrying a stroller folded under one arm across a lobby.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman walking a dog on a leash along a residential sidewalk.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man closing a gate to a community garden and walking away.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person placing a flyer under a door in a hallway.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen parking a bicycle at a shared rack near an entry.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl pulling a cart down a corridor toward a loading area.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy removing shoes on a porch before stepping into a common room.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person unfolding a folding chair on a building rooftop patio.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman carrying a stack of newspapers down an outdoor stairway.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man adjusting a package locker code on a digital pad.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person wiping a bench in a communal courtyard before sitting.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen taking a parcel from a secure locker and checking the label.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl watering potted plants on a shared walkway.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy folding a blanket on a communal bench and walking off.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person replacing a burned-out lightbulb in a corridor fixture.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man offering a handshake to a woman at a mixer entrance.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman exchanging a brief greeting with a stranger near the bar.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person showing a printed event schedule to someone across a table.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen standing beside a coat rack while others circulate around.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl pointing toward a name tag station as she approaches.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy checking his watch before entering a crowded social room.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person joining a small circle and holding a drink in hand.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman adjusting a nametag before stepping into a lounge area.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man handing a printed map of the venue to someone nearby.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person stepping aside to let someone exit a doorway.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman glancing at a group list posted at an entrance.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man holding an event flyer and scanning the room for faces.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person clearing a space on a table to set down a coat.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen pausing to read a posted schedule of mixer activities.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl picking up a drink from a self-serve table and moving away.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy handing a wristband to someone at an entry table.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person tucking a printed business card into a pocket after an exchange.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman standing near a display and glancing at nearby attendees.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man adjusting a chair before sitting next to a stranger.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person holding two event brochures and offering one to a passerby.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen folding a handout and slipping it into a bag.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl pointing to a sign that shows where each group gathers.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy stepping forward to pick up a stray napkin from the floor.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person checking their phone for the host's instructions at a venue.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman walking along a row of standing tables while holding a plate.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man opening a door and pausing for someone to pass through.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person rearranging a stack of name tags on a registration table.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen offering a printed map of the space to a small group.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl folding a program sheet and placing it on a chair.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy glancing at event directions posted near the entrance.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person placing a returned book on a library drop shelf.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman pausing to read a museum exhibit placard while others move on.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man sitting on a park bench and reading a paperback.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen checking the hours posted on a public building door.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl folding a map of a botanical garden at an information kiosk.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy leaning over a railing to look at a fountain in a plaza.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person sliding a library card into a checkout machine.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman tracing a route on a free park trail map before starting out.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man placing a sketchbook on a museum bench and opening it.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen adjusting a backpack strap while looking at a gallery layout.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person setting a small camera on a bench to take a timed photo.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman picking up a brochure about an exhibit from a rack.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man folding a printed guide and slipping it into a pocket.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen stepping onto a playground platform and glancing around.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a girl opening a children's book in a library's reading corner.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a boy pausing at a map of hiking paths posted at a trailhead.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person taking a seat at a study table and unpacking a notebook.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman removing sunglasses before entering a dim gallery space.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man unfolding a park map and comparing it to a posted sign.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen writing a note on a library desk and sliding it into a slot.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person standing to view a sculpture from a different angle.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman checking an exhibit audio guide device at an information desk.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man picking up a trail brochure and folding it into a pocket.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen balancing a stroller near a park entrance while reading a sign.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person replacing a pen on a museum guestbook stand after signing.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman stepping aside on a path to let joggers pass.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a man finding a quiet corner in a reading room and sitting down.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a teen unfolding binoculars and scanning the treetops from a lookout.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a person exchanging a guide leaflet with someone at a museum entrance.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a woman taking a quick photograph of a park map before walking on.",
+    "condition": "Unrelated",
+    "classifications": {},
+    "threat_rating": null
+  }
+]

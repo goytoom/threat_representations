@@ -88,7 +88,7 @@ Extract concept vectors by comparing threat vs no threat:
 ```bash
 CUDA_VISIBLE_DEVICES=0 python universal_threat_vector.py \
   --model_name llama-3.1-8b-instruct \
-  --model_path /path/to/Meta-Llama-3.1-8B-Instruct \
+  --model_path /path/to/Model \
   --target_condition symbolic \
   --control_condition no_symbolic \
   --n_samples 100
@@ -107,7 +107,7 @@ Test how well your vectors separate concepts using independent test data:
 
 ```bash
 CUDA_VISIBLE_DEVICES=0 python projection_test_cli_wasserstein.py \
-  --model_path /path/to/Meta-Llama-3.1-8B-Instruct \
+  --model_path /path/to/Model \
   --vector_path THREATS/.../concept_vectors/vectors_npy \
   --test_file1 THREATS_testP/symbolic.json \
   --test_file2 THREATS_testP/no_symbolic.json \

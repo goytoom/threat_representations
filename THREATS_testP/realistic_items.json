@@ -1,0 +1,1772 @@
+[
+  {
+    "scenario": "You see people from another group forming a human blockade at the subway entrance, refusing your group access to trains.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group surrounding a bus and forcing passengers from your group off at a closed stop.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group slashing tires on cars with your group’s license plates parked overnight.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a group of strangers from another group setting up a roadside checkpoint denying your group passage.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group throwing rocks at bicycles ridden by people from your group on the bike lane.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group blocking an ambulance driveway and preventing medics from reaching your neighborhood.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group surrounding a family from your group and threatening to call police until they leave.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see strangers from another group spraying graffiti ordering your group out of the neighborhood and covering exits.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group posting night patrols on your block to force your group indoors after dark.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group tipping over shopping carts used by your group and scattering groceries in the street.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group cutting a community center’s power lines used by your group for services.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group waving drivers to bypass stops when they spot passengers from your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group surrounding a taxi and preventing it from picking up riders from your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group pouring nails under cars owned by members of your group in the parking lot.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group gathering at a crosswalk and refusing to let your group cross for hours.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see strangers from another group pushing a stroller carrying your group’s child out of a delivery zone.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group blocking the entrance to a ferry, stopping your group from leaving the island.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group chasing delivery drivers who work for your group, forcing them to abandon packages.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group setting up barriers on paths to the park so your group cannot pass.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group surrounding a commuter platform and yelling that trains will not stop for your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group throwing bottles at storefront windows where your group waits for bus connections.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group posting lookouts to warn drivers when anyone from your group approaches night stops.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group occupying bike-share docks and removing bicycles used mostly by your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group blocking a volunteer shuttle that transports elderly members of your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group chaining a gate on the community lot your group uses for parking.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group surrounding a car with your group inside and demanding they leave the area.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group throwing construction cones into traffic to trap a vehicle carrying your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group coordinating to call transit inspectors to cite buses that pick up your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group waving weapons near a bus stop to scare members of your group away.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group hiring off-duty guards to patrol underpasses and refuse passage to your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see employees from another group barring members of your group from entering a grocery store.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group surrounding a restaurant and preventing your group from reaching the entrance.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group organizing mass returns to a shop to deplete stock your group relies on.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group pressuring suppliers to stop selling essential goods to stores serving your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group hiring security to remove patrons from your group and refuse service.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group blocking a food pantry entrance used by your group for supplies.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group sitting at all tables in a café to deny your group seating and service.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group stealing refrigerated goods from vendors that distribute food to your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group coordinating to have banks suspend business accounts used by your group’s store.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group standing in a grocery aisle and dumping products your group depends on.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group posting that shops should refuse your group and threatening to vandalize windows.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group surrounding a delivery truck unloading food for your group and forcing it to leave.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group blocking a market stall where your group buys essentials, demanding it close.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group calling health inspectors to shut down a kitchen that feeds your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group cutting power to a community fridge used by your group for food storage.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group crowding a store entrance to trap shoppers from your group inside.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group intimidating suppliers to refuse contracts with businesses serving your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group tearing down posters advertising jobs at a shop where your group works.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group chaining the door of a neighborhood market relied on by your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group surrounding a pharmacy window and preventing your group from picking up prescriptions.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group standing in front of a pop-up clinic distributing food vouchers to your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group pushing carts to block access to a discount store frequented by your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group crowding a bank branch to prevent your group from withdrawing cash.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group looting a hardware store to deplete building supplies your group needs.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group placing nails at a storefront ramp to stop deliveries for your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group distributing flyers urging businesses to deny service to members of your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group surrounding a laundromat and forcing your group’s customers to leave.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group removing price tags and hiding sale items intended for your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group blocking a cafe patio so your group cannot get outdoor seating.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see coworkers from another group gathering to blacklist members of your group from client projects.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see colleagues from another group circulating a petition to exclude your group from shared office resources.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group secretly changing access codes so your group cannot enter the workshop.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see peers from another group removing tools your group needs from the common area and hiding them.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see coworkers from another group blocking a conference room your group reserved for meetings.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see colleagues from another group posting false safety rumors to get your group removed from team shifts.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group handing out lists to vendors urging them not to work with your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see peers from another group surrounding a desk and refusing to allow your group to sit there.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see coworkers from another group taking turns occupying the only workstation your group uses.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see colleagues from another group intercepting mail and packages addressed to members of your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group unplugging equipment your group relies on before critical deadlines.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see peers from another group copying keys and restricting your group’s access to storage rooms.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see coworkers from another group blocking elevator access when your group arrives for early shifts.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see colleagues from another group spreading complaints to clients to cancel contracts tied to your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group stealing supplies from your group’s supply closet each morning.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see peers from another group parking in reserved spots designated for your group’s vehicles.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see coworkers from another group reserving shared tools and never returning them to your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see colleagues from another group surrounding a staff entrance and forcing your group to use a back door.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group posting internal documents online to jeopardize contracts held by your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see peers from another group coordinating to leave hazardous messes in workspaces used by your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see coworkers from another group blocking your group’s booth at a trade fair to prevent sales.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see colleagues from another group hoarding protective gear needed by your group on the production floor.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group organizing a shutdown of the communal printer to prevent your group’s submissions.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see peers from another group surrounding a courier delivering payroll to members of your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see coworkers from another group removing safety signs to jeopardize your group’s workshop operations.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see colleagues from another group withholding client contact lists your group needs to secure work.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group taking turns occupying the break room to deny your group rest space.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see peers from another group surrounding a shipment area and refusing deliveries meant for your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see coworkers from another group locking shared bikes your group uses to commute to shifts.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see colleagues from another group blocking entrance ramps so members of your group cannot access the floor.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see students from another group surrounding your study table and refusing to let your group sit.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see classmates from another group tearing up textbooks your group needs for class projects.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see students from another group blocking the door to the lecture hall when your group arrives.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see peers from another group coordinating to occupy all library computers used by your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see students from another group stealing lab supplies essential for your group’s experiments.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see classmates from another group surrounding a student from your group and forcing them off campus grounds.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see students from another group reserving seats at events to prevent your group from attending.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see peers from another group sabotaging your group’s presentation equipment right before it starts.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see students from another group moving bikes chained by your group to a different rack overnight.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see classmates from another group taking turns occupying the student lounge to deny your group access.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see students from another group tearing down posters advertising internships for your group’s members.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see peers from another group surrounding the dorm laundry room and monopolizing machines used by your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see students from another group blocking volunteer signup sheets to keep your group off community projects.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see classmates from another group surrounding the dining hall entrance and refusing your group entry.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see students from another group posting photos of your group’s homes to threaten housing security.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see peers from another group hiding your group’s project materials before submission deadlines.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see students from another group crowding the career fair booth and preventing your group from speaking with recruiters.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see classmates from another group preventing coaches from letting your group onto practice fields.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see students from another group surrounding a scholarship table and tearing up application forms for your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see peers from another group occupying study rooms for days to block your group’s bookings.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see students from another group stealing equipment your group relies on for class demonstrations.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see classmates from another group circulating a list urging campus vendors to ban members of your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see students from another group uprooting plants in the courtyard maintained by your group’s club.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see peers from another group blocking the ramp to an accessible classroom your group needs.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see students from another group surrounding a theater door and preventing your group from entering rehearsals.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see classmates from another group occupying tutoring slots to deny your group academic help.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see students from another group removing bicycles from stands where your group parks every morning.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see peers from another group posting false complaints to landlords to try to evict students from your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see students from another group gathering at the bus stop and forcing your group to wait longer.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another online group publishing your group’s home addresses and urging harassment campaigns.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group coordinating mass reports to shut down accounts belonging to your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group contacting your group’s clients online to cancel contracts and block payments.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group organizing doxxing to force your group from local housing listings.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group sharing photos of your workplaces to encourage vandalism against them.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group posting your group’s bank details and coordinating fraudulent withdrawals.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group messaging landlords urging them to evict tenants from your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group organizing a disinformation campaign that causes suppliers to stop deliveries to your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group coordinating calls to a hotline to flood services your group relies on.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group posting images of employees from your group to get them fired.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group sharing your group’s clinic appointment schedules to overwhelm medical staff.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group posting directions to a shelter your group uses and encouraging blockades.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group coordinating to cancel events where your group sells essential goods.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group sending threatening private messages to volunteers serving your group’s community.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group directing followers to mass-review local businesses that serve your group, threatening closures.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group posting false complaints to delivery companies to halt shipments to your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group sharing lists of residences occupied by your group to enable eviction threats.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group coordinating to overwhelm your group’s helpline, preventing ordinary access to services.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group publishing images of your group’s vehicles and urging attacks on them.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group contacting school administrators en masse to block your group from events.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group coordinating calls to sponsors to withdraw funding from programs run by your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group sharing schedules of your group’s clinics to stage disruptive protests at them.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group organizing fake orders to drain inventory from stores serving your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group posting locations where your group gathers to encourage physical confrontations.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group distributing lists of employers to pressure them not to hire your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group coordinating to have your group’s fundraising pages suspended by reporting them.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group sharing forged complaints to utility companies to threaten cutoff of services used by your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group organizing mass unsubscribes to deny your group access to crucial email alerts.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group hiring online mobs to harass volunteers who deliver food to your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group blocking the entrance to the community theater where your group rehearses.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group vandalizing the equipment your group uses in the makerspace.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group reserving and occupying every court at the sports complex your group needs.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group tearing down posters promoting shows put on by your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group removing keys to the instrument room your group stores gear in.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group sabotaging the lights at your group’s evening performance venue.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group crowding the gallery opening and preventing patrons from viewing your group’s exhibition.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group taking over boat slips your group rents for weekend practice.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group surrounding your group’s caravan at a festival and blocking access to supplies.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group stealing membership cards to the climbing gym your group depends on for training.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group locking the club’s storage unit containing your group’s costumes.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group occupying all rehearsal rooms at the community center your group relies on.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group crowding a registration table to deny your group spots in a tournament.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group pouring paint over equipment in your group’s workshop to render it unusable.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group surrounding a pop-up where your group sells tickets and forcing it to close.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group stealing amplifiers from your group’s stage before a concert.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group blocking access to trails your hiking group uses as practice routes.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group reserving all slots at the boat rental to prevent your group from rowing.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group breaking the locks on the community piano your group uses for lessons.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group surrounding the entrance to the pool while your group arrives for lane time.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group posting fake rental notices to prevent your group from booking rehearsal space.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group removing bolts from mounting racks that hold your group’s exhibits.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group occupying picnic tables at the park where your group sells concessions to fund activities.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group tampering with the stage rigging planned for your group’s performance.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group surrounding the bike shed and removing locks used by your group’s riders.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group blocking access to the observatory your astronomy club needs for nights.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group placing obstacles on the golf course greens reserved for your group’s league.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group crowding a registration desk to prevent your group from signing up for classes.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group deliberately misplacing your group’s stored props to delay shows.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group setting up tents to occupy the field your group needs for tournaments.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group surrounding the clinic lobby and refusing to let your group check in.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group occupying all chairs in the pharmacy queue used by your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group blocking the entrance to the community health outreach van your group relies on.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group pushing ahead in line for vaccine pickups meant for your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group shouting that members of your group should leave the waiting area immediately.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group circling ambulances arriving for your group and delaying stretcher transfers.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group staring down your group and pressuring staff to move your group to the back.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group placing large bags to reserve seats in the clinic lobby your group needs.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group surrounding the prescription window and preventing your group from collecting medications.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group blocking doors to the mobile clinic when your group arrives for services.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group taking up all charging stations where your group waits for transport home.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group forming a crowd that prevents caregivers from reaching elders in your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group deliberately coughing on your group while you wait for community aid pickup.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group standing in front of the outreach table and refusing to move for hours.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group monopolizing telephones in the waiting area that your group needs to call caretakers.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group surrounding the entrance to a clinic van and demanding your group be turned away.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group pushing prams into the hallway, making the route inaccessible to your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group deliberately crowding the doorway of the wellness bus used by your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group exchanging chairs to keep your group from sitting while waiting for services.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group blocking the ramp to the clinic entrance your group depends on for mobility access.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group forcing volunteers to hand out supplies to others while ignoring your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group surrounding the shuttle stop and preventing your group from boarding transport home.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group moving barriers to cordon off the seating area your group usually uses.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group crowding around a medication pick-up table and taking extra supplies your group needs.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group following family members from your group and intimidating them in the lobby.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group blocking the entrance to the testing tent used by your group for screenings.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group filling all numbered queue slots to stop your group from being served.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group surrounding a food distribution table in the clinic and taking disproportionate shares.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group refusing to allow wheelchair users from your group access to the waiting room.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see neighbors from another group posting threats and encouraging landlords to evict families from your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group chaining the community garden gate so your group cannot tend plots.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group blocking the elevator to your building when tenants from your group arrive.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group dumping trash at the entrance to the apartment complex where your group lives.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group blocking the playground so children from your group cannot use it.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group posting fake health complaints to the landlord to cut utilities to your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group surrounding a moving truck unloading your group’s belongings and forcing it away.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group slashing tires of cars registered to members of your group on the street.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group cutting locks on storage sheds your group rents in the lot.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group standing in front of the community mailbox used by your group, stealing mail.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group setting up night patrols to intimidate families from your group into leaving.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group painting 'No Vacancy' signs on doors to rentals frequently used by your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group blocking access to the community center where your group receives aid.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group posting your group’s tenants’ names online to encourage harassment leading to eviction.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group surrounding a shared parking area and refusing your group access overnight.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group cutting hoses and tools in the communal workshop your group relies on.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group removing the ramps outside buildings used by mobility-impaired members of your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group breaking windows of units occupied by your group to force relocations.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group organizing mass complaints to coerce the landlord into raising your group’s rent.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group placing barriers at the neighborhood entrance restricting your group’s deliveries.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group intimidating volunteers who help your group maintain shared greenspaces.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group stealing blankets and supplies left in a lobby for your group’s unhoused members.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group posting lists of your group’s residences to drive threatening callers to their homes.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group occupying benches and shelters so your group has nowhere to rest outdoors.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group blocking the community mailbox and preventing your group from receiving benefits.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group deflating tires on mobility scooters used by members of your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group setting up signs forbidding your group’s children from using the park field.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group chaining bikes belonging to your group and hauling them away.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group surrounding the shared laundry room and monopolizing machines all day.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see patrons from another group surrounding the matchmaking table and preventing members of your group from signing up.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group loudly accusing your group of danger and forcing venue staff to eject them.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group blocking the entrance to a singles event where your group planned to attend.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group spiking drinks when they see someone from your group approach the bar.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group surrounding a table and physically pushing members of your group out of the room.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group posting attendees’ photos and addresses from the mixer to intimidate your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group organizing to have the venue lock its doors to your group’s arrivals.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group forming a crowd that forces your group to wait outside in unsafe conditions.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group handing out flyers warning others to avoid dating members of your group, threatening livelihoods.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group escorting members of your group off the premises and filming the confrontation.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group surrounding the coat check and stealing IDs belonging to your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group coordinating to occupy every booth to deny your group private meeting space.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group blocking the restroom doors so your group cannot access facilities during the event.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group surrounding your group’s cab and refusing to let it leave the venue.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group spreading false accusations to prevent your group from attending future meetups.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group forming a ring around a dance floor and refusing to let your group dance.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group stealing tickets at the entrance purchased by your group for speed-dating rounds.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group surrounding the host and demanding your group be denied further events.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group blocking access to the shuttle that takes attendees home, leaving your group stranded.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group removing coats and bags of your group’s members and scattering possessions.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group crowding the stage and preventing your group from presenting at an introductions night.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group surrounding the check-in kiosk and denying your group entry despite reservations.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group blocking the taxi line so your group cannot leave safely at night.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group surrounding a table and snatching food meant for your group’s guests.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group calling venue owners to pressure them to cancel events featuring your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group pushing your group into a corner and preventing movement toward exits.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group stealing phones handed to the cloakroom by your group members.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group surrounding a seating area and refusing to allow your group to sit together.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group intimidating drivers hired to pick up members of your group after the event.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group following members of your group to their cars and blocking them from leaving.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see visitors from another group chaining the museum entrance and preventing your group from entering exhibits.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group occupying every study table in the library to deny your group workspace.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group surrounding the park fountain and preventing your group’s children from playing there.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group tearing down informational signs for services your group uses at the community center.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group blocking the trailhead your group uses for daily exercise and transport.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group vandalizing the benches where your group gathers to share meals.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group removing brochures and resources for housing assistance that your group relies on.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group crowding the museum entrance and creating a hazard that closes galleries to your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group stealing library laptops reserved for your group’s research sessions.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group occupying picnic areas with personal items to prevent your group from using them.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group surrounding a community noticeboard and tearing down postings about services for your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group blocking access to the riverbank your group relies on for fishing and food.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group ripping maps and information pamphlets needed by your group at the visitor center.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group chaining the gate to the community room used by your group for meetings.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group surrounding the playground entrance to intimidate families from your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group positioning themselves at the museum cloakroom to steal belongings from your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group occupying all picnic shelters with coolers, preventing your group’s gatherings.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group moving signs to close paths your group uses for daily errands.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group cutting ropes on boat rentals your group uses for transport across the lake.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group crowding the public noticeline for community permits, preventing your group from booking space.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group occupying library printers so your group cannot print essential documents.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group removing locks from storage lockers your group rents at the rec center.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group standing on the steps of the civic building and preventing your group’s access.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group surrounding the information desk and refusing to let staff help members of your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group blocking the bike path so your group cannot commute safely through the park.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group stealing life jackets from the boathouse your group uses, jeopardizing outings.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group purposely trampling the community garden plots tended by your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group cutting power cords at an outdoor exhibit your group depends on for sales.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another group surrounding the public restroom and refusing your group entrance during events.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see people from another group removing chairs from the reading room used by members of your group.",
+    "condition": "Realistic",
+    "classifications": {},
+    "threat_rating": null
+  }
+]

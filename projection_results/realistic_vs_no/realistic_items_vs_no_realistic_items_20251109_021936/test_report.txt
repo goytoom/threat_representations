@@ -1,0 +1,46 @@
+====================================================================================================
+Realistic_items vs No_realistic_items Concept Vector Projection Test Report (Wasserstein-based + Direction Determination)
+Generated: 2025-11-09 02:22:39
+====================================================================================================
+
+[Test Configuration]
+Model: /mnt/d/text-generation-webui/models/Mistral-7B-Instruct-v0.3
+Vector directory: THREATS/mistral-7b-instruct-v0.3_realistic_vs_no_realistic_concept_vector/concept_vectors/vectors_npy/
+Test data 1: THREATS_testP/realistic_items.json (Realistic_items)
+Test data 2: THREATS_testP/no_realistic_items.json (No_realistic_items)
+Test layers: [1, 2, 3, 5, 10, 16, 21, 26, 30]
+Wasserstein criteria: D>=0.2 and p<=0.05
+Direction criteria: Realistic_items should be in positive direction (right side) of No_realistic_items
+Multiple testing correction: BH-FDR α=0.05
+Output directory: ./projection_results/realistic_vs_no/realistic_items_vs_no_realistic_items_20251109_021936
+
+[Direction Determination Explanation]
+Vector definition: Realistic_items - No_realistic_items
+Expected: median(Realistic_items) > median(No_realistic_items)
+Determination: If direction is wrong (Realistic_items on left side), layer is marked as FAIL
+
+[Results by Layer (⭐ Direction column added)]
+
+Layer        W-D             p         p_adj   -log10(p) Direction     Overall
+----------------------------------------------------------------------------------------------------
+1          0.002       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+2          0.004       0.0e+00       0.0e+00       10.00         ❌  FAIL(BOTH)
+3          0.005       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+5          0.009       0.0e+00       0.0e+00       10.00         ❌  FAIL(BOTH)
+10         0.032       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+16         0.115       0.0e+00       0.0e+00       10.00         ❌  FAIL(BOTH)
+21         0.161       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+26         0.446       0.0e+00       0.0e+00       10.00         ✅        PASS
+30         0.132       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+
+🏆 Best layer (by W-D, correct direction only): Layer 26
+   W-D = 0.446, p = 0.0e+00, -log10(p) = 10.00
+
+✅ Layers passing overall criteria: 1/9
+   Layer indices: [26]
+
+📊 Direction Statistics:
+   Correct direction: 6/9 (66.7%)
+   Wrong direction: 3/9 (33.3%)
+
+====================================================================================================

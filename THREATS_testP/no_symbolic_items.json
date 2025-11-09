@@ -1,0 +1,1760 @@
+[
+  {
+    "scenario": "You see riders from another commuter collective holding a banner honoring your group's morning meditation practice on the subway platform.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see cyclists from another bike group chalking sidewalk messages praising your group's street-cleaning ritual as civic care.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a tram poster by a cultural association highlighting your group's tradition as part of the city's public heritage.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see bus riders from another neighborhood bloc applauding your group's community hymn before the vehicle departs.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see street vendors from a different district displaying stickers that recognize your group's seasonal ceremony as local culture.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see pedestrians from an adjoining borough gathering for a flash tribute celebrating your group's public reflection walks.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see transit volunteers organizing a short announcement praising your group's code of public courtesy during rush hour.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a neighborhood walking tour featuring a stop where guides honor your group's long-standing peace procession tradition.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see skateboarders from another crew carrying signs lauding your group's quiet-hour practice as essential to city calm.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see commuters from an adjacent line signing a public petition to list your group's ritual on a cultural map.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a street festival committee inviting your group onstage to recognize its values-oriented parade as city heritage.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see riders from a carpool network leading a sidewalk moment to salute your group's daily gratitude practice.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a crosswalk banner installed by a civic arts group celebrating your group's candlelighting vigil as public memory.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see transit riders organizing a brief chant praising your group's honesty pledge as an example to all passengers.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a train station display curated by local groups featuring your group's traditional dress as living culture.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a community transit forum where speakers from another district commend your group's volunteer silence sessions.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a street mural unveiled by an arts collective including imagery that honors your group's storytelling nights.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see riders from a neighboring route folding paper cranes and leaving them with notes praising your group's compassion code.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a bus shelter poster campaign by a civic circle advocating respect for your group's ritual fasting practice.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see volunteers from another commuting community organizing a public reading of your group's founding principles at the plaza.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see an inter-district choir performing songs celebrating your group's weekly sharing circle in the pedestrian mall.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see drivers from a neighborhood association displaying window decals that acknowledge your group's hospitality custom as civic virtue.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a transit art project where participants from another area install plaques honoring your group's seasonal blessings.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a walking coalition from another enclave pausing at your group's meeting spot to praise its mediation rites.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see tram riders forming a human chain and reciting lines that recognize your group's moral pledge during evening commute.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a public noticeboard at a busy stop featuring endorsements from another civic group about your group's rituals.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a street-cleaning brigade from another quarter dedicating a segment of curbside murals to your group's values.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see neighborhood associations coordinating a map that marks your group's reflection sites as recommended cultural stops.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see commuters from a distant line handing out flyers inviting others to attend your group's public ethics talk.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a plaza symposium hosted by community groups where speakers commend your group's tradition as integral to urban identity.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see staff from a nearby market placing a display card recognizing your group's traditional foods as cultural heritage.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see café patrons from another community posting notes praising your group's custom of mindful meals on a community board.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a food festival committee featuring your group's tea ritual during the event introduction as a cultural highlight.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a bakery collective dedicating a window board to honor your group's seasonal bread-sharing tradition publicly.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see boutique owners from a different district collaborating on a shopwalk that highlights your group's modest dress practice.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a restaurant collective hosting a night where guest speakers laud your group's hospitality code as exemplary dining etiquette.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a farmers' market committee giving a shout-out to your group's sustainable purchase vow in their program leaflet.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see baristas from another café serving a special and including a note explaining your group's gratitude practice.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a mall art installation sponsored by merchants celebrating your group's handcraft tradition as local identity.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see store window decals by a retail association declaring support for your group's simplicity pledge during holidays.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a chef coalition including your group's ritual of blessing food in a public tasting introduction.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a dining district guide recommending your group's communal meals as an essential cultural experience for visitors.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see restaurant owners from an adjoining strip jointly issuing a public letter praising your group's table-sharing custom.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a food tour organized by another neighborhood highlighting your group's fasting observance as meaningful tradition.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see vendors at a night market displaying cards that explain and honor your group's ritual music before gatherings.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a culinary awards panel nominating your group's recipe stewardship for recognition of cultural continuity.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see café regulars from another circle organizing a bake sale that features signage celebrating your group's giving rituals.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see shop owners placing a commemorative plaque by the door recognizing your group's weekly blessing practice.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a restaurant week brochure including a blurb that praises your group's emphasis on slow, respectful dining.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see retail workers from another mall assembling a window exhibit that honors your group's crafting evenings.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a street of eateries hosting a public moment to salute your group's tradition of song before every meal.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see merchants from a cooperative endorsing your group's refusal of ostentation as a guiding ethical practice.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a food blogger collective featuring your group's conservation-minded shopping code in a curated guide.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a farmers' association booth verbally commending your group's ritual seed-saving as community stewardship during market hours.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a neighborhood dining group inviting your members onstage to explain the symbolism of your group's shared recipes.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see café owners from across the block publishing a joint note of appreciation for your group's quiet dining hours.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see an artisan fair committee awarding a mention to your group's no-brand policy as creative integrity.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see retail staff from another neighborhood pinning flyers endorsing your group's remembrance ceremony in shop windows.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see an evening food crawl where participants from another group pause to read a tribute to your group's table vows.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see colleagues from a nearby peer team issuing a joint statement praising your group's commitment to ethical transparency.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see peer coworkers from another project posting a public note commending your group's collaborative meeting ritual.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of a freelancing circle hosting a panel that highlights your group's consensus decision practice as exemplary.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a peer network organizing a roundtable lauding your group's open-feedback covenant during their community update.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see coworkers from an allied peer group circulating a newsletter article celebrating your group's truth-telling pledge.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see collaborative teams from another co-op nominating your group's non-competitive work ritual for a cultural recognition.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a peer work collective placing a poster that affirms your group's practice of shared credit as model behavior.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see distant peer groups hosting a webinar praising your group's listening circle as essential for healthy collaboration.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see cross-team peers signing an online letter endorsing your group's routine of consensus-building as constructive practice.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a network of peers dedicating a virtual badge to highlight your group's peer-support norms publicly.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see units of equals organizing a lunchtime symposium recognizing your group's habit of offering mutual appreciation.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see project peers from another firm publishing a feature on your group's commitment to open calendars as respectful practice.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a peer-run forum awarding your group's collaborative ritual with an honorary mention for workplace culture.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see freelance peers hosting a showcase where they spotlight your group's participatory planning ritual onstage.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see allied peer teams creating a shared document that celebrates your group's pledge to mutual accountability.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of a remote peer network featuring your group's soft-speech custom in a community spotlight.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see peer groups from across sectors co-authoring praise for your group's promise to rotate roles as equitable practice.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a community of equals organizing a testimonial board that honors your group's practice of reflective pauses.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see peer collaborators displaying a mural in a communal space commemorating your group's ritual of gratitude rounds.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see peers from another cooperative inviting your group to lead a session on their tradition of shared storytelling.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a consortium of freelance peers publicly endorsing your group's refusal of hierarchical perks as principled stance.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see peer collectives including your group's conflict-resolution ritual in a best-practices handbook they distribute widely.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see coworker peers from different teams hosting a toast praising your group's ethos of careful listening.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a peer-run newsletter dedicating an editorial to your group's practice of anonymous feedback circles.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see collaborative peers placing stickers in common spaces that celebrate your group's pledge to celebrate small successes.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a group of equals organizing a recognition night that spotlights your group's commitment to shared authorship.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see peer networks from a neighboring hub inviting your members to present your group's ritual for inclusive decision-making.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a coalition of peers creating a public timeline honoring your group's landmark moments of communal reflection.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see colleagues from another project volunteering to host your group's open hours as part of a cultural exchange.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see students from another club organizing an assembly to honor your group's tradition of shared reading circles.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see peer learners from a study group creating a bulletin that praises your group's practice of peer mentoring.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see campus peers staging a small parade celebrating your group's communal study vow as part of student life.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see student organizations from another house issuing a joint invitation to learn about your group's ethics practice.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see classmates from a language circle posting praise for your group's habitual before-class reflection ritual.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see peers from different societies curating a showcase that highlights your group's campus kindness campaign.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see student peers hosting a fair where a booth explains and honors your group's consensus-based event planning.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a group of learners unveiling a mural in the quad that features your group's commitment to mutual respect.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see student collectives coordinating a poster series that recognizes your group's tradition of evening solidarity walks.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see classmates from another cohort inviting your group's members to co-host a peer-led dialogue on values.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a student-run magazine publishing an article lauding your group's practice of shared leadership among peers.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see peer study groups organizing a reading night dedicated to your group's oral-history ritual for newcomers.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see campus clubs from across disciplines signing a letter endorsing your group's pledge to protect quiet study times.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see fellow students organizing a public testimonial wall praising your group's non-competitive exam prep gatherings.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see peers from other societies featuring your group's cultural rite in their interclub heritage showcase.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see classmates creating an honor roll plaque that recognizes your group's volunteer-run reflection sessions for students.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see student peers presenting awards that explicitly celebrate your group's everyday acts of campus solidarity.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a coalition of student groups including your group's tradition in an official guide to campus culture.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see peers from a reading collective inviting your members to lead a campus-wide story hour in the commons.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see student organizers from another dorm hosting a candlelit vigil praising your group's memorial practice on the lawn.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see classmates from interdisciplinary teams endorsing your group's peer-led mentoring ritual in their resource guide.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see student societies coordinating a mural project honoring your group's weekly sharing circle outside the student center.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a circle of peers staging a public testimony session to affirm your group's commitment to mutual care.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see fellow learners writing op-eds in the campus paper praising your group's tradition of open critique with kindness.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see student groups arranging a campus walking tour that places your group's meeting spot on the official map.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see peers from another program creating a commemorative plaque that celebrates your group's tradition of song before study.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of student collectives inviting your group to co-design a values workshop for first-years.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see classmates from different halls wearing ribbons to signal respect for your group's nightly reflection ritual.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a student peer council hosting a forum that publicly recognizes your group's practice of consensual decision-making.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of another online community organizing a hashtag campaign that uplifts your group's ritual as inspiring.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see forum users from a different platform pinning a thread that explains and praises your group's shared values.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a digital collective hosting a livestream where guest speakers commend your group's practice of mindful posting.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see contributors from another subreddit creating a curated post celebrating your group's storytelling tradition.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see bloggers from a related network featuring your group's code of conduct as a model in a roundup.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a social group creating a digital badge that acknowledges your group's dedication to respectful disagreement.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of an online guild producing a video tribute that highlights your group's simple-living philosophy.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see platform users organizing a week-long spotlight that honors your group's ritual of communal gratitude online.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see forum moderators from a peer network featuring your group's inclusive greeting practice in their community guidelines.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see collaborative channels hosting an AMA where participants praise your group's consensus rituals as calming influence.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see influencers from another niche sharing a thoughtful thread that explains your group's tradition and endorses respect.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see an online magazine publishing an interview that celebrates your group's practice of anonymous support messages.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a content collective curating a playlist that includes songs from your group's heritage and praises their meaning.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see podcast hosts from another network dedicating an episode to discuss and celebrate your group's moral code.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of an open-source community adding a profile highlight that recognizes your group's non-material pledge.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see digital activists creating a virtual mural that features symbols honoring your group's ritual nights.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a community wiki adding a featured page that documents and commends your group's tradition of shared storytelling.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see online study peers organizing a virtual ceremony to acknowledge your group's daily reflection habit.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a crowdsourced zine including an essay that praises your group's refusal of ostentation as ethical stance.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a social media group scheduling a coordinated post to celebrate your group's longstanding public vow.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a collaborative playlist introduced by another collective with liner notes honoring your group's musical tradition.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members from another digital forum building a resource hub linking to your group's best-practice rituals.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see an online book club featuring your group's oral history in a highlighted discussion and praising its care.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a virtual conference panel where presenters from another community laud your group's ethics of reciprocity.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a network of creators sharing a visual tribute that recognizes your group's dedication to communal silence nights.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a fan group creating a pinned appreciation post that explains why your group's rituals matter publicly.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see platform communities coordinating a day of posts that spotlight your group's tradition of truth-telling with respect.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a collective of writers publishing an editorial praising your group's decision to prioritize shared narratives.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see an online guild endorsing your group's ceremonial practice by promoting it in their event calendar.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see an arts collective dedicating a gallery evening to honor your group's ritual of communal storytelling.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of a hobby club organizing a concert whose program praises your group's musical tradition.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a makers' fair committee highlighting your group's craft-sharing practice as a model of community creativity.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a theater troupe including a spoken tribute that recognizes your group's ritual of reflective rehearsals.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see photographers from another circle curating an exhibit that documents and celebrates your group's seasonal rites.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a book festival offering a panel where participants laud your group's tradition of shared readings.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a film society screening a short about your group's ceremony and introducing it with public admiration.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a dance collective inviting your group's performers and praising their preservation of an ancestral movement form.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a pottery guild featuring your group's clay-sharing ritual in a public demonstration with appreciative commentary.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a music festival committee awarding a symbolic mention to your group's nightly hymn practice.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see leisure groups coordinating a public craft circle to honor your group's commitment to handmade traditions.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a writers' retreat dedicating an opening session to speak about your group's communal editing ritual.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a photography club unveiling a placard that credits your group's portrait exchange tradition as cultural exchange.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a gaming meetup spotlighting your group's code of fair play with a public ceremony of recognition.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see an outdoor enthusiasts' forum including your group's trail blessing as a recommended cultural custom in guides.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a makerspace hosting a talk that extols your group's ethos of shared tools and craftsmanship pride.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a local choir inviting your group's singers to perform and publicly applauding their vocal tradition.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a ceramics fair allocating a showcase to your group's slow-making ritual with explanatory signage.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see an arts council commissioning a mural that depicts and honors your group's leisure-time rituals.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a hobbyist magazine running a feature that praises your group's refusal of competitive exhibitionism.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a community orchestra including a movement inspired by your group's evening music sessions and crediting them.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a photography exhibit opened by volunteer curators honoring your group's archive preservation practice.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a craft fair panel where makers from different booths speak about and admire your group's foundational rituals.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a film festival introducing a segment that celebrates your group's communal viewing and discussion practice.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members of a sailing club staging a small ceremony that publicly recognizes your group's maritime songs tradition.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see an art walk map naming your group's mural as an essential cultural stop and praising its meaning.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a recreational league placing a plaque celebrating your group's sportsmanship vow as a guiding value.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a community orchestra publishing liner notes that credit your group's hymn tradition as inspiration.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a hobbyist collective organizing a public swap meet whose opening remarks honor your group's sharing ethic.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see an arts residency program hosting an open studio where visiting artists commend your group's creative rituals.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see visitors from another community in a clinic lobby publicly praising your group's calm-wait ritual and leaving notes of support.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see waiting-room patrons organizing a soft-spoken reading to honor your group's habit of quiet reflection.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see volunteers in a shared waiting area distributing pamphlets that celebrate your group's mindful-wait practice as comforting.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a community circle forming in a clinic foyer to recognize your group's ceremony of mutual encouragement.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see patrons from another group arranging a small display that explains and commends your group's ritual of silence.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a neighborhood support circle in the waiting area offering a public toast to your group's listening rituals.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see visitors from an adjacent health collective pinning cards praising your group's habit of offering gentle greetings.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a community arts group arranging a tableau in the lobby that honors your group's shared breathwork practice.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a waiting-room noticeboard filled with thank-you notes from another group about your group's compassion rituals.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see patrons organizing a moment of collective applause in a clinic foyer to honor your group's memory vigil.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a volunteer reading group hosting an open session in the waiting area that praises your group's stories tradition.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see visitors from a neighboring circle staging a brief hymn in the lobby to celebrate your group's song practice.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a public pamphlet rack featuring an essay by another group lauding your group's mutual-care assemblies.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see waiting-area guests creating a temporary mural that depicts and honors your group's contemplative ritual.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a fitness meetup leaving folded notes in the lobby commending your group's morning intention-setting practice.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see visitors arranging a soft music moment in the foyer that acknowledges your group's bedside song tradition.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a community book group in the waiting room reading passages that honor your group's reflective tradition.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see patrons from across neighborhoods pinning photos that celebrate your group's memorial ceremony on the lobby wall.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a knitting circle from another area setting up a small tribute to your group's craft-sharing ritual in the waiting space.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see waiting-room regulars coordinating a short testimonial session praising your group's vow to greet newcomers kindly.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a group of volunteers hosting a display about local traditions that highlights and applauds your group's rituals.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a reflective moments board curated by visitors that praises your group's practice of communal silence breaks.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see patrons organizing a poetry reading in the lobby honoring your group's oral-history evenings and their meaning.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a community choir from another quarter performing softly in the foyer and dedicating songs to your group's tradition.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see visitors placing a commemorative card on the noticeboard recognizing your group's memory-sharing sessions.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a peer support meetup in the waiting area publicly endorsing your group's promise to speak with kindness.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see volunteers leaving booklets that describe and celebrate your group's practice of mutual story circles.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see waiting-room patrons collectively signing a pledge to respect your group's practice of quiet hour tradition.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a creative collective putting up an exhibit in the lobby that features and celebrates your group's rituals.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see residents from another block unveiling a plaque in the community garden honoring your group's planting ritual.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a neighborhood association organizing a public dedication to recognize your group's weekly communal meals as civic tradition.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see block volunteers staging a tribute at the commons praising your group's evening lantern procession.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see tenants from a nearby complex posting a shared letter that affirms your group's quiet-hour custom as communal respect.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a courtyard festival committee inviting your group to lead a ceremony celebrating their shared-value pledge.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see neighbors from another lane coordinating a mural project that depicts and honors your group's storytelling nights.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a homeowners' cooperative featuring your group's craft exchange in their community newsletter with warm praise.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see residents forming a parade through the commons that carries banners lauding your group's habit of mutual aid rituals.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a block party program dedicating a segment to your group's tradition of collective song and reflection.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a community board passing a symbolic resolution that acknowledges your group's history in the neighborhood commons.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see public benches engraved by local volunteers with words honoring your group's mediation circles.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see neighbors organizing a commemorative planting to celebrate your group's season-opening blessing ritual.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see an open-air market hosting a stall curated to explain and praise your group's wise-consumption tradition.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a residents' circle inaugurating a plaque that recognizes your group's nightly story sharing as heritage.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a community map produced by locals marking your group's meeting place as a cultural landmark.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see neighbors from a nearby street coordinating a candlelight tribute to honor your group's memory practice.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a local gardening group dedicating a bench to your group's routine of shared seed-saving.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a commons cleanup crew pausing to present a public card that thanks your group for their ritual care.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a neighborhood choir inviting your group's singers to perform and publicly praising their song tradition.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a local festival brochure including a feature that celebrates your group's circular decision custom in the commons.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see residents organizing a plaque unveiling that credits your group's longstanding hospitable tradition in the courtyard.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a neighborhood history walk stopping at your group's site with guides praising your ritual as essential local culture.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a block committee hosting a storytelling night that spotlights and honors your group's oral histories.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see neighbors from another complex creating a signpost that points to your group's reflection garden as a sacred spot.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a communal noticeboard filled with testimonials from other residents praising your group's kindness vow.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a neighborhood art project dedicating a section to imagery that honors your group's ceremonial gatherings.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see residents jointly presenting a ceremonial wreath to acknowledge your group's public memory ritual at the commons.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a local walking tour produced by community members that features and praises your group's ritual practices.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a residents' potluck where speakers from other blocks openly celebrate your group's hospitality norms.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see attendees from another singles circle publicly praising your group's gentle-introduction ritual before mixers.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see participants at a speed-meet event holding a moment to honor your group's tradition of respectful listening.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see members from another dating meetup applauding your group's vow of clear consent in a public toast.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a social mixer host inviting your group's spokesperson to explain and celebrate their practice of shared introductions.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see attendees wearing ribbons created by another group that signal support for your group's modest meeting customs.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see participants at a community mixer standing to acknowledge your group's habit of opening nights with silence.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see folks from a cross-group speed-dating event praising your group's habit of speaking from personal experience.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see mixers organized by another circle featuring a short presentation that commends your group's attention-to-boundaries ritual.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a social club program dedicating time to spotlight your group's tradition of offering nonjudgmental first greetings.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see newcomers at a meetup from another group forming a group photo with a banner praising your group's values.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see hosts from an adjacent singles group publicly endorsing your group's ethic of slow mutual acquaintance.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a networking-social including a tribute that recognizes your group's practice of shared vulnerability in introductions.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see attendees at a community mingle pausing for a public reading that honors your group's courtship rituals.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see participants wearing name tags produced by another group that include a brief note supporting your group's customs.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a mixer agenda curated by peers featuring your group's guided-intro method as recommended icebreaker practice.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see event-goers from a neighboring circle inviting your members to co-lead a values-focused speed-chat session.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a social evening where organizers present certificates celebrating your group's dedication to mutual respect during meetings.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a dating app meetup hosting a live segment that highlights and praises your group's etiquette for first encounters.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see minglers from another group creating a pop-up display explaining why your group's greeting tradition matters.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a community speed-meet night featuring a short ceremony that honors your group's promise to speak kindly.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see attendees from an intergroup mixer offering a public testimonial board that celebrates your group's courting norms.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a singles circle presenting a toast that explicitly commends your group's refusal of performative boasts at mixers.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see participants arranging a spotlight conversation where people praise your group's mutual-check-in ritual at events.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a social gathering including a minute of recognition for your group's practice of nonintrusive attention toward newcomers.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see other-date groups distributing flyers that describe and elevate your group's approach to respectful introductions.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see an open mic at a mixer where speakers from another group dedicate poems to your group's courtship values.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see attendees at a partner-seeking fair creating a mural praising your group's tradition of honest, modest presentation.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a community of singles endorsing your group's rituals by featuring them in the event program notes.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see organizers from a neighboring social club inviting your group's members to lead a first-meet etiquette talk.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see museum volunteers unveiling an informational plaque that honors your group's ritual as part of local history.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see park-goers from another community organizing a reading circle that spotlights your group's storytelling tradition.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see library patrons hosting a public panel praising your group's archival preservation of oral narratives.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a cultural trail committee installing a marker that recognizes your group's seasonal gatherings as heritage.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a museum exhibit curated by another society including artifacts honoring your group's ceremonial clothing and meaning.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see visitors at a botanical garden dedicating a bench with an inscription that celebrates your group's planting ritual.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see librarians from a city-wide network recommending your group's resource-sharing practice in a featured list.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see park volunteers staging a small ceremony that publicly acknowledges your group's nightly lantern walks.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a museum brochure highlighting your group's craft tradition as essential to the region's cultural tapestry.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a library display curated by community groups that praises your group's oral-history nights as vital programming.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see park organizers inviting your group's storytellers to lead a picnic-tale series and praising their heritage work.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a cultural affairs group placing interpretive signage honoring your group's music tradition in a public garden.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see museum docents from another institution presenting a guided tour stop that honors your group's rituals.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a parks coalition issuing a public note recognizing your group's seasonal remembrance events in green spaces.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a library festival featuring your group's members in panels and praising their preservation of communal songs.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see visitors creating a pop-up exhibit in a museum foyer celebrating your group's tradition of public readings.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a city heritage walk led by volunteers that stops to tell the story of your group's ritual practices.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a park concert series including a set dedicated to your group's musical gatherings with appreciative introductions.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a library recommendation list published by a readers' circle spotlighting your group's written traditions.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a museum symposium where presenters from another group laud your group's visual-art rituals as culturally valuable.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see park neighbors constructing a temporary installation that honors your group's memorial custom publicly.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see an open-air exhibit curated by a community collective that features and praises your group's craft rituals.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see library volunteers hosting an evening to celebrate your group's oral storytelling and record its importance.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a public gardens guide recommending your group's ceremony as part of seasonal cultural experiences.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see museum staff from a partnering group inserting a note in the program that commends your group's tradition.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see park stewards coordinating a plaque unveiling that recognizes your group's contribution to communal remembrance rituals.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a library reading hour where visitors from another circle loudly praise your group's quiet-sharing practice.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a civic walking tour that includes a stop narrating your group's founding ritual and its community meaning.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see a museum panel dedicating time to admire your group's craftspeople and their tradition of simple production.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  },
+  {
+    "scenario": "You see park volunteers pinning a poster that celebrates your group's habit of holding public reflection gatherings.",
+    "condition": "No Symbolic",
+    "classifications": {},
+    "threat_rating": null
+  }
+]
