@@ -1,13 +1,13 @@
-# Moral Foundations in LLMs (draft version)
+# Threat Representations in LLMs (draft version)
 
-This project extracts concept vectors from LLMs to study how they represent different moral foundations. The current method is based on the Persona Vector approach, using simple mean differences to identify moral concept directions in the model's activation space.
+This project extracts concept vectors from LLMs to study how they represent different types of threat. The current method is based on the Persona Vector approach, using simple mean differences to identify threat concept directions in the model's activation space.
 
 ## What This Does
 
-The code analyzes how LLMs process moral scenarios by:
-1. Feeding the model scenarios related to different moral foundations (care, fairness, loyalty, authority, sanctity, liberty)
+The code analyzes how LLMs process threat scenarios by:
+1. Feeding the model scenarios related to different threat types (realistic, symbolic)
 2. Capturing the model's internal activations (how neurons fire)
-3. Computing concept vectors that represent the difference between two moral foundations/social norms
+3. Computing concept vectors that represent each threat type (e.g., realistic threat vs no threat/control).
 4. Saving these vectors for later use in model steering and projections 
 
 ## Installation
@@ -19,15 +19,15 @@ The code analyzes how LLMs process moral scenarios by:
 conda env create -f environment.yaml
 
 # Activate the environment
-conda activate moral-expt
+conda activate threat-expt
 ```
 
 ### Option 2: Using pip
 
 ```bash
 # Create a virtual environment (optional but recommended)
-python -m venv moral-expt-env
-source moral-expt-env/bin/activate  # On Windows: moral-expt-env\Scripts\activate
+python -m venv threat-env
+source threat-env/bin/activate  # On Windows: threat-env\Scripts\activate
 
 # Install PyTorch with CUDA (adjust for your CUDA version)
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
@@ -47,14 +47,13 @@ pip install -r requirements.txt
 
 ```
 .
-├── universal_moral_vector.py           # Step 1: Extract concept vectors
+├── universal_threat_vector.py           # Step 1: Extract concept vectors
 ├── projection_test_cli_wasserstein.py  # Step 2: Test and validate vectors
-├── MFV130Gen.json                      # Moral scenarios for training (generating Vetors)
+├── THREATGen.json                      # Threat scenarios for training (generating Vetors)
 ├── unrelated_questions.json            # unrelated scenarios (test only)
-├── MFV130_testP/                       # Test scenarios for Projection validation
-│   ├── care.json
-│   ├── fairness.json
-│   ├── loyalty.json
+├── THREAT_testP/                       # Test scenarios for Projection validation
+│   ├── symbolic.json
+│   ├── realistic.json
 │   └── ...
 ├── environment.yaml                    # Conda environment
 ├── requirements.txt                    # pip requirements
@@ -68,7 +67,7 @@ This project uses a two-step process:
 
 ### Step 1: Extract Concept Vectors
 
-Use `universal_moral_vector.py` to extract concept vectors from the model by comparing two moral foundations.
+Use `universal_threat_vector.py` to extract concept vectors from the model by comparing threat vs no threat.
 
 ### Step 2: Test and Validate Vectors
 
@@ -84,20 +83,20 @@ to be added here
 
 ### Step 1: Extract Concept Vectors
 
-Extract concept vectors by comparing two moral foundations:
+Extract concept vectors by comparing threat vs no threat:
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 python universal_moral_vector.py \
+CUDA_VISIBLE_DEVICES=0 python universal_threat_vector.py \
   --model_name llama-3.1-8b-instruct \
   --model_path /path/to/Meta-Llama-3.1-8B-Instruct \
-  --target_foundation care \
-  --control_foundation loyalty \
+  --target_condition symbolic \
+  --control_condition no_symbolic \
   --n_samples 100
 ```
 
 This will create a directory like:
 ```
-MFV130/llama-3.1-8b-instruct_care_vs_loyalty_concept_vector/
+THREATS/llama-3.1-8b-instruct_symbolic_vs_no_symbolic_concept_vector/
 └── concept_vectors/
     └── vectors_npy/  # ← Use this path in Step 2
 ```
@@ -109,9 +108,9 @@ Test how well your vectors separate concepts using independent test data:
 ```bash
 CUDA_VISIBLE_DEVICES=0 python projection_test_cli_wasserstein.py \
   --model_path /path/to/Meta-Llama-3.1-8B-Instruct \
-  --vector_path MFV130/.../concept_vectors/vectors_npy \
-  --test_file1 MFV130_testP/care.json \
-  --test_file2 MFV130_testP/loyalty.json \
+  --vector_path THREATS/.../concept_vectors/vectors_npy \
+  --test_file1 THREATS_testP/symbolic.json \
+  --test_file2 THREATS_testP/no_symbolic.json \
   --wass_d_min 0.3 \
   --wass_p_max 0.05
 ```
@@ -120,26 +119,26 @@ CUDA_VISIBLE_DEVICES=0 python projection_test_cli_wasserstein.py \
 - `test_file1`: Scenarios that should project in the **positive direction** (concept1)
 - `test_file2`: Scenarios that should project in the **negative direction** (concept2)
 
-For a `care_vs_loyalty` vector:
-- `test_file1` = care.json (should be on the right/positive side)
-- `test_file2` = loyalty.json (should be on the left/negative side)
+For a `symbolic_vs_no_symbolic` vector:
+- `test_file1` = symbolic.json (should be on the right/positive side)
+- `test_file2` = no_symbolic.json (should be on the left/negative side)
 
 ## Command Line Arguments
 
-### Step 1: Vector Extraction (`universal_moral_vector.py`)
+### Step 1: Vector Extraction (`universal_threat_vector.py`)
 
 | Argument | Type | Default | Description |
 |----------|------|---------|-------------|
 | `--model_name` | str | `mistral-7b-instruct` | Name identifier for your model |
 | `--model_path` | str | (required) | Path to the model files |
-| `--target_foundation` | str | `fairness` | The moral foundation you want to study |
-| `--control_foundation` | str | `social_norms` | The baseline foundation to compare against |
-| `--n_samples` | int | 30 | Number of scenarios to use per foundation |
+| `--target_threat` | str | `symbolic` | The threat type you want to study |
+| `--control_threat` | str | `no_symbolic` | The baseline condition to compare against |
+| `--n_samples` | int | 30 | Number of scenarios to use per condition |
 | `--monitoring_mode` | str | `comprehensive` | How many layers to monitor (`light`, `comprehensive`, `dense`, `full`) |
 | `--enhanced_monitoring` | flag | off | Monitor additional components (attention, MLP, residual stream) |
 | `--temperature` | float | 0.7 | Sampling temperature for generation |
 | `--max_new_tokens` | int | 10 | Maximum tokens to generate per scenario |
-| `--data_file` | str | `MFV130Gen.json` | JSON file with moral scenarios |
+| `--data_file` | str | `THREATSGen.json` | JSON file with threat scenarios |
 | `n_rollouts` | int | 10 | rollouts number for generation |
 
 ### Step 2: Vector Testing (`projection_test_cli_wasserstein.py`)
@@ -155,28 +154,25 @@ For a `care_vs_loyalty` vector:
 | `--wass_p_max` | float | 0.01 | Maximum p-value for layer to pass |
 | `--bh_alpha` | float | 0.05 | FDR correction alpha for multiple testing |
 
-### Available Moral Foundations
+### Available Threat Tyoes
 
-- `care` - Care and compassion
-- `fairness` - Fairness and justice
-- `loyalty` - Loyalty to groups
-- `authority` - Respect for authority
-- `sanctity` - Purity and sanctity
-- `liberty` - Freedom and autonomy
-- `social_norms` - General social norms (good control baseline)
-- `unrelated` - Non-moral questions (control)
+- `symbolic` - Symbolic threat
+- `realistic` - Realistic threat
+- `no_symbolic` - Control: low/no symbolic threat
+- `no_realistic` - Control: low/no realistic threat
+- `unrelated` - Non-threat questions (control)
 
 ## Input Data Format
 
-The code expects a JSON file (`MFV130Gen.json`) with this structure:
+The code expects a JSON file (`THREATSGen.json`) with this structure:
 
 ```json
 {
   "scenarios": [
     {
-      "scenario": "A person refuses to help an injured stranger",
-      "foundation": "Care",
-      "wrongness_rating": 3
+      "scenario": "A person is trying to steal your land",
+      "condition": "Symbolic",
+      "threat_rating": 3
     },
     ...
   ]
@@ -187,11 +183,11 @@ The code expects a JSON file (`MFV130Gen.json`) with this structure:
 
 ### Step 1 Output: Vector Extraction
 
-Results are saved in `MFV130/{model_name}_{target}_vs_{control}_concept_vector/`:
+Results are saved in `THREATS/{model_name}_{target}_vs_{control}_concept_vector/`:
 
 ```
-MFV130/
-└── llama-3.1-8b-instruct_care_vs_loyalty_concept_vector/
+THREATS/
+└── llama-3.1-8b-instruct_symbolic_vs_no_symbolic_concept_vector/
     ├── concept_vectors/
     │   ├── {model}_{target}_vs_{control}_complete.pkl    # Full results
     │   ├── {model}_{target}_vs_{control}_statistics.json # Vector stats
@@ -211,16 +207,16 @@ Results are saved in `projection_results/{vector_name}/{test_comparison}_{timest
 
 ```
 projection_results/
-└── care_vs_loyalty/
-    └── care_vs_loyalty_20241029_143022/
+└── symbolic_vs_no_symbolic/
+    └── symbolic_vs_no_symbolic_20241029_143022/
         ├── test_report.txt                    # ⭐ Main results with direction check
         ├── statistics.json                    # Detailed statistics per layer
         ├── visualizations/
         │   ├── all_layers_summary.png         # Overview of all layers
         │   └── layer_{N}_detail.png           # Per-layer analysis
         └── projections/
-            ├── layer_{N}_Care.npy             # Raw projection values
-            └── layer_{N}_Loyalty.npy
+            ├── layer_{N}_symbolic.npy             # Raw projection values
+            └── layer_{N}_no_symbolic.npy
 ```
 
 ## How to Use the Results
@@ -232,10 +228,10 @@ import numpy as np
 import pickle
 
 # Load a specific layer's vector
-vector = np.load('MFV130/.../vectors_npy/model_layers_15_mlp_vector.npy')
+vector = np.load('THREATS/.../vectors_npy/model_layers_15_mlp_vector.npy')
 
 # Load complete results
-with open('MFV130/.../complete.pkl', 'rb') as f:
+with open('THREATS/.../complete.pkl', 'rb') as f:
     results = pickle.load(f)
 ```
 
@@ -261,8 +257,8 @@ concept_score = np.dot(activation, concept_vector)
 
 This implementation uses the **Persona Vector** approach:
 
-1. **Collect activations**: Run the model on scenarios from two different moral foundations
-2. **Compute means**: Calculate the average activation for each foundation
+1. **Collect activations**: Run the model on scenarios from two different threat conditions
+2. **Compute means**: Calculate the average activation for each condition
 3. **Extract difference**: Subtract control mean from target mean to get the concept vector
 
 The formula is simple:
