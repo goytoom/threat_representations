@@ -1,0 +1,10 @@
+{
+  "pos_kept": 125,
+  "total_evaluated": 2000,
+  "pos_filtered": 875,
+  "neg_kept": 1000,
+  "total_generated": 2000,
+  "total_kept": 1125,
+  "keep_rate": 0.5625,
+  "neg_filtered": 0
+}
