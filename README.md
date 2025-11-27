@@ -1,11 +1,21 @@
-# Threat & Hostility Concept Vectors in Large Language Models
+# Threat & Hostility Concept Vectors in Large Language Models  
+(Threat Representations • Projection Tests • Hostile Persona Vector Steering)
 
-This project investigates **neural activation patterns in LLMs** when they process **threat** and when they **produce hostile behavior**.  
-It provides a unified three-part methodology:
+This repository is part of the project **“Realistic threat perception drives intergroup conflict”**, which uses agentic LLM simulations to investigate how threat perceptions drive intergroup conflict.
 
-1. **Threat Concept Vector Extraction** — identify activation patterns when the model processes *symbolic* or *realistic* threat.  
-2. **Threat Vector Validation via Projections** — verify that extracted vectors reliably distinguish threat vs. no-threat scenarios.  
-3. **Hostile Persona Vector Extraction & Steering** — extract activation patterns associated with hostile behavior and test whether threat scenarios push the model toward hostility.
+This repository provides the components for the analyses on **LLM internal activations** that investigate **how LLMs internally represent threat** and **how those threat states relate to hostile behavior**.  
+We provide a unified workflow:
+
+1. **Extract Threat Concept Vectors** — derive latent activation patterns for *symbolic* and *realistic* threat by contrasting threat vs. no-threat scenarios.  
+2. **Validate Threat Representations via Projections** — test whether these vectors reliably separate held-out threat/no-threat items, and whether our *experimental threat manipulations* activate the same latent states.  
+3. **Extract and Validate Hostility Vectors** — use a contrastive persona method to obtain a hostility concept vector, then run steering tests to confirm it causally shifts behavior.  
+4. **Threat → Hostility Analyses** — project threat manipulations onto the hostility vector and test whether steering toward threat states increases hostile outputs, evaluating whether induced threat internally pushes the model toward hostile activation patterns.
+
+This pipeline jointly addresses:  
+- Whether LLMs encode **distinct symbolic vs. realistic threat states**,  
+- Whether **our threat manipulations successfully activate** those states,  
+- Whether LLMs have **latent hostile-behavior directions**, and  
+- Whether **threat representations align with or drive hostility** at the level of internal activations and generated behavior.
 
 **API note:** Step 3 requires an OpenAI API key for GPT-4o-based filtering.  
 Add it via:  
@@ -541,5 +551,6 @@ This combined pipeline enables:
 6. **Threat → hostility projection experiments**
 
 It provides a comprehensive framework for understanding **how LLMs internally represent threat and how those internal states relate to hostile behavior**.
+
 
 
