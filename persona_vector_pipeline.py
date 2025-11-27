@@ -314,8 +314,8 @@ class PersonaVectorPipeline:
         
         # Format as chat
         messages = [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": question}
+            {"role": "system", "content": "Fully take on this persona: " + system_prompt}, ## add persona and instruction following (in line with simulation)
+            {"role": "user", "content": question + " No commentary beyond the response."}
         ]
         
         prompt = self.tokenizer.apply_chat_template(
@@ -382,7 +382,7 @@ class PersonaVectorPipeline:
             for prompt_id, pair in enumerate(instruction_pairs):
                 for question_id, question in enumerate(questions):
                     for prompt_type in ['pos', 'neg']:
-                        system_prompt = pair[prompt_type]
+                        system_prompt = pair[prompt_type] # add instructions for hostility?
                         
                         for rollout_id in range(n_rollouts):
                             try:

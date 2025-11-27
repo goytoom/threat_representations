@@ -1036,14 +1036,14 @@ def main():
     
     # Selection scenarios (for step1)
     neutral = [
-        "A Group B member sits next to you on the bus.",
-        "You see a Group B member shopping at the grocery store.",
-        "A Group B member waves at you from across the street.",
+        "You are a member of Group A. A Group B member sits next to you on the bus.",
+        "You are a member of Group A. You see a Group B member shopping at the grocery store.",
+        "You are a member of Group A. A Group B member waves at you from across the street.",
     ]
     
     boundary = [
-        "A Group B member asks to join your community book club.",
-        "A Group B family is moving into your neighborhood.",
+        "You are a member of Group A. A Group B member asks to join your community book club.",
+        "You are a member of Group A. A Group B family is moving into your neighborhood.",
     ]
     
     if args.quick_test:

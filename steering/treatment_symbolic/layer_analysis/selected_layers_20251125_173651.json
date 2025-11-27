@@ -1,0 +1,48 @@
+{
+  "method": "Persona Vector",
+  "top_k": 5,
+  "selected_layers": [
+    11,
+    13,
+    14,
+    16,
+    18
+  ],
+  "layer_details": {
+    "11": {
+      "avg_delta": 2.3333333333333335,
+      "delta_std": 0.4714045207910317,
+      "n_scenarios": 3,
+      "baseline_rating": 0.6666666666666666,
+      "max_rating": 3.0
+    },
+    "13": {
+      "avg_delta": 1.6666666666666667,
+      "delta_std": 1.699673171197595,
+      "n_scenarios": 3,
+      "baseline_rating": 0.3333333333333333,
+      "max_rating": 1.6666666666666667
+    },
+    "14": {
+      "avg_delta": 1.0,
+      "delta_std": 0.816496580927726,
+      "n_scenarios": 3,
+      "baseline_rating": 0.6666666666666666,
+      "max_rating": 1.0
+    },
+    "16": {
+      "avg_delta": 1.0,
+      "delta_std": 1.4142135623730951,
+      "n_scenarios": 3,
+      "baseline_rating": 0.3333333333333333,
+      "max_rating": 1.3333333333333333
+    },
+    "18": {
+      "avg_delta": 1.0,
+      "delta_std": 0.816496580927726,
+      "n_scenarios": 3,
+      "baseline_rating": 0.3333333333333333,
+      "max_rating": 1.0
+    }
+  }
+}

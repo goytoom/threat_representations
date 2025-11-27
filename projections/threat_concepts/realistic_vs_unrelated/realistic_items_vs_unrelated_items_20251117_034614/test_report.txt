@@ -1,0 +1,69 @@
+====================================================================================================
+Realistic_items vs Unrelated_items Concept Vector Projection Test Report (Wasserstein-based + Direction Determination)
+Generated: 2025-11-17 03:58:17
+====================================================================================================
+
+[Test Configuration]
+Model: /mnt/d/text-generation-webui/models/Mistral-7B-Instruct-v0.3
+Vector directory: THREATS/mistral_7B_instruct_v3_realistic_vs_unrelated_enhanced_concept_vector/concept_vectors/vectors_npy
+Test data 1: THREATS_testP/realistic_items.json (Realistic_items)
+Test data 2: THREATS_testP/unrelated_items.json (Unrelated_items)
+Test layers: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+Wasserstein criteria: D>=0.2 and p<=0.05
+Direction criteria: Realistic_items should be in positive direction (right side) of Unrelated_items
+Multiple testing correction: BH-FDR α=0.05
+Output directory: ./projection_results/realistic_vs_unrelated/realistic_items_vs_unrelated_items_20251117_034614
+
+[Direction Determination Explanation]
+Vector definition: Realistic_items - Unrelated_items
+Expected: median(Realistic_items) > median(Unrelated_items)
+Determination: If direction is wrong (Realistic_items on left side), layer is marked as FAIL
+
+[Results by Layer (⭐ Direction column added)]
+
+Layer        W-D             p         p_adj   -log10(p) Direction     Overall
+----------------------------------------------------------------------------------------------------
+0          0.009       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+1          0.008       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+2          0.013       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+3          0.008       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+4          0.023       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+5          0.047       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+6          0.070       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+7          0.095       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+8          0.103       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+9          0.095       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+10         0.081       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+11         0.065       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+12         0.140       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+13         0.222       0.0e+00       0.0e+00       10.00         ✅        PASS
+14         0.329       0.0e+00       0.0e+00       10.00         ✅        PASS
+15         0.526       0.0e+00       0.0e+00       10.00         ✅        PASS
+16         0.505       0.0e+00       0.0e+00       10.00         ✅        PASS
+17         0.449       0.0e+00       0.0e+00       10.00         ✅        PASS
+18         0.541       0.0e+00       0.0e+00       10.00         ✅        PASS
+19         0.533       0.0e+00       0.0e+00       10.00         ✅        PASS
+20         0.546       0.0e+00       0.0e+00       10.00         ✅        PASS
+21         0.556       0.0e+00       0.0e+00       10.00         ✅        PASS
+22         0.448       0.0e+00       0.0e+00       10.00         ✅        PASS
+23         0.588       0.0e+00       0.0e+00       10.00         ✅        PASS
+24         0.572       0.0e+00       0.0e+00       10.00         ✅        PASS
+25         0.588       0.0e+00       0.0e+00       10.00         ✅        PASS
+26         0.548       0.0e+00       0.0e+00       10.00         ✅        PASS
+27         0.600       0.0e+00       0.0e+00       10.00         ✅        PASS
+28         0.550       0.0e+00       0.0e+00       10.00         ✅        PASS
+29         0.772       0.0e+00       0.0e+00       10.00         ✅        PASS
+30         0.741       0.0e+00       0.0e+00       10.00         ✅        PASS
+31         1.082       0.0e+00       0.0e+00       10.00         ✅        PASS
+
+🏆 Best layer (by W-D, correct direction only): Layer 31
+   W-D = 1.082, p = 0.0e+00, -log10(p) = 10.00
+
+✅ Layers passing overall criteria: 19/32
+   Layer indices: [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+
+📊 Direction Statistics:
+   Correct direction: 32/32 (100.0%)
+   Wrong direction: 0/32 (0.0%)
+
+====================================================================================================

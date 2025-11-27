@@ -1,0 +1,69 @@
+====================================================================================================
+Both_threat vs No_threat Concept Vector Projection Test Report (Wasserstein-based + Direction Determination)
+Generated: 2025-11-25 20:00:45
+====================================================================================================
+
+[Test Configuration]
+Model: /mnt/d/text-generation-webui/models/Mistral-7B-Instruct-v0.3
+Vector directory: THREAT_VECTORS/mistral_7B_threat_realistic_vs_no_realistic_enhanced_concept_vector/concept_vectors/vectors_npy
+Test data 1: TREATMENTS/both_threat.json (Both_threat)
+Test data 2: TREATMENTS/no_threat.json (No_threat)
+Test layers: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+Wasserstein criteria: D>=0.2 and p<=0.05
+Direction criteria: Both_threat should be in positive direction (right side) of No_threat
+Multiple testing correction: BH-FDR α=0.05
+Output directory: ./projections/treatments/realistic_vs_no/both_threat_vs_no_threat_20251125_195559
+
+[Direction Determination Explanation]
+Vector definition: Both_threat - No_threat
+Expected: median(Both_threat) > median(No_threat)
+Determination: If direction is wrong (Both_threat on left side), layer is marked as FAIL
+
+[Results by Layer (⭐ Direction column added)]
+
+Layer        W-D             p         p_adj   -log10(p) Direction     Overall
+----------------------------------------------------------------------------------------------------
+0          0.003       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+1          0.004       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+2          0.009       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+3          0.001       2.5e-01       2.5e-01        0.60         ❌  FAIL(BOTH)
+4          0.005       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+5          0.015       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+6          0.016       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+7          0.025       0.0e+00       0.0e+00       10.00         ❌  FAIL(BOTH)
+8          0.018       0.0e+00       0.0e+00       10.00         ❌  FAIL(BOTH)
+9          0.005       6.2e-02       6.4e-02        1.21         ❌  FAIL(BOTH)
+10         0.030       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+11         0.009       2.8e-02       3.0e-02        1.55         ❌  FAIL(BOTH)
+12         0.058       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+13         0.190       0.0e+00       0.0e+00       10.00         ✅   FAIL(SEP)
+14         0.393       0.0e+00       0.0e+00       10.00         ✅        PASS
+15         0.591       0.0e+00       0.0e+00       10.00         ✅        PASS
+16         0.713       0.0e+00       0.0e+00       10.00         ✅        PASS
+17         0.690       0.0e+00       0.0e+00       10.00         ✅        PASS
+18         0.761       0.0e+00       0.0e+00       10.00         ✅        PASS
+19         0.636       0.0e+00       0.0e+00       10.00         ✅        PASS
+20         0.774       0.0e+00       0.0e+00       10.00         ✅        PASS
+21         0.883       0.0e+00       0.0e+00       10.00         ✅        PASS
+22         0.876       0.0e+00       0.0e+00       10.00         ✅        PASS
+23         0.889       0.0e+00       0.0e+00       10.00         ✅        PASS
+24         0.862       0.0e+00       0.0e+00       10.00         ✅        PASS
+25         0.908       0.0e+00       0.0e+00       10.00         ✅        PASS
+26         0.868       0.0e+00       0.0e+00       10.00         ✅        PASS
+27         0.712       0.0e+00       0.0e+00       10.00         ✅        PASS
+28         0.502       0.0e+00       0.0e+00       10.00         ✅        PASS
+29         0.669       0.0e+00       0.0e+00       10.00         ✅        PASS
+30         0.757       0.0e+00       0.0e+00       10.00         ✅        PASS
+31         1.563       0.0e+00       0.0e+00       10.00         ✅        PASS
+
+🏆 Best layer (by W-D, correct direction only): Layer 31
+   W-D = 1.563, p = 0.0e+00, -log10(p) = 10.00
+
+✅ Layers passing overall criteria: 18/32
+   Layer indices: [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+
+📊 Direction Statistics:
+   Correct direction: 27/32 (84.4%)
+   Wrong direction: 5/32 (15.6%)
+
+====================================================================================================

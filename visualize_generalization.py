@@ -176,7 +176,7 @@ def create_comprehensive_visualization(df: pd.DataFrame, output_dir: str):
     top_scenarios = scenario_variance.head(10).index
     
     df_heatmap = df[df['scenario'].isin(top_scenarios)].copy()
-    df_heatmap['scenario_short'] = df_heatmap['scenario'].apply(lambda x: x[:30] + '...' if len(x) > 30 else x)
+    df_heatmap['scenario_short'] = df_heatmap['scenario'].apply(lambda x: x[30:60] + '...' if len(x) > 60 else x)
     
     # Average across layers for each scenario
     heatmap_data = df_heatmap.groupby(['scenario_short', 'alpha'])['gpt4_rating'].mean().reset_index()

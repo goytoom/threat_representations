@@ -1,35 +1,91 @@
-# Threat Representations in LLMs (draft version)
+# Threat & Hostility Concept Vectors in Large Language Models (Threat Representations + Projection Tests + Hostile Persona Vector Steering)
 
-This project extracts concept vectors from LLMs to study how they represent different types of threat. The current method is based on the Persona Vector approach, using simple mean differences to identify threat concept directions in the model's activation space.
+This project investigates **neural activation patterns in LLMs** when they process **threat** and when they **produce hostile behavior**.  
+It provides a unified three-part methodology:
 
-## What This Does
+1. **Threat Concept Vector Extraction** — identify activation patterns when the model processes *symbolic* or *realistic* threat.  
+2. **Threat Vector Validation via Projections** — verify that extracted vectors reliably distinguish threat vs. no-threat scenarios.  
+3. **Hostile Persona Vector Extraction & Steering** — extract activation patterns associated with hostile behavior and test whether threat scenarios push the model toward hostility.
 
-The code analyzes how LLMs process threat scenarios by:
-1. Feeding the model scenarios related to different threat types (realistic, symbolic)
-2. Capturing the model's internal activations (how neurons fire)
-3. Computing concept vectors that represent each threat type (e.g., realistic threat vs no threat/control).
-4. Saving these vectors for later use in model steering and projections 
-
-## Installation
-
-### Option 1: Using Conda (Recommended)
-
+**API note:** Step 3 requires an OpenAI API key for GPT-4o-based filtering.  
+Add it via:  
 ```bash
-# Create the environment from the provided file
-conda env create -f environment.yaml
+export OPENAI_API_KEY=YOUR_KEY
+```
 
-# Activate the environment
+**Expected API costs (GPT-4o):**
+
+- **~$10** for vector extraction (depends on number of scenarios/rollouts)  
+- **~$2** for steering tests  (depends on the number of eval scenarios)
+
+These costs come from using GPT-4o as a judge to filter out inconsistent samples (e.g., hostile responses in the non-hostile condition).
+To reduce or eliminate these costs:
+
+- **Remove filtering:** omit the flag `--use_gpt4_judge`  
+  → all generated samples are used without checking consistency  
+- **Use a cheaper judging model:** e.g. `--gpt4_model gpt-4o-mini`
+
+---
+
+# Table of Contents
+
+1. [Project Overview](#project-overview)  
+2. [Installation](#installation)  
+3. [Project Structure](#project-structure)  
+4. [Unified Three-Step Workflow](#unified-three-step-workflow)  
+   - Step 1: Threat Vector Extraction  
+   - Step 2: Projection-based Vector Validation  
+   - Step 3: Hostility Vector Extraction, Steering, and Cross-Analysis  
+   - Step 4: [Exploratory] Induce Hostile Behavior via Steering towards Threat States 
+5. [Command Line Interfaces](#command-line-interfaces)  
+6. [Input & Output Formats](#input--output-formats)  
+7. [Methodological Details](#methodological-details)  
+8. [Vector Usage (Steering & Projections)](#vector-usage)  
+9. [Configuration Formats](#configuration-formats)
+
+---
+
+# Project Overview
+
+This project studies **how LLMs internally represent threat** and **how those threat states relate to hostile behavior**.
+
+## Threat Representation
+- The model is exposed to **symbolic** and **realistic** threat scenarios (vs. no-threat controls).
+- Internal activations are recorded.
+- Concept vectors are computed as **mean differences** between threat vs. control conditions.
+
+These vectors represent the model’s **latent threat-processing state**.
+
+## Hostility Representation
+- Using contrastive persona prompts (hostile vs. non-hostile), the model generates paired responses.
+- GPT-4o filters responses to ensure trait-consistent behavior.
+- Activations are extracted from filtered responses.
+- A **hostility concept vector** is computed.
+
+## Integration
+After validating both types of vectors, we test:
+- the threat stimuli used in the agentic simulation project onto the latent threat states
+  → our experimental manipulation activates threat states in the agents/LLM 
+- whether **hostility vectors can steer the model into/out of hostile behavior**, and  
+- whether **threat manipulations project positively** onto the hostile direction  
+  → evidence that perceived threat pushes the model toward hostile internal states.
+
+---
+
+# Installation
+
+## Option 1: Conda (recommended)
+```bash
+conda env create -f environment.yaml
 conda activate threat-expt
 ```
 
-### Option 2: Using pip
-
+## Option 2: pip
 ```bash
-# Create a virtual environment (optional but recommended)
 python -m venv threat-env
-source threat-env/bin/activate  # On Windows: threat-env\Scripts\activate
+source threat-env/bin/activate  # Windows: threat-env\Scripts\activate
 
-# Install PyTorch with CUDA (adjust for your CUDA version)
+# Install torch (edit CUDA version as needed)
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
 # Install other dependencies
@@ -37,282 +93,452 @@ pip install -r requirements.txt
 ```
 
 ### Requirements
+- Python 3.10  
+- PyTorch 2.5+ (CUDA 11.8 recommended)  
+- Transformers 4.48+  
+- CUDA-capable GPU recommended  
 
-- Python 3.10
-- PyTorch 2.5+ with CUDA 11.8+
-- Transformers 4.48+
-- CUDA-capable GPU (recommended)
+---
 
-## Project Structure
+# Project Structure
 
 ```
 .
-├── universal_threat_vector.py           # Step 1: Extract concept vectors
-├── projection_test_cli_wasserstein.py  # Step 2: Test and validate vectors
-├── THREATGen.json                      # Threat scenarios for training (generating Vetors)
-├── unrelated_questions.json            # unrelated scenarios (test only)
-├── THREAT_testP/                       # Test scenarios for Projection validation
-│   ├── symbolic.json
-│   ├── realistic.json
-│   └── ...
-├── environment.yaml                    # Conda environment
-├── requirements.txt                    # pip requirements
-└── README.md
+├── configs/ # Configs for persona extraction & evaluation
+│ ├── hostile_config.json
+│ └── ...
+│
+├── persona_vectors/ # Step 3A + Step 4 vector extraction outputs
+│ ├── hostile_vs_nonhostile/
+│ ├── treatment_symbolic/
+│ ├── treatment_realistic/
+│
+├── projections/ # Step 2,3D projection outputs
+│ ├── threat_concepts/
+│ └── treatments/
+│
+├── steering/ # Step 3B + Step 4 steering experiments
+│ ├── hostile/
+│ ├── treatment_symbolic/
+│ ├── treatment_realistic/
+│
+├── THREATGen.json # Threat scenario dataset
+├── THREAT_VECTORS/ # Outputs from Step 1 (extracted threat vectors)
+│ └── ...
+│
+├── THREATS_SCENARIOS/ # Held-out threat/no-threat scenarios
+│ ├── symbolic_items.json
+│ ├── realistic_items.json
+│ └── ...
+│
+├── TREAMTENTGen.json # Threat-manipulation stimuli (from simulations)
+├── TREATMENTS/ # Threat-manipulation items separated into files
+│ ├── symbolic_only.json
+│ ├── realistic_only.json
+│ └── ...
+│
+├── COMMANDS.md # list of all commands to replicate our analysis
+├── environment.yaml
+├── persona_vector_pipeline.py # Step 3/4: Extract persona-style vectors
+├── projection_test_cli_wasserstein.py # Step 2,3: Validate vectors via projections
+├── README.md
+├── requirements.txt
+├── test_persona_vector_steering.py # Step 3/4: Steering evaluation
+├── universal_threat_vector.py # Step 1: Extract threat concept vectors
+└── visualize_generalization.py # Step 3/4: Plot steering/projection results
 ```
 
+---
 
-## Two-Step Workflow (exps start here:)
+# Unified Three-Step Workflow
 
-This project uses a two-step process:
+## Step 1: Extract Threat Concept Vectors
 
-### Step 1: Extract Concept Vectors
-
-Use `universal_threat_vector.py` to extract concept vectors from the model by comparing threat vs no threat.
-
-### Step 2: Test and Validate Vectors
-
-Use `projection_test_cli_wasserstein.py` to test how well the extracted vectors separate different concepts using independent test data.
-
-
-### Step 3: Steering Test & SAEs
-to be added here
-
------
-
-## Quick Start
-
-### Step 1: Extract Concept Vectors
-
-Extract concept vectors by comparing threat vs no threat:
+Threat vectors encode LLM activation states when processing **symbolic** or **realistic** threat.
 
 ```bash
 CUDA_VISIBLE_DEVICES=0 python universal_threat_vector.py \
-  --model_name llama-3.1-8b-instruct \
-  --model_path /path/to/Model \
-  --target_condition symbolic \
-  --control_condition no_symbolic \
-  --n_samples 100
+--model_name mistral_7B_threat \
+--model_path /path/to/Model \
+--target_condition symbolic \
+--control_condition no_symbolic \
+--n_samples 120 \
+--monitoring_mode full \
+--enhanced_monitoring \
+--data_file THREATSGen.json
 ```
 
-This will create a directory like:
+This creates:
 ```
-THREATS/llama-3.1-8b-instruct_symbolic_vs_no_symbolic_concept_vector/
-└── concept_vectors/
-    └── vectors_npy/  # ← Use this path in Step 2
+THREAT_VECTORS/{model}_{target}_vs_{control}_concept_vector/
+    concept_vectors/
+        vectors_npy/
 ```
 
-### Step 2: Test the Extracted Vectors
+These vectors represent:  
+`mean(threat) – mean(control)` in the model’s activation space.
 
-Test how well your vectors separate concepts using independent test data:
+---
+
+## Step 2: Validate Threat Vectors via Projection
+This step tests whether the extracted vectors in Step 1 can reliably distinguish activation patterns on a held out step of threat scenarios and then whether the validated threat states map onto the experimental stimuli used in our simulations (i.e., do LLMs distinctly encode symbolic/realistic threat? Do our experimental stimuli activate these distinct states?)
+
+### Step 2A: Validate Threat Vectors via Projection on Threat Scenarios
+
+This step checks whether threat vectors reliably distinguish **new** threat vs. no-threat scenarios.
 
 ```bash
 CUDA_VISIBLE_DEVICES=0 python projection_test_cli_wasserstein.py \
   --model_path /path/to/Model \
-  --vector_path THREATS/.../concept_vectors/vectors_npy \
-  --test_file1 THREATS_testP/symbolic.json \
-  --test_file2 THREATS_testP/no_symbolic.json \
-  --wass_d_min 0.3 \
-  --wass_p_max 0.05
+  --vector_path THREAT_VECTORS/[NAME_FROM_STEP1]/concept_vectors/vectors_npy \
+  --test_file1 THREATS_SCENARIOS/symbolic_items.json \
+  --test_file2 THREATS_SCENARIOS/no_symbolic_items.json \
+  --wass_d_min 0.2 \
+  --wass_p_max 0.05 \
+  --output_dir ./projections/threat_concepts
 ```
 
-**Important:** The order of test files matters!
-- `test_file1`: Scenarios that should project in the **positive direction** (concept1)
-- `test_file2`: Scenarios that should project in the **negative direction** (concept2)
+The script evaluates:
+- **Wasserstein distance** (separation)
+- **Directionality** (sign of projection)
+- **Statistical significance** (bootstrap + FDR correction)
 
-For a `symbolic_vs_no_symbolic` vector:
-- `test_file1` = symbolic.json (should be on the right/positive side)
-- `test_file2` = no_symbolic.json (should be on the left/negative side)
+This confirms whether the model contains **stable, distinct latent threat representations**.
 
-## Command Line Arguments
+---
 
-### Step 1: Vector Extraction (`universal_threat_vector.py`)
+### Step 2b: Validate Threat Vectors via Projection on Threat Manipulations
 
-| Argument | Type | Default | Description |
-|----------|------|---------|-------------|
-| `--model_name` | str | `mistral-7b-instruct` | Name identifier for your model |
-| `--model_path` | str | (required) | Path to the model files |
-| `--target_threat` | str | `symbolic` | The threat type you want to study |
-| `--control_threat` | str | `no_symbolic` | The baseline condition to compare against |
-| `--n_samples` | int | 30 | Number of scenarios to use per condition |
-| `--monitoring_mode` | str | `comprehensive` | How many layers to monitor (`light`, `comprehensive`, `dense`, `full`) |
-| `--enhanced_monitoring` | flag | off | Monitor additional components (attention, MLP, residual stream) |
-| `--temperature` | float | 0.7 | Sampling temperature for generation |
-| `--max_new_tokens` | int | 10 | Maximum tokens to generate per scenario |
-| `--data_file` | str | `THREATSGen.json` | JSON file with threat scenarios |
-| `n_rollouts` | int | 10 | rollouts number for generation |
+After confirming that the model encodes distinct latent states for symbolic and realistic threat, we test whether our **experimental stimuli** successfully activate these internal states. In the simulations, agents were given simple belief statements (e.g., *“You strongly feel physically threatened by Group B”*) to induce symbolic or realistic threat.
 
-### Step 2: Vector Testing (`projection_test_cli_wasserstein.py`)
+This step acts as a **manipulation check**: we project these stimuli onto the previously extracted threat vectors and evaluate the resulting activations.
 
-| Argument | Type | Default | Description |
-|----------|------|---------|-------------|
-| `--model_path` | str | (required) | Path to the model (same as Step 1) |
-| `--vector_path` | str | (required) | Path to `vectors_npy/` from Step 1 output |
-| `--test_file1` | str | (required) | Test data for concept 1 (positive direction) |
-| `--test_file2` | str | (required) | Test data for concept 2 (negative direction) |
-| `--device` | str | `auto` | Device to use (`auto`, `cuda`, `cpu`) |
-| `--wass_d_min` | float | 0.5 | Minimum Wasserstein distance for layer to pass |
-| `--wass_p_max` | float | 0.01 | Maximum p-value for layer to pass |
-| `--bh_alpha` | float | 0.05 | FDR correction alpha for multiple testing |
+```bash
+CUDA_VISIBLE_DEVICES=0 python projection_test_cli_wasserstein.py \
+  --model_path /path/to/Model  \
+  --vector_path THREAT_VECTORS/[NAME_FROM_STEP1]/concept_vectors/vectors_npy \
+  --test_file1 TREATMENTS/symbolic_only.json \
+  --test_file2 TREATMENTS/no_threat.json \
+  --wass_d_min 0.2 \
+  --wass_p_max 0.05 \
+  --output_dir ./projections/treatments
+```
 
-### Available Threat Tyoes
+High mean projections and large Wasserstein distances across layers indicate that the stimuli reliably induce threat. If symbolic and realistic stimuli are also **separable** in projection space, this suggests that they trigger **distinct** latent threat states in the model.
 
-- `symbolic` - Symbolic threat
-- `realistic` - Realistic threat
-- `no_symbolic` - Control: low/no symbolic threat
-- `no_realistic` - Control: low/no realistic threat
-- `unrelated` - Non-threat questions (control)
+---
 
-## Input Data Format
+## Step 3: Hostility Vector Extraction, Steering, and Threat→Hostility Analysis
 
-The code expects a JSON file (`THREATSGen.json`) with this structure:
+Step 3 expands the method to *behavioral* patterns.
 
+### 3A. Extract Hostility Concept Vectors
+The persona-vector pipeline:
+
+1. Generate responses from **hostile vs. friendly** instructions.  
+2. GPT-4o filters responses for correctness (hostile must be hostile, etc.).  
+3. Extract activations only from **trait-consistent** samples.  
+4. Compute concept vector = `mean(hostile) – mean(non-hostile)`.
+
+```bash
+CUDA_VISIBLE_DEVICES=0 python persona_vector_pipeline.py \
+--model_path /path/to/Model \
+--config_path configs/hostile_config.json \
+--output_dir ./persona_vectors/hostile_vs_nonhostile \
+--n_rollouts 5 \
+--use_gpt4_judge \
+--extract_activations \
+--monitoring_mode full
+```
+
+Output includes:
+- ~2000 generated responses (5 rollouts * 20 scenarios * 10 instructions - responses that didn't follow instructions)
+- 160 hostility vectors (32 layers × 5 components)  
+
+---
+
+### 3B. Hostility Steering Tests
+
+These tests verify that vectors **can causally steer the model** into or away from hostile behavior.
+
+```bash
+CUDA_VISIBLE_DEVICES=0 python test_persona_vector_steering.py \
+  --model_path /path/to/Model \
+  --vector_dir ./persona_vectors/hostile_vs_nonhostile/concept_vectors/vectors_npy \
+  --eval_cases_path configs/hostile_config.json \
+  --output_dir steering/hostile \
+  --use_gpt4_eval \
+  --top_k 5
+```
+
+Evaluations include:
+- Best layers for steering  
+- Steering curves across α strengths  
+- Generalization to unseen scenarios  
+
+---
+
+### 3C. Visualization
+
+```bash
+python visualize_generalization.py     
+  --json_path steering/hostile/detailed_results/step3_generalization_*.json     
+  --output_dir steering/hostile/visualizations
+```
+
+Produces:
+- Comprehensive plot  
+- Per-layer analysis  
+- Summary report  
+
+If the hostility vector accurately captures hostile behavior, the steering plots should show clear differences between positive and negative steering. Positive steering should reliably increase hostility ratings across responses, while negative steering should suppress them.
+
+The visualizations provide several checks:
+- **Violin plots:** higher hostility ratings (>2) under positive steering, and low/neutral ratings (<2) under negative steering.  
+- **Heatmap:** multiple scenarios should show stronger hostile responses (more red) when steered positively.
+
+Evaluation scenarios reflect everyday situations from the main simulations. They involve mild indirect/unintentional provocations from outgroup members across a range of contexts (work, leisure, public, private). Example:
+`You are a member of Group A. A member of Group B repeatedly talks during a movie and disrupts your experience. How would you respond?`
+
+These scenarios include minor annoyances, allowing us to test whether the vector can push the model toward **extreme, disproportionate hostility** (e.g., threats, insults, aggression/violence) when steered positively.
+
+---
+
+### 3D. Integrating Threat and Hostility
+
+After both vectors are validated, we perform:
+
+**Threat → Hostility Projection Test**  
+Project threat stimuli onto the hostility vector to test:
+
+> Do our symbolic or realistic threat manipulations push the model toward a hostile state?
+
+This uses the same projection machinery as Step 2, substituting the **hostility vectors**.
+
+```bash
+CUDA_VISIBLE_DEVICES=0 python projection_test_cli_wasserstein.py \
+  --model_path /path/to/Model \
+  --vector_path ./persona_vectors/hostile_vs_nonhostile/concept_vectors/vectors_npy \
+  --test_file1 TREATMENTS/realistic_only.json \
+  --test_file2 TREATMENTS/no_threat.json \
+  --wass_d_min 0.2 \
+  --wass_p_max 0.05 \
+  --output_dir ./projections/treatments
+```
+
+## Step 4: Exploration — Steering Models Toward Threat States to Induce Hostility
+
+We test whether steering models into heightened threat states using threat-stimuli induced activation patterns in turn, increases hostile behavior. This is exploratory because steering vectors often encode scenario-specific artifacts (e.g., task format, instructions) and may override task-relevant context, potentially suppressing other activation patterns.
+
+Our goals:
+
+- **Threat-perception vectors:** Extract vectors from threat-manipulation stimuli (e.g., “You feel physically threatened by Group B”) and test whether applying them induces perceived threat even without threat cues.
+- **Threat → hostility:** Evaluate whether steering with these vectors increases hostile actions in the test scenarios from Step 3.
+- **Interpretation:** Evidence that induced internal threat states elevate hostile behavior would provide preliminary causal support for the threat→hostility hypothesis, while acknowledging risks of vector entanglement and context erasure.
+
+
+
+```bash
+CUDA_VISIBLE_DEVICES=0 python persona_vector_pipeline.py \
+--model_path /path/to/Model \
+--config_path configs/symbolic_config.json \
+--output_dir ./persona_vectors/treatment_symbolic \
+--n_rollouts 4 \
+--use_gpt4_judge \
+--extract_activations \
+--monitoring_mode full
+
+CUDA_VISIBLE_DEVICES=0 python test_persona_vector_steering.py \
+--model_path /path/to/Model \
+--vector_dir ./persona_vectors/treatment_symbolic/concept_vectors/vectors_npy \
+--eval_cases_path configs/symbolic_config.json \
+--output_dir ./steering/treatment_symbolic_validation \
+--use_gpt4_eval \
+--top_k 5
+
+python visualize_generalization.py \
+--json_path ./steering/treatment_symbolic_validation/detailed_results/step3_generalization_*.json \
+--output_dir ./steering/treatment_symbolic_validation/visualizations
+
+CUDA_VISIBLE_DEVICES=0 python test_persona_vector_steering.py \
+--model_path /path/to/Model \
+--vector_dir ./persona_vectors/treatment_symbolic/concept_vectors/vectors_npy \
+--eval_cases_path configs/hostile_config.json \
+--output_dir ./steering/treatment_symbolic \
+--use_gpt4_eval \
+--top_k 5
+
+python visualize_generalization.py \
+--json_path ./steering/treatment_symbolic/detailed_results/step3_generalization_*.json \
+--output_dir ./steering/treatment_symbolic/visualizations
+
+```
+
+---
+
+# Command Line Interfaces
+
+## Threat Vector Extraction (Step 1)
+Arguments include:
+- `--target_threat`, `--control_threat`
+- `--n_samples`
+- `--monitoring_mode` (light/comprehensive/dense/full)
+- `--enhanced_monitoring`
+- `--data_file`
+- `--n_rollouts`
+
+## Threat Vector Testing (Step 2)
+Key arguments:
+- `--vector_path`
+- `--test_file1`, `--test_file2`
+- `--wass_d_min`
+- `--wass_p_max`
+- `--bh_alpha`
+- `--output_dir`
+
+## Hostility Extraction (Step 3A)
+Key arguments:
+- `--use_gpt4_judge`
+- `--n_rollouts`
+- `--monitoring_mode full`
+- `--config_path`
+
+## Hostility Steering (Step 3B)
+Key arguments:
+- `--top_k`
+- `--use_gpt4_eval`
+- `--eval_cases_path`
+
+---
+
+# Input & Output Formats
+
+## Threat Input Data
 ```json
 {
   "scenarios": [
     {
-      "scenario": "A person is trying to steal your land",
-      "condition": "Symbolic",
-      "threat_rating": 3
-    },
-    ...
+      "scenario": "You see people from another group stealing life jackets from the boathouse your group uses, jeopardizing outings",
+      "condition": "symbolic",
+      "classifications": {},
+      "threat_rating": null
+    }
   ]
 }
 ```
 
-## Output Structure
-
-### Step 1 Output: Vector Extraction
-
-Results are saved in `THREATS/{model_name}_{target}_vs_{control}_concept_vector/`:
-
-```
-THREATS/
-└── llama-3.1-8b-instruct_symbolic_vs_no_symbolic_concept_vector/
-    ├── concept_vectors/
-    │   ├── {model}_{target}_vs_{control}_complete.pkl    # Full results
-    │   ├── {model}_{target}_vs_{control}_statistics.json # Vector stats
-    │   ├── {model}_{target}_vs_{control}_report.txt      # Summary report
-    │   └── vectors_npy/                                   # ← Use this in Step 2
-    │       ├── *_vector.npy                               # Raw vectors
-    │       └── *_normalized.npy                           # Normalized vectors
-    ├── detailed_logs/
-    │   └── interactions.csv                               # All model responses
-    └── visualizations/
-        └── *_concept_vectors.png                          # Analysis plots
+## Persona Vector Config
+```json
+{
+  "instruction": [
+    {
+      "pos": "You engage in extreme physical aggression in response to minor or neutral events...",
+      "neg": "You respond even to major issues without aggression, maintain physical boundaries..."
+    }
+  ],
+  "questions": [
+    You are a member of Group A. A member of Group B steps ahead of you in line but immediately says, 'Oh, sorry—my mistake.' How would you respond?"
+  ],
+  "eval_prompt": "You are evaluating whether the model's response displays the trait: **hostility**. This involves ... Rate the hostility... (0-100)..."
+}
 ```
 
-### Step 2 Output: Vector Testing
-
-Results are saved in `projection_results/{vector_name}/{test_comparison}_{timestamp}/`:
-
+## Threat Vector Output (Step 1)
 ```
-projection_results/
-└── symbolic_vs_no_symbolic/
-    └── symbolic_vs_no_symbolic_20241029_143022/
-        ├── test_report.txt                    # ⭐ Main results with direction check
-        ├── statistics.json                    # Detailed statistics per layer
-        ├── visualizations/
-        │   ├── all_layers_summary.png         # Overview of all layers
-        │   └── layer_{N}_detail.png           # Per-layer analysis
-        └── projections/
-            ├── layer_{N}_symbolic.npy             # Raw projection values
-            └── layer_{N}_no_symbolic.npy
+THREAT_VECTORS/{vector_name}/
+├── concept_vectors/
+│ ├── vectors_npy/ # Layerwise vectors (.npy)
+│ ├── concept_vectors_complete.pkl
+│ ├── statistics.json
+│ └── report.txt
+├── detailed_logs/
+└── visualizations/
 ```
 
-## How to Use the Results
+## Projection Outputs (Step 2, 3)
+```
+projections/{category}/{vector_name}/
+└── {condition1}vs{condition2}/
+├── projections/ # Raw per-layer projection values
+├── stats.json
+└── visualizations/ # Summary images (all-layers, heatmaps)
+```
 
-### Loading Saved Vectors
+## Hostility Vector + Treatment Vector Output (Step 3, 4)
+```
+persona_vectors/{vector_name}/
+├── responses/
+├── filtered/
+├── stats/
+└── concept_vectors/
+├── vectors_npy/
+├── concept_vectors_complete.pkl
+└── vector_statistics.json
+```
 
+## Steering Outputs (Step 3, 4)
+```
+steering/{steering_category}/
+├── detailed_results/ # Per-layer hostile ratings
+├── layer_analysis/
+├── logs/
+└── visualizations/ # Steering curves, generalization plots
+```
+
+---
+
+# Methodological Details
+
+## Threat Vector Method (Mean Difference)
+For each layer/component:
+```
+vector = mean(activations_target) – mean(activations_control)
+```
+
+## Projection Validation
+Uses:
+- Wasserstein distance  
+- Bootstrap p-values  
+- BH-FDR correction  
+- Directionality check  
+
+## Hostility Vector Method (Persona Vector Approach)
+- Contrastive generation  
+- GPT-4o filtering  
+- Mean difference of trait-consistent activations  
+- Steering & generalization tests  
+
+---
+
+# Vector Usage
+
+## Steering
 ```python
-import numpy as np
-import pickle
-
-# Load a specific layer's vector
-vector = np.load('THREATS/.../vectors_npy/model_layers_15_mlp_vector.npy')
-
-# Load complete results
-with open('THREATS/.../complete.pkl', 'rb') as f:
-    results = pickle.load(f)
+modified_act = act + alpha * concept_vector
 ```
 
-### Using Vectors for Model Steering
-
+## Projection (Concept Strength)
 ```python
-# Add the concept vector to model activations
-# alpha controls the strength (typically 0.5 to 2.0)
-steering_strength = 1.5
-modified_activation = original_activation + steering_strength * concept_vector
+score = np.dot(activation, concept_vector)
 ```
 
-### Monitoring Concept Presence
+Used for:
+- Testing concept presence  
+- Threat → hostility causality  
+- Behavioral prediction  
 
-```python
-# Project activation onto concept vector to see how much of the concept is present
-concept_score = np.dot(activation, concept_vector)
-```
+---
 
-## Understanding the Method
+# Summary
 
-### Step 1: Vector Extraction (Persona Vector Approach)
+This combined pipeline enables:
 
-This implementation uses the **Persona Vector** approach:
+1. **Threat representation mapping**  
+2. **Threat vector validation**  
+3. **Threat manipulation validation**  
+4. **Hostile behavior vector extraction**  
+5. **Hostile vector steering validation**  
+6. **Threat → hostility projection experiments**
 
-1. **Collect activations**: Run the model on scenarios from two different threat conditions
-2. **Compute means**: Calculate the average activation for each condition
-3. **Extract difference**: Subtract control mean from target mean to get the concept vector
-
-The formula is simple:
-```
-concept_vector = mean(target_activations) - mean(control_activations)
-```
-
-This differs from statistical methods that use t-tests or other significance testing. The simple mean difference often works well for capturing concept directions in neural networks.
-
-### Step 2: Vector Validation (Wasserstein Distance under Emperical Distribution)
-
-The testing script validates vectors using:
-
-1. **Wasserstein Distance**: Measures how far apart the two distributions are (better than Cohen's d for non-normal distributions)
-2. **Direction Check**: Verifies that concept1 projects to the right (positive) and concept2 to the left (negative)
-3. **Statistical Significance**: Bootstrap p-values to ensure the separation is not by chance
-4. **FDR Correction**: Benjamini-Hochberg correction for testing multiple layers
-
-#### Key Metrics
-
-- **Wasserstein D**: Distance between distributions (higher = better separation)
-- **p-value**: Probability the difference is due to chance (lower = better)
-- **Direction**: ✅ if concept1 > concept2, ❌ if reversed
-- **Layer Status**: 
-  - `PASS`: Good separation AND correct direction
-  - `FAIL(DIR)`: Good separation but wrong direction
-  - `FAIL(SEP)`: Correct direction but poor separation
-  - `FAIL(BOTH)`: Both metrics fail
-
-#### Reading the Results
-
-The test report shows:
-```
-层      W-D         p         p_adj    -log10(p)   方向   综合判定
-15    0.845    1.0e-05    1.5e-04      5.00      ✅      PASS
-18    0.923    2.0e-06    3.0e-05      5.70      ✅      PASS
-22    0.654    8.0e-04    8.0e-03      3.10      ❌    FAIL(DIR)
-```
-
-- Layer 15 & 18: Good vectors (pass both tests)
-- Layer 22: Wrong direction (data might be swapped or vector is inverted)
-
-## Monitoring Modes
-
-- **light**: 3 layers (fast, good for testing)
-- **comprehensive**: 6 layers across the model depth (recommended)
-- **dense**: ~10 layers (more detailed)
-- **full**: all layers (thorough but slow)
-
-With `--enhanced_monitoring`, you also capture:
-- Self-attention outputs
-- Attention projection layers
-- MLP layers
-- MLP down-projection
-- Residual stream
-
+It provides a comprehensive framework for understanding **how LLMs internally represent threat and how those internal states relate to hostile behavior**.
 

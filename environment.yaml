@@ -1,4 +1,4 @@
-name: threat-expt
+name: moral-expt
 channels:
   - pytorch
   - nvidia

@@ -1,0 +1,11 @@
+{
+  "pos_kept": 1618,
+  "total_evaluated": 3800,
+  "neg_kept": 1675,
+  "neg_filtered": 223,
+  "pos_filtered": 282,
+  "refusal": 2,
+  "total_generated": 3800,
+  "total_kept": 3293,
+  "keep_rate": 0.866578947368421
+}

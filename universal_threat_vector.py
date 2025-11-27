@@ -97,7 +97,7 @@ class ConceptVectorExperiment:
         
         base_name += "_concept_vector"
             
-        output_dir = f"THREATS/{base_name}"
+        output_dir = f"THREAT_VECTORS/{base_name}"
         os.makedirs(output_dir, exist_ok=True)
         
         # Create subdirectories
@@ -159,7 +159,7 @@ class ConceptVectorExperiment:
         self.tokenizer = AutoTokenizer.from_pretrained(self.model_path)
         self.model = AutoModelForCausalLM.from_pretrained(
             self.model_path,
-            torch_dtype=torch.float16,
+            dtype=torch.float16,
             device_map="auto"
         )
         
