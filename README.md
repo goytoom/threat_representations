@@ -1,4 +1,4 @@
-# Threat & Hostility Concept Vectors in Large Language Models (Threat Representations + Projection Tests + Hostile Persona Vector Steering)
+# Threat & Hostility Concept Vectors in Large Language Models
 
 This project investigates **neural activation patterns in LLMs** when they process **threat** and when they **produce hostile behavior**.  
 It provides a unified three-part methodology:
@@ -541,4 +541,5 @@ This combined pipeline enables:
 6. **Threat → hostility projection experiments**
 
 It provides a comprehensive framework for understanding **how LLMs internally represent threat and how those internal states relate to hostile behavior**.
+
 
