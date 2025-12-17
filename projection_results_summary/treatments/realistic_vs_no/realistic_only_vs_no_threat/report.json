@@ -1,0 +1,50 @@
+{
+  "layer": 31,
+  "vector_name": "realistic_vs_no",
+  "condition": "realistic_only_vs_no_threat",
+  "groups": {
+    "left": "realistic_only",
+    "right": "no_threat"
+  },
+  "WD": {
+    "value": 1.26,
+    "pvalue": 0.0,
+    "95% CI": [
+      1.16,
+      1.37
+    ]
+  },
+  "means": {
+    "realistic_only": {
+      "M": 0.6214108413524841,
+      "SD": 0.3947765740399854,
+      "N": 89
+    },
+    "no_threat": {
+      "M": -0.6393459283032463,
+      "SD": 0.3342760978210522,
+      "N": 103
+    }
+  },
+  "t_test": {
+    "t": 23.67,
+    "df": 173.4,
+    "pvalue": 0.0
+  },
+  "cohens_d": {
+    "value": 3.45,
+    "pvalue": 0.0,
+    "95% CI": [
+      3.0,
+      3.89
+    ]
+  },
+  "AUC": {
+    "value": 1.0,
+    "pvalue": 0.0,
+    "95% CI": [
+      0.99,
+      1.01
+    ]
+  }
+}

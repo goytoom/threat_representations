@@ -1,0 +1,50 @@
+{
+  "layer": 31,
+  "vector_name": "hostile_vs_nonhostile",
+  "condition": "both_threat_vs_no_threat",
+  "groups": {
+    "left": "both_threat",
+    "right": "no_threat"
+  },
+  "WD": {
+    "value": 2.45,
+    "pvalue": 0.0,
+    "95% CI": [
+      2.32,
+      2.59
+    ]
+  },
+  "means": {
+    "both_threat": {
+      "M": 0.9108726864769345,
+      "SD": 0.40735538705414215,
+      "N": 84
+    },
+    "no_threat": {
+      "M": -1.5431440779306356,
+      "SD": 0.5366952781634604,
+      "N": 103
+    }
+  },
+  "t_test": {
+    "t": 35.52,
+    "df": 184.1,
+    "pvalue": 0.0
+  },
+  "cohens_d": {
+    "value": 5.15,
+    "pvalue": 0.0,
+    "95% CI": [
+      4.55,
+      5.75
+    ]
+  },
+  "AUC": {
+    "value": 1.0,
+    "pvalue": 0.0,
+    "95% CI": [
+      1.0,
+      1.0
+    ]
+  }
+}

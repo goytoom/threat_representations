@@ -9,7 +9,7 @@ Pipeline:
 4. Compute concept vectors (mean difference)
 
 Usage:
-CUDA_VISIBLE_DEVICES=2 python persona_vector_pipeline.py \
+CUDA_VISIBLE_DEVICES=0 python persona_vector_pipeline.py \
     --model_path /data/cyu/model_cache/mistral-7b-instruct-v0.3 \
     --config_path hostile_config.json \
     --output_dir hostile_persona_vector \

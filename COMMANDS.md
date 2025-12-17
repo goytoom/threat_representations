@@ -296,7 +296,7 @@ CUDA_VISIBLE_DEVICES=0 python projection_test_cli_wasserstein.py \
   
 ```
 
-## Step 4: Create persona vector from threat manipulations and test if treatment vectors can steer to hostility
+## Step 4: Create vector from threat manipulations and test if treatment vectors can steer to hostility
 ```bash
 CUDA_VISIBLE_DEVICES=0 python persona_vector_pipeline.py \
 --model_path /mnt/d/text-generation-webui/models/Mistral-7B-Instruct-v0.3 \
@@ -364,8 +364,3 @@ python visualize_generalization.py \
 --json_path ./steering/treatment_symbolic/detailed_results/step3_generalization_*.json \
 --output_dir ./steering/treatment_symbolic/visualizations
 ```
-
-
-
-
-
