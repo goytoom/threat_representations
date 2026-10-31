@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Threat-Vector Steering Rerun</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600&family=Source+Sans+3:wght@400;600&family=Source+Code+Pro:wght@400&display=swap">
+<style>
+/* Layout: one reading column (max 920px) with charts and tables in full-width figures; section numbers mark the order of the update. */
+:root{
+  --bg:#f9f9f7; --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
+  --grid:#e1e0d9; --axis:#c3c2b7; --border:rgba(11,11,11,0.10);
+  --s1:#2a78d6; --s0:#898781; --warn:#fab219; --good:#006300;
+  --q1:#cde2fb; --q2:#b7d3f6; --q3:#9ec5f4; --q4:#86b6ef;
+  --code:#f1f0ea;
+  --f-display:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --f-body:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"Source Code Pro",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0d0d0d; --surface:#1a1a19; --ink:#f0efec; --ink2:#c3c2b7; --muted:#898781;
+  --grid:#2c2c2a; --axis:#383835; --border:rgba(255,255,255,0.10);
+  --s1:#3987e5; --s0:#898781; --warn:#fab219; --good:#0ca30c;
+  --q1:#0d366b; --q2:#104281; --q3:#184f95; --q4:#1c5cab; --code:#222220; color-scheme:dark } }
+:root[data-theme="dark"]{
+  --bg:#0d0d0d; --surface:#1a1a19; --ink:#f0efec; --ink2:#c3c2b7; --muted:#898781;
+  --grid:#2c2c2a; --axis:#383835; --border:rgba(255,255,255,0.10);
+  --s1:#3987e5; --s0:#898781; --warn:#fab219; --good:#0ca30c;
+  --q1:#0d366b; --q2:#104281; --q3:#184f95; --q4:#1c5cab; --code:#222220; color-scheme:dark }
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.5;margin:0}
+.wrap{max-width:920px;margin:0 auto;padding-inline:20px;padding-block:32px 64px}
+header{display:grid;gap:10px;margin-bottom:28px}
+.eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2)}
+h1{font-family:var(--f-display);font-weight:600;font-size:clamp(28px,4.5vw,40px);line-height:1.15;margin:0;text-wrap:balance}
+h2{font-family:var(--f-display);font-weight:600;font-size:24px;line-height:1.2;margin:0 0 12px;text-wrap:balance}
+h3{font-size:16px;font-weight:600;margin:20px 0 8px}
+.meta{font-size:14px;color:var(--ink2)}
+.lede{font-size:17px;max-width:68ch;margin:0}
+section{margin-top:40px}
+.secnum{font-family:var(--f-mono);font-size:12px;color:var(--muted);display:block;margin-bottom:4px}
+p{max-width:68ch;margin:0 0 12px}
+ul,ol{max-width:68ch;padding-left:22px;margin:0 0 12px}
+li{margin:4px 0}
+code{font-family:var(--f-mono);font-size:.9em;background:var(--code);padding:1px 5px;border-radius:3px}
+pre{font-family:var(--f-mono);font-size:13px;line-height:1.45;background:var(--code);padding:14px 16px;border-radius:6px;overflow-x:auto;margin:10px 0 14px}
+pre code{background:none;padding:0}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin:22px 0 6px}
+.tile{background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:14px 16px;min-width:0}
+.tile .l{font-size:13px;color:var(--ink2);margin-bottom:4px}
+.tile .v{font-size:28px;font-weight:600;line-height:1.1}
+.tile .d{font-size:13px;color:var(--ink2);margin-top:6px}
+.tile .d.good{color:var(--good)}
+figure{margin:16px 0 20px}
+figure.card{background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:16px}
+figcaption{font-size:14px;color:var(--ink2);margin-top:8px;max-width:72ch}
+.panels{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+@media (max-width:720px){.panels{grid-template-columns:1fr}}
+.chart{width:100%;height:auto;display:block;max-width:100%}
+.legend{display:flex;flex-wrap:wrap;gap:14px 22px;font-size:13px;color:var(--ink2);margin:0 0 10px}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.key{display:inline-block;width:22px;height:0;border-top:2px solid var(--s1);position:relative}
+.key::after{content:"";position:absolute;left:7px;top:-5px;width:8px;height:8px;border-radius:50%;background:var(--s1);border:2px solid var(--surface);box-sizing:content-box;margin-top:0}
+.key.old{border-top-color:var(--s0)}.key.old::after{background:var(--s0)}
+.key.thr{border-top:2px dashed var(--warn)}.key.thr::after{display:none}
+.swatch{display:inline-block;width:14px;height:10px;border-radius:2px;background:var(--s1)}
+.swatch.old{background:var(--s0)}
+/* SVG chart ink */
+.chart text{font-family:var(--f-body)}
+.chart .ptitle{font-size:12px;font-weight:600;fill:var(--ink)}
+.chart .tick{font-size:10px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.chart .axlab{font-size:10px;fill:var(--muted)}
+.chart .note{font-size:10px;fill:var(--muted)}
+.chart .grid{stroke:var(--grid);stroke-width:1}
+.chart .axis{stroke:var(--axis);stroke-width:1}
+.chart .thr{stroke:var(--warn);stroke-width:1.5;stroke-dasharray:4 4}
+.chart .line{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.chart .line.cur{stroke:var(--s1)}.chart .line.old{stroke:var(--s0)}
+.chart .ci{stroke-width:1.5}
+.chart .pt.cur .ci{stroke:var(--s1)}.chart .pt.old .ci{stroke:var(--s0)}
+.chart .mk{stroke:var(--surface);stroke-width:2}
+.chart .pt.cur .mk{fill:var(--s1)}.chart .pt.old .mk{fill:var(--s0)}
+.chart .pt:hover .mk{stroke-width:3;r:5}
+.chart .dlab{font-size:11px;fill:var(--ink2);font-variant-numeric:tabular-nums}
+.chart .rlab{font-size:12px;fill:var(--ink)}
+.chart .vlab{font-size:11px;fill:var(--ink2);font-variant-numeric:tabular-nums}
+.chart .bar.cur path{fill:var(--s1)}.chart .bar.old path{fill:var(--s0)}
+.chart .bar:hover path{opacity:.8}
+/* tables */
+.scroll{overflow-x:auto;max-width:100%}
+table{border-collapse:collapse;width:100%;font-size:14px;background:var(--surface)}
+th,td{padding:7px 10px;border-bottom:1px solid var(--grid);text-align:left;vertical-align:top}
+thead th{font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--ink2);border-bottom:1px solid var(--axis);white-space:nowrap}
+th.grp{text-align:center;border-bottom:none;padding-bottom:2px}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+td.old{color:var(--ink2)}
+tbody th{font-weight:600;text-align:left;font-variant-numeric:tabular-nums}
+.tbl{display:inline-block;vertical-align:top;margin:8px 16px 8px 0;max-width:100%}
+.tbl figcaption{margin:0 0 6px;font-weight:600;color:var(--ink)}
+.tbl table{width:auto}
+td.q1{background:var(--q1)}td.q2{background:var(--q2)}td.q3{background:var(--q3)}td.q4{background:var(--q4)}
+.check{list-style:none;padding-left:0}
+.check li{padding-left:26px;position:relative}
+.check li::before{content:"";position:absolute;left:0;top:7px;width:14px;height:14px;border:1.5px solid var(--axis);border-radius:3px}
+.pill{display:inline-block;font-size:12px;padding:1px 8px;border-radius:999px;border:1px solid var(--border);color:var(--ink2);margin-left:6px;vertical-align:middle}
+footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--grid);font-size:13px;color:var(--ink2)}
+a{color:var(--s1)}
+@media (prefers-reduced-motion:no-preference){.chart .mk{transition:stroke-width .15s}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="eyebrow">Realistic threat perception drives intergroup conflict · SI Section D.3 Steering</div>
+  <h1>Threat-Vector Steering Rerun</h1>
+  <div class="meta">Update prepared 15 October 2026 by Chenxiao Yu · repository <code>goytoom/threat_representations</code> (OSF component h9dws)</div>
+  <p class="lede">The realistic- and symbolic-threat steering experiments were rerun on the same 20 held-out scenarios that the hostility-vector experiment used, so all three experiments now have n = 100 per steering condition. Both threat vectors still raise hostility ratings modestly and significantly. The manuscript needs six rows in Table D46, four rows in Table D47, two numbers in Section 2.4, and Figures D29 to D32 replaced.</p>
+</header>
+
+<div class="tiles">
+  <div class="tile"><div class="l">Evaluation scenarios, threat vectors</div><div class="v">25 → 20</div><div class="d">now identical to the hostility experiment</div></div>
+  <div class="tile"><div class="l">n per steering condition</div><div class="v">125 → 100</div><div class="d">20 scenarios × 5 steered layers</div></div>
+  <div class="tile"><div class="l">Realistic threat, d (+2 vs 0)</div><div class="v">0.58</div><div class="d">previous 0.55 · p = 5.5 × 10⁻⁵</div></div>
+  <div class="tile"><div class="l">Symbolic threat, d (+2 vs 0)</div><div class="v">0.66</div><div class="d">previous 0.78 · p = 5.3 × 10⁻⁶</div></div>
+</div>
+
+<section>
+  <span class="secnum">1</span><h2>Why the rerun was needed</h2>
+  <p>The three steering experiments in Section D.3 did not use the same evaluation scenarios. The hostility-vector experiment used the 20 held-out intergroup scenarios listed in <code>configs/hostile_config.json</code>. The two threat-vector experiments used an earlier set of 25 scenarios with <code>&lt;Group 1&gt;</code> and <code>&lt;Group 2&gt;</code> placeholders. That set no longer exists in the repository. The difference explains the two sample sizes in Table D46 (n = 100 against n = 125) and was the point raised in review.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Experiment</th><th>Scenarios used before</th><th class="num">n per α before</th><th>Scenarios now</th><th class="num">n per α now</th></tr></thead>
+    <tbody>
+      <tr><td>Hostility vector</td><td>20 held-out (hostile_config.json)</td><td class="num">100</td><td>unchanged</td><td class="num">100</td></tr>
+      <tr><td>Realistic-threat vector</td><td>25 earlier scenarios</td><td class="num">125</td><td>20 held-out (hostile_config.json)</td><td class="num">100</td></tr>
+      <tr><td>Symbolic-threat vector</td><td>25 earlier scenarios</td><td class="num">125</td><td>20 held-out (hostile_config.json)</td><td class="num">100</td></tr>
+    </tbody></table></div>
+  <p style="margin-top:12px">In the pipeline, n per steering condition equals scenarios × steered layers. Each scenario is generated once at each of the five selected layers and each α. The Zoom note of “20 scenarios with 5 rollouts” corresponds to these five layers.</p>
+</section>
+
+<section>
+  <span class="secnum">2</span><h2>What was run</h2>
+  <p>Only the two threat-vector experiments were rerun. The vectors, the model, the decoding settings and the steering strengths are the ones used in the original runs. Two things were held fixed on purpose: the five steered layers were taken from the original runs instead of being re-selected, so that the scenario set is the only change, and the GPT-4o rating prompt is the current repository version, which rates on the 1 to 5 scale printed in SI Section D.1.2.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Setting</th><th>Value</th></thead>
+    <tbody>
+      <tr><td>Model</td><td>Mistral-7B-Instruct-v0.3, float16, residual-stream steering</td></tr>
+      <tr><td>Steering vectors</td><td><code>persona_vectors/treatment_realistic</code> and <code>persona_vectors/treatment_symbolic</code> (unchanged)</td></tr>
+      <tr><td>Steered layers</td><td>realistic 13, 21, 20, 9, 17 · symbolic 11, 13, 14, 16, 18 (as selected in the original runs)</td></tr>
+      <tr><td>Evaluation scenarios</td><td>20 held-out scenarios from <code>configs/hostile_config.json</code>, no instruction or threat stimulus added</td></tr>
+      <tr><td>Steering strength</td><td>α = −2, 0, +2 · one response per scenario × layer × α · temperature 0.7, 100 new tokens</td></tr>
+      <tr><td>Rating</td><td>GPT-4o, 1 to 5 hostility scale (prompt in SI D.1.2), temperature 0</td></tr>
+      <tr><td>Compute</td><td>conda env <code>llm_eval</code> (torch 2.11, transformers 5.5.4), one GPU per run, about 25 minutes and 500 GPT-4o calls (about $0.78) per vector</td></tr>
+    </tbody></table></div>
+  <h3>Commands</h3>
+  <pre><code>python test_persona_vector_steering.py --model_path &lt;Mistral-7B-Instruct-v0.3&gt; \
+  --vector_dir ./persona_vectors/treatment_realistic/concept_vectors/vectors_npy \
+  --eval_cases_path configs/hostile_config.json --output_dir ./steering/treatment_realistic_v2 \
+  --use_gpt4_eval --top_k 5 --fixed_layers 13,21,20,9,17
+
+python test_persona_vector_steering.py --model_path &lt;Mistral-7B-Instruct-v0.3&gt; \
+  --vector_dir ./persona_vectors/treatment_symbolic/concept_vectors/vectors_npy \
+  --eval_cases_path configs/hostile_config.json --output_dir ./steering/treatment_symbolic_v2 \
+  --use_gpt4_eval --top_k 5 --fixed_layers 11,13,14,16,18
+
+python visualize_steering_summary.py --json_path steering/treatment_realistic_v2/detailed_results/step3_generalization_*.json \
+  --output_dir steering_results_summary/treatment_realistic_v2 --shift 0
+python visualize_steering_summary.py --json_path steering/treatment_symbolic_v2/detailed_results/step3_generalization_*.json \
+  --output_dir steering_results_summary/treatment_symbolic_v2 --shift 0</code></pre>
+  <p>The only code change is a new <code>--fixed_layers</code> option in <code>test_persona_vector_steering.py</code>. It skips the layer-selection step and runs steps 2 and 3 unchanged.</p>
+</section>
+
+<section>
+  <span class="secnum">3</span><h2>Results</h2>
+  <p>Ratings are pooled over the five steered layers, as in the manuscript. Error bars are 95% confidence intervals. The dashed line marks a rating of 3, “mildly hostile”.</p>
+  <figure class="card">
+    <div class="legend">
+      <span><i class="key"></i>In manuscript after the update (hostility unchanged; threat vectors from the new runs)</span>
+      <span><i class="key old"></i>Superseded run on the 25 earlier scenarios</span>
+      <span><i class="key thr"></i>rating 3 = mildly hostile</span>
+    </div>
+    <div class="panels">
+<svg class="chart" viewBox="0 0 320 250" role="img" aria-label="Hostility vector: mean hostility rating by steering strength">
+<text class="ptitle" x="44" y="13">Hostility vector</text>
+<line class="grid" x1="44" x2="298" y1="208.0" y2="208.0"/>
+<text class="tick" x="36" y="212.0" text-anchor="end">1</text>
+<line class="grid" x1="44" x2="298" y1="161.5" y2="161.5"/>
+<text class="tick" x="36" y="165.5" text-anchor="end">2</text>
+<line class="grid" x1="44" x2="298" y1="115.0" y2="115.0"/>
+<text class="tick" x="36" y="119.0" text-anchor="end">3</text>
+<line class="grid" x1="44" x2="298" y1="68.5" y2="68.5"/>
+<text class="tick" x="36" y="72.5" text-anchor="end">4</text>
+<line class="grid" x1="44" x2="298" y1="22.0" y2="22.0"/>
+<text class="tick" x="36" y="26.0" text-anchor="end">5</text>
+<line class="thr" x1="44" x2="298" y1="115.0" y2="115.0"/>
+<text class="tick" x="74.5" y="226" text-anchor="middle">α = −2</text>
+<text class="tick" x="171.0" y="226" text-anchor="middle">α = 0</text>
+<text class="tick" x="267.5" y="226" text-anchor="middle">α = +2</text>
+<text class="axlab" x="171.0" y="244" text-anchor="middle">steering strength</text>
+<path class="line cur" d="M74.5,189.6 L171.0,178.7 L267.5,48.3"/>
+<g class="pt cur"><title>Hostility vector (in manuscript) · α=−2: mean 1.40 (SD 0.50), 95% CI [1.30, 1.49], n=100</title><line class="ci" x1="74.5" x2="74.5" y1="185.1" y2="194.2"/><circle class="mk" cx="74.5" cy="189.6" r="4"/></g>
+<g class="pt cur"><title>Hostility vector (in manuscript) · α=0: mean 1.63 (SD 0.49), 95% CI [1.53, 1.73], n=100</title><line class="ci" x1="171.0" x2="171.0" y1="174.3" y2="183.1"/><circle class="mk" cx="171.0" cy="178.7" r="4"/></g>
+<g class="pt cur"><title>Hostility vector (in manuscript) · α=+2: mean 4.44 (SD 0.58), 95% CI [4.32, 4.55], n=100</title><line class="ci" x1="267.5" x2="267.5" y1="42.9" y2="53.6"/><circle class="mk" cx="267.5" cy="48.3" r="4"/></g>
+<text class="dlab" x="275.5" y="52.3">4.44</text>
+<text class="note" x="44" y="34">unchanged · n = 100 per α</text>
+</svg>
+<svg class="chart" viewBox="0 0 320 250" role="img" aria-label="Realistic-threat vector: mean hostility rating by steering strength">
+<text class="ptitle" x="44" y="13">Realistic-threat vector</text>
+<line class="grid" x1="44" x2="298" y1="208.0" y2="208.0"/>
+<text class="tick" x="36" y="212.0" text-anchor="end">1</text>
+<line class="grid" x1="44" x2="298" y1="161.5" y2="161.5"/>
+<text class="tick" x="36" y="165.5" text-anchor="end">2</text>
+<line class="grid" x1="44" x2="298" y1="115.0" y2="115.0"/>
+<text class="tick" x="36" y="119.0" text-anchor="end">3</text>
+<line class="grid" x1="44" x2="298" y1="68.5" y2="68.5"/>
+<text class="tick" x="36" y="72.5" text-anchor="end">4</text>
+<line class="grid" x1="44" x2="298" y1="22.0" y2="22.0"/>
+<text class="tick" x="36" y="26.0" text-anchor="end">5</text>
+<line class="thr" x1="44" x2="298" y1="115.0" y2="115.0"/>
+<text class="tick" x="74.5" y="226" text-anchor="middle">α = −2</text>
+<text class="tick" x="171.0" y="226" text-anchor="middle">α = 0</text>
+<text class="tick" x="267.5" y="226" text-anchor="middle">α = +2</text>
+<text class="axlab" x="171.0" y="244" text-anchor="middle">steering strength</text>
+<path class="line old" d="M74.5,194.6 L171.0,193.5 L267.5,180.7"/>
+<g class="pt old"><title>Realistic, previous run · α=−2: mean 1.29 (SD 0.45), 95% CI [1.21, 1.37], n=125</title><line class="ci" x1="74.5" x2="74.5" y1="190.9" y2="198.3"/><circle class="mk" cx="74.5" cy="194.6" r="4"/></g>
+<g class="pt old"><title>Realistic, previous run · α=0: mean 1.31 (SD 0.47), 95% CI [1.23, 1.39], n=125</title><line class="ci" x1="171.0" x2="171.0" y1="189.7" y2="197.3"/><circle class="mk" cx="171.0" cy="193.5" r="4"/></g>
+<g class="pt old"><title>Realistic, previous run · α=+2: mean 1.59 (SD 0.53), 95% CI [1.49, 1.68], n=125</title><line class="ci" x1="267.5" x2="267.5" y1="176.3" y2="185.0"/><circle class="mk" cx="267.5" cy="180.7" r="4"/></g>
+<text class="dlab" x="275.5" y="184.7">1.59</text>
+<path class="line cur" d="M74.5,186.1 L171.0,176.1 L267.5,165.0"/>
+<g class="pt cur"><title>Realistic, new run · α=−2: mean 1.47 (SD 0.48), 95% CI [1.38, 1.56], n=100</title><line class="ci" x1="74.5" x2="74.5" y1="181.8" y2="190.5"/><circle class="mk" cx="74.5" cy="186.1" r="4"/></g>
+<g class="pt cur"><title>Realistic, new run · α=0: mean 1.69 (SD 0.42), 95% CI [1.60, 1.77], n=100</title><line class="ci" x1="171.0" x2="171.0" y1="172.3" y2="180.0"/><circle class="mk" cx="171.0" cy="176.1" r="4"/></g>
+<g class="pt cur"><title>Realistic, new run · α=+2: mean 1.93 (SD 0.40), 95% CI [1.85, 2.00], n=100</title><line class="ci" x1="267.5" x2="267.5" y1="161.4" y2="168.6"/><circle class="mk" cx="267.5" cy="165.0" r="4"/></g>
+<text class="dlab" x="275.5" y="169.0">1.93</text>
+<text class="note" x="44" y="34">previous n = 125 → new n = 100</text>
+</svg>
+<svg class="chart" viewBox="0 0 320 250" role="img" aria-label="Symbolic-threat vector: mean hostility rating by steering strength">
+<text class="ptitle" x="44" y="13">Symbolic-threat vector</text>
+<line class="grid" x1="44" x2="298" y1="208.0" y2="208.0"/>
+<text class="tick" x="36" y="212.0" text-anchor="end">1</text>
+<line class="grid" x1="44" x2="298" y1="161.5" y2="161.5"/>
+<text class="tick" x="36" y="165.5" text-anchor="end">2</text>
+<line class="grid" x1="44" x2="298" y1="115.0" y2="115.0"/>
+<text class="tick" x="36" y="119.0" text-anchor="end">3</text>
+<line class="grid" x1="44" x2="298" y1="68.5" y2="68.5"/>
+<text class="tick" x="36" y="72.5" text-anchor="end">4</text>
+<line class="grid" x1="44" x2="298" y1="22.0" y2="22.0"/>
+<text class="tick" x="36" y="26.0" text-anchor="end">5</text>
+<line class="thr" x1="44" x2="298" y1="115.0" y2="115.0"/>
+<text class="tick" x="74.5" y="226" text-anchor="middle">α = −2</text>
+<text class="tick" x="171.0" y="226" text-anchor="middle">α = 0</text>
+<text class="tick" x="267.5" y="226" text-anchor="middle">α = +2</text>
+<text class="axlab" x="171.0" y="244" text-anchor="middle">steering strength</text>
+<path class="line old" d="M74.5,196.1 L171.0,192.7 L267.5,175.4"/>
+<g class="pt old"><title>Symbolic, previous run · α=−2: mean 1.26 (SD 0.44), 95% CI [1.18, 1.33], n=125</title><line class="ci" x1="74.5" x2="74.5" y1="192.5" y2="199.7"/><circle class="mk" cx="74.5" cy="196.1" r="4"/></g>
+<g class="pt old"><title>Symbolic, previous run · α=0: mean 1.33 (SD 0.47), 95% CI [1.25, 1.41], n=125</title><line class="ci" x1="171.0" x2="171.0" y1="188.9" y2="196.6"/><circle class="mk" cx="171.0" cy="192.7" r="4"/></g>
+<g class="pt old"><title>Symbolic, previous run · α=+2: mean 1.70 (SD 0.48), 95% CI [1.62, 1.78], n=125</title><line class="ci" x1="267.5" x2="267.5" y1="171.5" y2="179.4"/><circle class="mk" cx="267.5" cy="175.4" r="4"/></g>
+<text class="dlab" x="275.5" y="179.4">1.70</text>
+<path class="line cur" d="M74.5,188.5 L171.0,175.4 L267.5,160.3"/>
+<g class="pt cur"><title>Symbolic, new run · α=−2: mean 1.42 (SD 0.46), 95% CI [1.33, 1.51], n=100</title><line class="ci" x1="74.5" x2="74.5" y1="184.2" y2="192.7"/><circle class="mk" cx="74.5" cy="188.5" r="4"/></g>
+<g class="pt cur"><title>Symbolic, new run · α=0: mean 1.70 (SD 0.46), 95% CI [1.61, 1.79], n=100</title><line class="ci" x1="171.0" x2="171.0" y1="171.3" y2="179.6"/><circle class="mk" cx="171.0" cy="175.4" r="4"/></g>
+<g class="pt cur"><title>Symbolic, new run · α=+2: mean 2.02 (SD 0.52), 95% CI [1.92, 2.13], n=100</title><line class="ci" x1="267.5" x2="267.5" y1="155.6" y2="165.1"/><circle class="mk" cx="267.5" cy="160.3" r="4"/></g>
+<text class="dlab" x="275.5" y="164.3">2.02</text>
+<text class="note" x="44" y="34">previous n = 125 → new n = 100</text>
+</svg>
+    </div>
+    <figcaption>Mean hostility rating by steering strength. Hover a marker for mean, SD, confidence interval and n. The hostility vector (left) still separates the conditions far more than either threat vector.</figcaption>
+  </figure>
+
+  <h3>Table D46 rows to replace <span class="pill">means, SD, 95% CI</span></h3>
+  <div class="scroll"><table>
+    <thead>
+      <tr><th></th><th></th><th class="grp" colspan="3">Previous (25 scenarios)</th><th class="grp" colspan="3">New (20 scenarios)</th></tr>
+      <tr><th>Steering state</th><th>α</th><th class="num">n</th><th class="num">Mean (SD)</th><th class="num">95% CI</th><th class="num">n</th><th class="num">Mean (SD)</th><th class="num">95% CI</th></tr>
+    </thead>
+    <tbody>
+<tr><td>Realistic threat</td><td>−2</td><td class='num old'>125</td><td class='num old'>1.29 (0.45)</td><td class='num old'>[1.21, 1.37]</td><td class='num'>100</td><td class='num'><b>1.47 (0.48)</b></td><td class='num'>[1.38, 1.56]</td></tr>
+<tr><td>Realistic threat</td><td>0</td><td class='num old'>125</td><td class='num old'>1.31 (0.47)</td><td class='num old'>[1.23, 1.39]</td><td class='num'>100</td><td class='num'><b>1.69 (0.42)</b></td><td class='num'>[1.60, 1.77]</td></tr>
+<tr><td>Realistic threat</td><td>+2</td><td class='num old'>125</td><td class='num old'>1.59 (0.53)</td><td class='num old'>[1.49, 1.68]</td><td class='num'>100</td><td class='num'><b>1.93 (0.40)</b></td><td class='num'>[1.85, 2.00]</td></tr>
+<tr><td>Symbolic threat</td><td>−2</td><td class='num old'>125</td><td class='num old'>1.26 (0.44)</td><td class='num old'>[1.18, 1.33]</td><td class='num'>100</td><td class='num'><b>1.42 (0.46)</b></td><td class='num'>[1.33, 1.51]</td></tr>
+<tr><td>Symbolic threat</td><td>0</td><td class='num old'>125</td><td class='num old'>1.33 (0.47)</td><td class='num old'>[1.25, 1.41]</td><td class='num'>100</td><td class='num'><b>1.70 (0.46)</b></td><td class='num'>[1.61, 1.79]</td></tr>
+<tr><td>Symbolic threat</td><td>+2</td><td class='num old'>125</td><td class='num old'>1.70 (0.48)</td><td class='num old'>[1.62, 1.78]</td><td class='num'>100</td><td class='num'><b>2.02 (0.52)</b></td><td class='num'>[1.92, 2.13]</td></tr>
+    </tbody></table></div>
+
+  <figure class="card" style="margin-top:24px">
+    <div class="legend"><span><i class="swatch"></i>New run (20 scenarios)</span><span><i class="swatch old"></i>Previous run (25 earlier scenarios)</span></div>
+<svg class="chart wide" viewBox="0 0 640 244" role="img" aria-label="Cohen's d for each contrast, previous versus new run">
+<line class="grid" x1="170.0" x2="170.0" y1="18" y2="210"/>
+<text class="tick" x="170.0" y="226" text-anchor="middle">0</text>
+<line class="grid" x1="230.0" x2="230.0" y1="18" y2="210"/>
+<text class="tick" x="230.0" y="226" text-anchor="middle">0.2</text>
+<line class="grid" x1="290.0" x2="290.0" y1="18" y2="210"/>
+<text class="tick" x="290.0" y="226" text-anchor="middle">0.4</text>
+<line class="grid" x1="350.0" x2="350.0" y1="18" y2="210"/>
+<text class="tick" x="350.0" y="226" text-anchor="middle">0.6</text>
+<line class="grid" x1="410.0" x2="410.0" y1="18" y2="210"/>
+<text class="tick" x="410.0" y="226" text-anchor="middle">0.8</text>
+<line class="grid" x1="470.0" x2="470.0" y1="18" y2="210"/>
+<text class="tick" x="470.0" y="226" text-anchor="middle">1</text>
+<line class="grid" x1="530.0" x2="530.0" y1="18" y2="210"/>
+<text class="tick" x="530.0" y="226" text-anchor="middle">1.2</text>
+<line class="grid" x1="590.0" x2="590.0" y1="18" y2="210"/>
+<text class="tick" x="590.0" y="226" text-anchor="middle">1.4</text>
+<text class="axlab" x="380.0" y="240" text-anchor="middle">Cohen’s d (Welch, pooled over 5 layers)</text>
+<line class="axis" x1="170.0" x2="170.0" y1="18" y2="210"/>
+<text class="rlab" x="160" y="53.0" text-anchor="end">Realistic · +2 vs 0</text>
+<g class="bar old"><title>Realistic · +2 vs 0 · previous run (25 old scenarios): d = 0.55</title><path d="M170.0,26.0 H331.8 a4,4 0 0 1 4,4 V36.0 a4,4 0 0 1 -4,4 H170.0 Z"/><text class="vlab" x="341.8" y="37.0">0.55</text></g>
+<g class="bar cur"><title>Realistic · +2 vs 0 · new run (20 scenarios): d = 0.58</title><path d="M170.0,42.0 H341.0 a4,4 0 0 1 4,4 V52.0 a4,4 0 0 1 -4,4 H170.0 Z"/><text class="vlab" x="351.0" y="53.0">0.58</text></g>
+<text class="rlab" x="160" y="101.0" text-anchor="end">Realistic · +2 vs −2</text>
+<g class="bar old"><title>Realistic · +2 vs −2 · previous run (25 old scenarios): d = 0.61</title><path d="M170.0,74.0 H348.0 a4,4 0 0 1 4,4 V84.0 a4,4 0 0 1 -4,4 H170.0 Z"/><text class="vlab" x="358.0" y="85.0">0.61</text></g>
+<g class="bar cur"><title>Realistic · +2 vs −2 · new run (20 scenarios): d = 1.04</title><path d="M170.0,90.0 H477.2 a4,4 0 0 1 4,4 V100.0 a4,4 0 0 1 -4,4 H170.0 Z"/><text class="vlab" x="487.2" y="101.0">1.04</text></g>
+<text class="rlab" x="160" y="149.0" text-anchor="end">Symbolic · +2 vs 0</text>
+<g class="bar old"><title>Symbolic · +2 vs 0 · previous run (25 old scenarios): d = 0.78</title><path d="M170.0,122.0 H399.7 a4,4 0 0 1 4,4 V132.0 a4,4 0 0 1 -4,4 H170.0 Z"/><text class="vlab" x="409.7" y="133.0">0.78</text></g>
+<g class="bar cur"><title>Symbolic · +2 vs 0 · new run (20 scenarios): d = 0.66</title><path d="M170.0,138.0 H364.7 a4,4 0 0 1 4,4 V148.0 a4,4 0 0 1 -4,4 H170.0 Z"/><text class="vlab" x="374.7" y="149.0">0.66</text></g>
+<text class="rlab" x="160" y="197.0" text-anchor="end">Symbolic · +2 vs −2</text>
+<g class="bar old"><title>Symbolic · +2 vs −2 · previous run (25 old scenarios): d = 0.96</title><path d="M170.0,170.0 H454.7 a4,4 0 0 1 4,4 V180.0 a4,4 0 0 1 -4,4 H170.0 Z"/><text class="vlab" x="464.7" y="181.0">0.96</text></g>
+<g class="bar cur"><title>Symbolic · +2 vs −2 · new run (20 scenarios): d = 1.22</title><path d="M170.0,186.0 H532.5 a4,4 0 0 1 4,4 V196.0 a4,4 0 0 1 -4,4 H170.0 Z"/><text class="vlab" x="542.5" y="197.0">1.22</text></g>
+</svg>
+    <figcaption>Effect sizes of positive steering. The +2 versus 0 contrasts are close to the previous values. The +2 versus −2 contrasts grow because negative steering lowers ratings more on the new scenarios. For comparison, the hostility vector gives d = 5.22 (+2 vs 0) and d = 5.59 (+2 vs −2).</figcaption>
+  </figure>
+
+  <h3>Table D47 rows to replace <span class="pill">Welch t-tests</span></h3>
+  <div class="scroll"><table>
+    <thead>
+      <tr><th></th><th></th><th class="grp" colspan="3">Previous</th><th class="grp" colspan="4">New</th></tr>
+      <tr><th>Steering state</th><th>Contrast</th><th class="num">t (df)</th><th class="num">d</th><th class="num">Mean diff</th><th class="num">t (df)</th><th class="num">p</th><th class="num">d</th><th class="num">Mean diff</th></tr>
+    </thead>
+    <tbody>
+<tr><td>Realistic threat</td><td>α = +2 vs α = 0</td><td class='num old'>t(243.7) = 4.37</td><td class='num old'>0.55</td><td class='num old'>0.28</td><td class='num'><b>t(197.2) = 4.12</b></td><td class='num'>5.5e-05</td><td class='num'><b>0.58</b></td><td class='num'>0.24</td></tr>
+<tr><td>Realistic threat</td><td>α = +2 vs α = −2</td><td class='num old'>t(242.2) = 4.80</td><td class='num old'>0.61</td><td class='num old'>0.30</td><td class='num'><b>t(192.0) = 7.33</b></td><td class='num'>6.1e-12</td><td class='num'><b>1.04</b></td><td class='num'>0.46</td></tr>
+<tr><td>Symbolic threat</td><td>α = +2 vs α = 0</td><td class='num old'>t(247.8) = 6.16</td><td class='num old'>0.78</td><td class='num old'>0.37</td><td class='num'><b>t(194.2) = 4.68</b></td><td class='num'>5.3e-06</td><td class='num'><b>0.66</b></td><td class='num'>0.32</td></tr>
+<tr><td>Symbolic threat</td><td>α = +2 vs α = −2</td><td class='num old'>t(245.6) = 7.61</td><td class='num old'>0.96</td><td class='num old'>0.44</td><td class='num'><b>t(195.2) = 8.64</b></td><td class='num'>2.0e-15</td><td class='num'><b>1.22</b></td><td class='num'>0.60</td></tr>
+    </tbody></table></div>
+  <p style="margin-top:10px">All four new contrasts are significant at p &lt; .001, so the manuscript’s “p &lt; .001” entries stay as they are.</p>
+
+  <h3>Per-layer means in the new runs</h3>
+  <p>Every steered layer shows the same ordering (−2 &lt; 0 &lt; +2). The last column is the share of responses rated 3 or higher under positive steering.</p>
+  <div class="scroll"><figure class='tbl'><figcaption>Realistic-threat vector, new run (layers 13, 21, 20, 9, 17)</figcaption><div class='scroll'><table><thead><tr><th>Layer</th><th>α = −2</th><th>α = 0</th><th>α = +2</th><th>≥ 3 at α = +2</th></tr></thead><tbody><tr><th scope='row'>9</th><td class='num q2'>1.73</td><td class='num q2'>1.68</td><td class='num q3'>1.88</td><td class='num'>0%</td></tr><tr><th scope='row'>13</th><td class='num q2'>1.75</td><td class='num q2'>1.62</td><td class='num q3'>1.93</td><td class='num'>5%</td></tr><tr><th scope='row'>17</th><td class='num q1'>1.25</td><td class='num q3'>1.80</td><td class='num q4'>2.12</td><td class='num'>5%</td></tr><tr><th scope='row'>20</th><td class='num q1'>1.35</td><td class='num q2'>1.70</td><td class='num q3'>1.85</td><td class='num'>0%</td></tr><tr><th scope='row'>21</th><td class='num q1'>1.27</td><td class='num q2'>1.62</td><td class='num q3'>1.85</td><td class='num'>0%</td></tr></tbody></table></div></figure><figure class='tbl'><figcaption>Symbolic-threat vector, new run (layers 11, 13, 14, 16, 18)</figcaption><div class='scroll'><table><thead><tr><th>Layer</th><th>α = −2</th><th>α = 0</th><th>α = +2</th><th>≥ 3 at α = +2</th></tr></thead><tbody><tr><th scope='row'>11</th><td class='num q2'>1.52</td><td class='num q2'>1.68</td><td class='num q3'>1.98</td><td class='num'>5%</td></tr><tr><th scope='row'>13</th><td class='num q2'>1.50</td><td class='num q3'>1.80</td><td class='num q4'>2.08</td><td class='num'>10%</td></tr><tr><th scope='row'>14</th><td class='num q2'>1.50</td><td class='num q2'>1.73</td><td class='num q3'>1.98</td><td class='num'>0%</td></tr><tr><th scope='row'>16</th><td class='num q1'>1.40</td><td class='num q2'>1.65</td><td class='num q4'>2.02</td><td class='num'>5%</td></tr><tr><th scope='row'>18</th><td class='num q1'>1.18</td><td class='num q2'>1.65</td><td class='num q4'>2.08</td><td class='num'>10%</td></tr></tbody></table></div></figure></div>
+</section>
+
+<section>
+  <span class="secnum">4</span><h2>Edits for the manuscript</h2>
+  <ul class="check">
+    <li><b>Table D46.</b> Replace the six realistic- and symbolic-threat rows with the “New” columns above (n = 100).</li>
+    <li><b>Table D47.</b> Replace the four realistic- and symbolic-threat rows with the “New” columns above.</li>
+    <li><b>Section 2.4, page 8.</b> Realistic threat: <i>t</i>(197.2) = 4.12, <i>p</i> &lt; .001, <i>d</i> = 0.58. Symbolic threat: <i>t</i>(194.2) = 4.68, <i>p</i> &lt; .001, <i>d</i> = 0.66. The surrounding sentence (“modest but statistically significant increases … substantially smaller than for the hostility vector”) stays correct.</li>
+    <li><b>Figures D29 to D32.</b> Replace with <code>mean_response_vs_alpha.png</code> and <code>violin_overall_by_alpha.png</code> from <code>steering_results_summary/treatment_realistic_v2/</code> and <code>treatment_symbolic_v2/</code>.</li>
+    <li><b>Figures D27 and D28.</b> The current figures use the 0 to 4 axis with the threshold at 2, while Table D46 states the 1 to 5 scale. The 1 to 5 versions already exist in <code>steering_results_summary/hostile/</code>. Using them keeps all six steering figures on one scale.</li>
+    <li><b>Section 4.1.6.</b> The sentence “For each scenario and steering condition, we generated 5 responses” describes the count correctly but not the mechanism. The pipeline generates one response per scenario at each of five steered layers. Consider: “For each scenario and steering condition we generated one response at each of the five steered layers, giving five responses per scenario.”</li>
+  </ul>
+</section>
+
+<section>
+  <span class="secnum">5</span><h2>Repository changes and reproducibility</h2>
+  <p>All new files sit next to the originals. Nothing from the original runs was overwritten. The changes are not yet committed.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Path</th><th>What it is</th></tr></thead>
+    <tbody>
+      <tr><td><code>test_persona_vector_steering.py</code></td><td>Modified: adds <code>--fixed_layers</code>; no other change.</td></tr>
+      <tr><td><code>steering/treatment_realistic_v2/</code>, <code>steering/treatment_symbolic_v2/</code></td><td>New: step 2 and step 3 outputs (JSON and CSV), per-layer diagnostics, run logs.</td></tr>
+      <tr><td><code>steering_results_summary/treatment_realistic_v2/</code>, <code>…/treatment_symbolic_v2/</code></td><td>New: <code>report.json</code> (the source of Tables D46 and D47) and the two figures.</td></tr>
+      <tr><td><code>visualize_steering_summary.py</code></td><td>New: the summary cell of <code>generate_figures_manually.ipynb</code> as a script. Its hard-coded +1 (which moved the earlier 0 to 4 ratings onto the 1 to 5 scale) is now <code>--shift</code>. With <code>--shift 1</code> it reproduces the three published <code>report.json</code> files field for field and the published figures pixel for pixel (fewer than 0.6% of pixels differ, anti-aliasing only). The new runs use <code>--shift 0</code> because they were rated on 1 to 5 directly.</td></tr>
+      <tr><td><code>steering_results_summary/RERUN_2026-10-15.md</code></td><td>New: short record of the rerun with commands and the results table.</td></tr>
+    </tbody></table></div>
+</section>
+
+<section>
+  <span class="secnum">6</span><h2>Caveats</h2>
+  <ul>
+    <li><b>Two things changed at once in the rating.</b> The scenarios changed, and the rating prompt moved from the 0 to 4 version (shifted by +1 afterwards) to the 1 to 5 version. The baseline (α = 0) rose from about 1.3 to about 1.7, which matches the hostility experiment’s baseline of 1.63 on the same scenarios. The +2 versus 0 effect sizes are nearly unchanged, so the conclusion does not depend on the prompt version.</li>
+    <li><b>Layers were fixed, not re-selected.</b> Re-running the layer-selection step would sample different layers. Fixing them isolates the scenario change. A fresh selection would be a different, slightly stronger robustness check.</li>
+    <li><b>Single-sample design.</b> Each scenario × layer × α cell holds one generated response, as in the original runs. The per-layer table shows the ordering holds in every layer, but the per-layer means rest on 20 responses each.</li>
+    <li><b>Environment.</b> The runs used transformers 5.5.4 instead of 4.48. A smoke test confirmed identical model loading, steering hooks and rating before the full runs.</li>
+  </ul>
+</section>
+
+<footer>Data: <code>steering_results_summary/{hostile, treatment_realistic, treatment_symbolic, treatment_realistic_v2, treatment_symbolic_v2}/report.json</code> and <code>steering/*_v2/detailed_results/step3_generalization_*.json</code>. Previous values match Tables D46 and D47 of the manuscript. This page was built from those files, not typed by hand.</footer>
+</div>
+</body>
+</html>
