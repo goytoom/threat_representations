@@ -1017,6 +1017,8 @@ def main():
     parser.add_argument('--gpt4_model', type=str, default='gpt-4o')
     parser.add_argument('--quick_test', action='store_true')
     parser.add_argument('--top_k', type=int, default=5)
+    parser.add_argument('--fixed_layers', type=str, default=None,
+                       help='Comma-separated layer indices. Skips step 1 and uses these layers for steps 2-3.')
     
     args = parser.parse_args()
     
@@ -1062,13 +1064,19 @@ def main():
     print(f"{'='*70}\n")
     
     # Step 1
-    selection_df, top_k_layers, layer_stats = experiments.step1_select_top5_persona_method(
-        selection_scenarios=selection_scenarios,
-        alpha_range=selection_alpha_range,
-        component='residual_stream',
-        top_k=args.top_k,
-        use_quality_filters=False
-    )
+    if args.fixed_layers:
+        top_k_layers = [int(x) for x in args.fixed_layers.split(',')]
+        experiments.top5_layers = top_k_layers
+        selection_df = None
+        print(f"Step 1 skipped: using fixed layers {top_k_layers}")
+    else:
+        selection_df, top_k_layers, layer_stats = experiments.step1_select_top5_persona_method(
+            selection_scenarios=selection_scenarios,
+            alpha_range=selection_alpha_range,
+            component='residual_stream',
+            top_k=args.top_k,
+            use_quality_filters=False
+        )
     
     # Step 2
     sweep_df = experiments.step2_steering_sweep(
